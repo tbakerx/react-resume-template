@@ -51,7 +51,7 @@ class Contact extends Component {
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>/>
+		                                   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
@@ -97,7 +97,7 @@ class Contact extends Component {
                         Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
                         <a href="http://t.co/CGIrdxIlI3">http://t.co/CGIrdxIlI3</a>
                         </span>
-                        <b><a href="#">2 Days Ago</a></b>
+                        <b><a href="http://twitter.com/">2 Days Ago</a></b>
                      </li>
                      <li>
                         <span>
@@ -105,7 +105,7 @@ class Contact extends Component {
                         eaque ipsa quae ab illo inventore veritatis et quasi
                         <a href="http://t.co/CGIrdxIlI3">http://t.co/CGIrdxIlI3</a>
                         </span>
-                        <b><a href="#">3 Days Ago</a></b>
+                        <b><a href="http://twitter.com/">3 Days Ago</a></b>
                      </li>
                   </ul>
 		         </div>
