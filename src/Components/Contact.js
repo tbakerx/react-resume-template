@@ -46,12 +46,12 @@ class Contact extends Component {
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>/>
+						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>/>
+		                                   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
@@ -81,6 +81,7 @@ class Contact extends Component {
 					   <h4>Address and Phone</h4>
 					   <p className="address">
 						   {name}<br />
+	                                           {email}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
 						   <span>{phone}</span>
@@ -94,17 +95,17 @@ class Contact extends Component {
                         <span>
                         This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                         Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        <a href="http://t.co/CGIrdxIlI3">http://t.co/CGIrdxIlI3</a>
                         </span>
-                        <b><a href="#">2 Days Ago</a></b>
+                        <b><a href="http://twitter.com/">2 Days Ago</a></b>
                      </li>
                      <li>
                         <span>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
                         eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        <a href="http://t.co/CGIrdxIlI3">http://t.co/CGIrdxIlI3</a>
                         </span>
-                        <b><a href="#">3 Days Ago</a></b>
+                        <b><a href="http://twitter.com/">3 Days Ago</a></b>
                      </li>
                   </ul>
 		         </div>
