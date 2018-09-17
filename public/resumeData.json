@@ -1,101 +1,131 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Berat Reha Sonmez",
+    "occupation":"Full Stack Developer",
+    "description":"Full Stack Developer with a passion to code, analytical entrepreneur transitioning from software project management into development",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"After three years of self-teaching and an intensive summer at Codassieur's full-stack JavaScript academy, I am excited to join an ambitious development team.  I bring with me a diverse background which includes experiences in Business (start-ups), Economics, and Physics. Since discovering that coding has an oddly calming effect on me, I’ve explored many languages, including Go, Python, C#, and Java. Eventually I delved into the myriad of current Javascript platforms; to date I have worked with Node.js, Backbone.js, Angular.js, React.js, Express.js, and Koa.js, among others. After completing many online courses, I joined Codaisseur Academy in Amsterdam this summer, which helped me consolidate my education and round out my knowledge of best practices. I am eager to find new challenges and continue to grow as a developer.  I already have 3 years of experience as a Software Project Manager shipping code, which I feel gives me insight into the overall software development processes that is hard to find among junior developers. If you think I might be an asset to your team, please let me know;",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "beratson@gmail.com",
+    "phone": "+31-06-55 933598",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Stolwijkstraat",
+      "city":"Amsterdam",
+      "state":"Netherlands",
+      "zip": "1059 Xw"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
         "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
+        "url":"http://facebook.com/reha.sonmez",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"http://twitter.com/experientia",
         "className":"fa fa-twitter"
       },
       {
         "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
+        "url":"http://googleplus.com/beratson",
         "className":"fa fa-google-plus"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/beratson",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"http://instagram.com/_rehabs",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"http://github.com/rehas",
         "className":"fa fa-github"
       },
       {
         "name":"skype",
-        "url":"http://skype.com",
+        "url":"skype:brehason?call",
         "className":"fa fa-skype"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Here's a brief overview of the select skills",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Codaisseur Academy 3 Months",
+        "degree":"Full Stack Developer",
+        "graduated":"September 2018",
+        "description":"Web development with React, TypeScript, Express/Koa, TypeORM, Postgres"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Udacity Ful Stack NanoDegree - 6 months",
+        "degree":"Full Stack Developer",
+        "graduated":"2018",
+        "description":"Web development with KnocoutJS, BackBoneJS, Pyhton, MongoDB"
+      },
+      {
+        "school":"FreeCodeCamp 6 Months",
+        "degree":"Front End Developer",
+        "graduated":"2017",
+        "description":"Web development with Express, Angular, MySQL"
+      },
+      {
+        "school":"Middle East Technical University",
+        "degree":"Masters in Science and Technology - BSc in Business Administration",
+        "graduated":"June 2017",
+        "description":"Based on economics foundations, also learned on Object Oriented Programming and Data Structures / Algorithms"
+      },
+      {
+        "school":"Middle East Technical University",
+        "degree":"BSc in Business Administration",
+        "graduated":"June 2008",
+        "description":"Studied finance, valuation, SMEs, statistics"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Drive Society",
+        "title":"Full Stack Developer",
+        "years":"August 2018 - September 2018",
+        "description":"Worked as a Full Stack Developer on the MVP for a launching product in a team of 8 developers as part of the Codaisseur Academy. Focused on integration of client / business and admin apps. Worked on deployment and code reviews. Project used typescript-typeOrm / koa backend and React frontend with postgres. A working MVP (including 4 different integrated apps) has been delivered by the end of two weeks."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Securitas AG",
+        "title":"Software Project Manager",
+        "years":"October 2015 - Present",
+        "description":"Worked with Securitas (Global security company), delivering a series of high value projects, developing products and overseeing product management. Led teams of developers up to 5 people, following Agile methodologies. Worked on process improvements via workflow analysis with cross-departmental teams."
+      },
+      {
+        "company":"Omega Marketing Technologies",
+        "title":"Management Consultant",
+        "years":"December 2013 - August 2015",
+        "description":"Reshaped business flow structure. Created operational flows - streamlined pricing for software services."
+      },
+      {
+        "company":"Lon-Ist Ventures",
+        "title":"Ventures Consultant / Project Manager",
+        "years":"June 2012 - December 2013",
+        "description":"Company and start-up analysis for investment options. Project management for select ventures."
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name":"React",
+        "level":"85%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"TypeScript",
+        "level":"75%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"Postgres",
+        "level":"70%"
       },
       {
         "name":"CSS",
@@ -103,14 +133,26 @@
       },
       {
         "name":"HTML5",
-        "level":"80%"
+        "level":"90%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"Angular",
+        "level":"40%"
       },
       {
         "name":"MongoDB",
+        "level":"80%"
+      },
+      {
+        "name":"TypeORM",
+        "level":"70%"
+      },
+      {
+        "name":"NodeJS",
+        "level":"70%"
+      },
+      {
+        "name":"Redux",
         "level":"80%"
       }
     ]
