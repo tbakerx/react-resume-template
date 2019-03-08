@@ -1,7 +1,7 @@
 {
   "main": {
-    "name":"Yan-Ru Jhou (周延儒)",
-    "occupation":"(Your Occupation Here)",
+    "name":"Yan-Ru Jhou",
+    "occupation":"computer science majored student",
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
@@ -12,7 +12,8 @@
       "street":"(Your Street)",
       "city":"(Your City)",
       "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "zip": "(Your Zip/Postal Code)",
+      "country": "Taiwan,(ROC)"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
