@@ -93,7 +93,10 @@ class Contact extends Component {
                                   onChange={this.changeState}></textarea>
                         <br />
                     </div>
-                    <input type="submit" value="Send" />
+                    <div>
+                        <label></label>
+                        <input type="submit" value="Send" />
+                    </div>
                 </form>
 
 
