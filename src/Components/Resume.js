@@ -16,8 +16,8 @@ class Resume extends Component {
 
 
       var work = this.props.data.work.map(function(work){
-          const listWorkDescription = work.description.map((item) =>
-              <li>{item}</li>
+          const listWorkDescription = work.description.map((item,i) =>
+              <li key={i}>{item}</li>
           );
 
 

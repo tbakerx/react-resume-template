@@ -5,12 +5,6 @@ class Contact extends Component {
     constructor(props){
         super(props);
 
-        // this.state={
-        //     contactName:"",
-        //     contactEmail:"",
-        //     contactSubject:"",
-        //     contactMessage:""
-        // }
 
         this.state = {
             email: '',
@@ -39,7 +33,7 @@ class Contact extends Component {
         // console.log(`現在輸入的介紹內容是：${this.state.introduction}`);
 
 
-        event.preventDefault()
+        // event.preventDefault()
     }
 
 
@@ -98,9 +92,6 @@ class Contact extends Component {
                         <input type="submit" value="Send" />
                     </div>
                 </form>
-
-
-
 
 
            <div id="message-warning"> Error boy</div>
