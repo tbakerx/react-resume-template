@@ -2,12 +2,12 @@
   "main": {
     "name":"Yan-Ru Jhou",
     "occupation":"computer science majored student",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"I currently get admitted to Master of Science in Computer Science at the University of California, Los Angeles. I hope to focus on software engineering to improve programmer productivity and program correctness. In additional, I am also looking for internship before going to UCLA. ",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I received my Computer Science Bachelor Degree in National Tsing-Hua University,(NTHU). My goal is to be a multi-disciplined expert. Extensive learning in engineering, management, research, leadership, and problem solving. My engineering forte is software engineering, development process, and quality assurance. Expert at analyzing and solving the most complex problems. Self-motivated, professional and capable of working independently or as part of a team.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "joe04024@gmail.com",
+    "phone": "+886975791527",
     "address":{
       "street":"(Your Street)",
       "city":"(Your City)",
@@ -15,43 +15,28 @@
       "zip": "(Your Zip/Postal Code)",
       "country": "Taiwan,(ROC)"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://yanrujhou.herokuapp.com",
+    "resumedownload":"https://ruchou.github.io/yanrujhou/files/cv.pdf",
     "social":[
       {
         "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
+        "url":"https://www.facebook.com/ru.chou.9",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/rrenchen",
         "className":"fa fa-twitter"
       },
       {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/延儒-周-1b455b105/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/ruchou",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
@@ -59,60 +44,77 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"University of California, Los Angeles",
+        "degree":"Master's Degree in Computer Science",
+        "graduated":"Sep 2019 – ",
+        "ranking": "",
+        "description":"Focus on Software Engineering"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"National Tsing Hua University",
+        "degree":"Bachelor's Degree in Computer Science",
+        "ranking": "Overall GPA: 4.09/4.30; Class rank: 3/41 Department rank: 7/126",
+        "graduated":"Sep 2014 – Jun 2018",
+        "description":""
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Chunghwa Telecom Laboratories",
+        "title":"Intern ",
+        "years":"Jul 2018 – Aug 2018",
+        "description":["Developed HiCloud CaaS/CVPC Java/Python SDK for developers",
+          "Improved front-end user portal to enhance user usability",
+          "Tested on HiCloud Rest API to improve its security"]
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name":"C/C++",
+        "level":"80%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
+        "name":"Python",
         "level":"90%"
-      },
-      {
-        "name":"HTML5",
+      },{
+        "name":"Java",
+        "level":"85%"
+      },{
+        "name":"Matlab",
+        "level":"75%"
+      },{
+        "name":"Verilog",
+        "level":"70%"
+      },{
+        "name":"Javscript",
         "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
+      },{
+        "name":"Latex",
+        "level":"70%"
+      },{
+        "name":"Socket",
+        "level":"75%"
+      },{
+        "name":"OpenGL",
+        "level":"60%"
+      },{
+        "name":"Html",
+        "level":"75%"
+      },{
+        "name":"CSS",
+        "level":"70%"
+      },{
+        "name":"JSON",
+        "level":"90%"
+      },{
+        "name":"Git",
         "level":"80%"
+      },{
+        "name":"React",
+        "level":"75%"
+      },{
+        "name":"Software Engineering",
+        "level":"95%"
       }
     ]
   },
@@ -153,12 +155,8 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"There is no single development, in either technology or management technique, which by itself promises even one order of magnitude improvement within a decade in productivity, in reliability, in simplicity.",
+        "user":"Fred Brooks"
       }
     ]
   }

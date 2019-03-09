@@ -1,6 +1,48 @@
 import React, { Component } from 'react';
+import * as emailjs from 'emailjs-com';
 
 class Contact extends Component {
+    constructor(props){
+        super(props);
+
+        // this.state={
+        //     contactName:"",
+        //     contactEmail:"",
+        //     contactSubject:"",
+        //     contactMessage:""
+        // }
+
+        this.state = {
+            email: '',
+            message: '',
+        };
+        this.changeState = this.changeState.bind(this);
+        this.submitForm = this.submitForm.bind(this);
+
+
+
+    }
+
+    changeState(event) {
+        /*因為所有的組件改變時都會呼叫這個function
+        所以這裡就不能像一開始一樣寫死的*/
+
+        //首先要去抓目前發生改變的組件的name
+        let changeName = event.target.name;
+        //再把他目前的value拿去更改state
+        this.setState({ [changeName]: event.target.value })
+    }
+
+    submitForm(event) {
+        // console.log(`現在輸入的名字是：${this.state.name}`);
+        // console.log(`現在選擇的性別是：${(this.state.gender == 'M')?'男':'女'}`);
+        // console.log(`現在輸入的介紹內容是：${this.state.introduction}`);
+
+
+        event.preventDefault()
+    }
+
+
   render() {
 
     if(this.props.data){
@@ -12,6 +54,7 @@ class Contact extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
+      var country=this.props.data.address.country;
     }
 
     return (
@@ -36,83 +79,38 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
+                <form action="https://formspree.io/joe04024@gapp.nthu.edu.tw" method="POST">
+                    <div>
+                        <label >Email：<span className="required">*</span></label>
+                        <input type="email" id="email" name="email"
+                               value={this.state.email}
+                               onChange={this.changeState} required/>
+                    </div>
+                    <div>
+                        <label>Message：<span className="required">*</span></label><br />
+                        <textarea id="introduction" name="message"
+                                  value={this.state.message}
+                                  onChange={this.changeState}></textarea>
+                        <br />
+                    </div>
+                    <input type="submit" value="Send" />
+                </form>
 
-                  <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
-                  </div>
 
-                  <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>/>
-                  </div>
 
-                  <div>
-						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>/>
-                  </div>
 
-                  <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button className="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif" />
-                     </span>
-                  </div>
-					</fieldset>
-				   </form>
 
            <div id="message-warning"> Error boy</div>
 				   <div id="message-success">
                   <i className="fa fa-check"></i>Your message was sent, thank you!<br />
 				   </div>
            </div>
-
-
-            <aside className="four columns footer-widgets">
-               <div className="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
-					   </p>
-				   </div>
-
-               <div className="widget widget_tweets">
-                  <h4 className="widget-title">Latest Tweets</h4>
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-		         </div>
-            </aside>
-      </div>
+         </div>
    </section>
     );
   }
+
+
 }
 
 export default Contact;
