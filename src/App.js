@@ -10,7 +10,9 @@ import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 
+
 class App extends Component {
+
 
   constructor(props){
     super(props);
@@ -18,8 +20,9 @@ class App extends Component {
       foo: 'bar',
       resumeData: {}
     };
+    this.id="UA-131462650-2";
 
-    ReactGA.initialize('UA-110570651-1');
+    ReactGA.initialize(this.id);
     ReactGA.pageview(window.location.pathname);
 
   }
@@ -42,6 +45,9 @@ class App extends Component {
   componentDidMount(){
     this.getResumeData();
   }
+
+
+
 
   render() {
     return (
