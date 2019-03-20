@@ -12,6 +12,6 @@
 # limitations under the License.
 # [START app_yaml]
 env: flex
-runtime: nodejs
+runtime: custom
 # [END app_yaml]
 
