@@ -76,7 +76,12 @@
       {
         "name":"Python",
         "level":"90%"
-      },{
+      }
+      ,{
+        "name":"Javscript",
+        "level":"80%"
+      }
+      ,{
         "name":"Java",
         "level":"85%"
       },{
@@ -85,9 +90,6 @@
       },{
         "name":"Verilog",
         "level":"70%"
-      },{
-        "name":"Javscript",
-        "level":"80%"
       },{
         "name":"Latex",
         "level":"70%"
@@ -112,7 +114,12 @@
       },{
         "name":"React",
         "level":"75%"
-      },{
+      },
+      {
+        "name":"Django",
+        "level":"85%"
+      },
+      {
         "name":"Software Engineering",
         "level":"95%"
       }
