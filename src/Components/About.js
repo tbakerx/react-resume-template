@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PDF from '../JhouYanRu-CV.pdf'
 
 class About extends Component {
   render() {
@@ -38,7 +39,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} target="_blank" download className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={PDF} target = "_blank" className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
