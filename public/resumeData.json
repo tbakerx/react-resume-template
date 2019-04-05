@@ -5,7 +5,7 @@
     "description":"I currently get admitted to Master of Science in Computer Science at the University of California, Los Angeles. I hope to focus on software engineering to improve programmer productivity and program correctness. In additional, I am also looking for internship before going to UCLA. ",
     "image":"profilepic.jpg",
     "bio":"I received my Computer Science Bachelor Degree in National Tsing-Hua University,(NTHU). My goal is to be a multi-disciplined expert. Extensive learning in engineering, management, research, leadership, and problem solving. My engineering forte is software engineering, development process, and quality assurance. Expert at analyzing and solving the most complex problems. Self-motivated, professional and capable of working independently or as part of a team.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"Feel free to leave any message to me",
     "email": "joe04024@gmail.com",
     "phone": "+886975791527",
     "address":{
@@ -13,7 +13,7 @@
       "city":"(Your City)",
       "state":"(Your State)",
       "zip": "(Your Zip/Postal Code)",
-      "country": "Taiwan,(ROC)"
+      "country": "Taiwan, (ROC)"
     },
     "website": "https://yanrujhou.herokuapp.com",
     "resumedownload":"JhouYanRu-CV.pdf",
