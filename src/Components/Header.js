@@ -6,14 +6,18 @@ class Header extends Component {
     if(this.props.data){
       var name = this.props.data.name;
       var occupation= this.props.data.occupation;
-      var description= this.props.data.description;
+      var description= this.props.data.description.map((ele,key)=>{
+        return <h3 key={key}>{ele}</h3>
+      });
       var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
-
-      var country=this.props.data.address.country
+      var country=this.props.data.address.country;
     }
+
+
+
 
     return (
       <header id="home">
@@ -37,7 +41,10 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a {occupation} in {country}. {description}.</h3>
+            <h2>I'm a {occupation} in {country}.</h2>
+            <div>
+                {description}
+            </div>
             <hr />
             <ul className="social">
                {networks}

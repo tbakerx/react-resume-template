@@ -2,7 +2,12 @@
   "main": {
     "name":"Yan-Ru Jhou",
     "occupation":"computer science majored student",
-    "description":"I currently get admitted to Master of Science in Computer Science at the University of California, Los Angeles. I hope to focus on software engineering to improve programmer productivity and program correctness. In additional, I am also looking for internship before going to UCLA. ",
+    "description": [
+                    "Seeking for Software Development Intern for 2020 summer",
+                    "Software engineering experience in web development",
+                    "Cloud Service experience as intern in Chunghwa Telecom Laboratories, the largest telecom in Taiwan",
+                    "A graduate student in Computer Science in UCLA for 2019 fall"
+                    ],
     "image":"profilepic.jpg",
     "bio":"I received my Computer Science Bachelor Degree in National Tsing-Hua University,(NTHU). My goal is to be a multi-disciplined expert. Extensive learning in engineering, management, research, leadership, and problem solving. My engineering forte is software engineering, development process, and quality assurance. Expert at analyzing and solving the most complex problems. Self-motivated, professional and capable of working independently or as part of a team.",
     "contactmessage":"Feel free to leave any message to me",
