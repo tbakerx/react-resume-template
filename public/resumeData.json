@@ -11,7 +11,7 @@
     "image":"profilepic.jpg",
     "bio":"I received my Computer Science Bachelor Degree in National Tsing-Hua University,(NTHU). My goal is to be a multi-disciplined expert. Extensive learning in engineering, management, research, leadership, and problem solving. My engineering forte is software engineering, development process, and quality assurance. Expert at analyzing and solving the most complex problems. Self-motivated, professional and capable of working independently or as part of a team.",
     "contactmessage":"Feel free to leave any message to me",
-    "email": "joe04024@gmail.com",
+    "email": "yanrujhou@g.ucla.edu",
     "phone": "+886975791527",
     "address":{
       "street":"(Your Street)",
@@ -90,37 +90,22 @@
       }
       ,{
         "name":"Javscript",
-        "level":"80%"
+        "level":"85%"
       }
       ,{
         "name":"Java",
         "level":"85%"
       },{
         "name":"Matlab",
-        "level":"75%"
+        "level":"70%"
       },{
         "name":"Verilog",
-        "level":"70%"
-      },{
-        "name":"Latex",
-        "level":"70%"
-      },{
-        "name":"Socket",
-        "level":"75%"
-      },{
-        "name":"OpenGL",
-        "level":"60%"
+        "level":"65%"
       },{
         "name":"Html",
-        "level":"75%"
+        "level":"80%"
       },{
         "name":"CSS",
-        "level":"70%"
-      },{
-        "name":"JSON",
-        "level":"90%"
-      },{
-        "name":"Git",
         "level":"80%"
       },{
         "name":"React",
@@ -128,7 +113,22 @@
       },
       {
         "name":"Django",
-        "level":"85%"
+        "level":"90%"
+      },{
+        "name":"Latex",
+        "level":"60%"
+      },{
+        "name":"Socket",
+        "level":"70%"
+      },{
+        "name":"OpenGL",
+        "level":"60%"
+      },{
+        "name":"JSON",
+        "level":"90%"
+      },{
+        "name":"Git",
+        "level":"80%"
       },
       {
         "name":"Software Engineering",

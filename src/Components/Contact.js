@@ -56,13 +56,15 @@ class Contact extends Component {
 
          <div className="row section-head">
 
-            <div className="two columns header-col">
+            <div className="three columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
+               <h1>
+                   <span>Get In Touch.</span>
+               </h1>
 
             </div>
 
-            <div className="ten columns">
+            <div className="nine columns">
 
                   <p className="lead">{message}</p>
 
@@ -71,7 +73,7 @@ class Contact extends Component {
          </div>
 
          <div className="row">
-            <div className="eight columns">
+            <div className="ten columns">
 
                 <form action="https://formspree.io/joe04024@gapp.nthu.edu.tw" method="POST">
                     <div>
@@ -84,7 +86,8 @@ class Contact extends Component {
                         <label>Message：<span className="required">*</span></label><br />
                         <textarea id="introduction" name="message"
                                   value={this.state.message}
-                                  onChange={this.changeState}></textarea>
+                                  onChange={this.changeState}>
+                        </textarea>
                         <br />
                     </div>
                     <div>
