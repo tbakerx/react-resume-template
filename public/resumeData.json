@@ -9,7 +9,7 @@
                     "A graduate student in Computer Science in UCLA for 2019 fall"
                     ],
     "image":"profilepic.jpg",
-    "bio":"I received my Computer Science Bachelor Degree in National Tsing-Hua University,(NTHU). My goal is to be a multi-disciplined expert. Extensive learning in engineering, management, research, leadership, and problem solving. My engineering forte is software engineering, development process, and quality assurance. Expert at analyzing and solving the most complex problems. Self-motivated, professional and capable of working independently or as part of a team.",
+    "bio":"Experienced software engineer in both Cloud and Web industry. Multi-faceted software developer knowledgeable in HTML, JavaScript, and Python. Excellent reputation for resolving problems, improving customer satisfaction, and driving overall operational improvements. Experienced in full project life cycle from design to implementation to integration.",
     "contactmessage":"Feel free to leave any message to me",
     "email": "yanrujhou@g.ucla.edu",
     "phone": "+886975791527",
@@ -95,12 +95,16 @@
       ,{
         "name":"Java",
         "level":"85%"
+      },
+      {
+        "name": "Haskell",
+        "level": "70%"
       },{
         "name":"Matlab",
-        "level":"70%"
+        "level":"60%"
       },{
         "name":"Verilog",
-        "level":"65%"
+        "level":"55%"
       },{
         "name":"Html",
         "level":"80%"
@@ -122,7 +126,7 @@
         "level":"70%"
       },{
         "name":"OpenGL",
-        "level":"60%"
+        "level":"55%"
       },{
         "name":"JSON",
         "level":"90%"
