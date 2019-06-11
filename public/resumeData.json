@@ -1,12 +1,11 @@
 {
   "main": {
     "name":"Yan-Ru Jhou",
-    "occupation":"computer science majored student",
+    "occupation":"incoming master's student in computer science",
     "description": [
-                    "Seeking for Software Development Intern for 2020 summer",
+                    "Seeking for Software Development Internship in 2020 summer",
                     "Software engineering experience in web development",
-                    "Cloud Service experience as intern in Chunghwa Telecom Laboratories, the largest telecom in Taiwan",
-                    "A graduate student in Computer Science in UCLA for 2019 fall"
+                    "Cloud Service experience as an intern in Chunghwa Telecom Laboratories, the largest telecom in Taiwan"
                     ],
     "image":"profilepic.jpg",
     "bio":"Experienced software engineer in both Cloud and Web industry. Multi-faceted software developer knowledgeable in HTML, JavaScript, and Python. Excellent reputation for resolving problems, improving customer satisfaction, and driving overall operational improvements. Experienced in full project life cycle from design to implementation to integration.",
@@ -20,6 +19,7 @@
       "zip": "(Your Zip/Postal Code)",
       "country": "Taiwan, (ROC)"
     },
+    "currentSchool": "UCLA",
     "website": "https://yanrujhou.herokuapp.com",
     "resumedownload":"JhouYanRu-CV.pdf",
     "social":[
