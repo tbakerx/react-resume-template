@@ -53,7 +53,7 @@
         "degree":"Master's Degree in Computer Science",
         "graduated":"Sep 2019 – ",
         "ranking": "",
-        "description":"Focus on Software Engineering"
+        "description":"Focus on Web Development, Software Engineering, Machine Learning"
       },
       {
         "school":"National Tsing Hua University",
@@ -66,9 +66,13 @@
     "work":[
       {
         "company":"Deep Force",
-        "title":"Machine Learning R&D Intern ",
+        "title":"Software Application Engineer Intern",
         "years":"Mar 2019 - Current",
-        "description":["Full Stack Engineer"]
+        "description":[
+          "Designed, implemented and monitored web pages and sites for retail, industrial, and VIP membership management system.",
+          "Performed testing on software to uncover bugs and troubleshoot web issues before application launches.",
+          "Designed and built DL Model testing automation tools and applications to deploy next generation platform."
+        ]
       },
       {
         "company":"Chunghwa Telecom Laboratories",
@@ -118,6 +122,9 @@
       {
         "name":"Django",
         "level":"90%"
+      },{
+        "name": "Jenkins",
+        "level": "70%"
       },{
         "name":"Latex",
         "level":"60%"
