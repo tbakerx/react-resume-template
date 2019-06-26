@@ -69,18 +69,19 @@
         "title":"Software Application Engineer Intern",
         "years":"Mar 2019 - Current",
         "description":[
-          "Designed, implemented and monitored web pages and sites for retail, industrial, and VIP membership management system",
-          "Performed testing on software to uncover bugs and troubleshoot web issues before application launches",
-          "Designed and built DL Model testing automation tools and applications to deploy next generation platform"
+          "Developed websites based on Django for retail, industrial, and VIP membership management system, which led to successful customer service",
+          "Performed software testing on websites, resulting in less errors and 50% less total deployment time",
+          "Reduced 20% ML model deployment time by implementing automation tools and applications based on Jenkins"
         ]
       },
       {
         "company":"Chunghwa Telecom Laboratories",
-        "title":"Intern ",
+        "title":"Software Intern",
         "years":"Jul 2018 – Aug 2018",
-        "description":["Developed HiCloud CaaS/CVPC Java/Python SDK for developers",
+        "description":[
+          "Developed HiCloud (cloud service) Java/Python SDK; allowed developers to build software application",
           "Improved front-end user portal to enhance user usability",
-          "Tested on HiCloud Rest API to improve its security"]
+          "Tested on HiCloud Rest API to improve its security, solving privilege escalation issues caused by improper authentication"]
       }
     ],
     "skills":[
@@ -105,10 +106,10 @@
         "level": "70%"
       },{
         "name":"Matlab",
-        "level":"60%"
+        "level":"55%"
       },{
         "name":"Verilog",
-        "level":"55%"
+        "level":"50%"
       },{
         "name":"Html",
         "level":"80%"
@@ -127,13 +128,13 @@
         "level": "70%"
       },{
         "name":"Latex",
-        "level":"60%"
+        "level":"55%"
       },{
         "name":"Socket",
-        "level":"70%"
+        "level":"65%"
       },{
         "name":"OpenGL",
-        "level":"55%"
+        "level":"50%"
       },{
         "name":"JSON",
         "level":"90%"

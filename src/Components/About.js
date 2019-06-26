@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PDF from '../yanrujhou_resume.pdf'
+import PDF from '../UCLA_Jhou.pdf'
 
 class About extends Component {
   render() {
