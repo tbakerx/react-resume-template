@@ -11,7 +11,7 @@
     "bio":"Experienced software engineer in both Cloud and Web industry. Multi-faceted software developer knowledgeable in HTML, JavaScript, and Python. Excellent reputation for resolving problems, improving customer satisfaction, and driving overall operational improvements. Experienced in full project life cycle from design to implementation to integration.",
     "contactmessage":"Feel free to leave any message to me",
     "email": "yanrujhou@g.ucla.edu",
-    "phone": "+886975791527",
+    "phone": ["LA: (310) 254-6047", "Taiwan: (886) 975-791-527" ],
     "address":{
       "street":"(Your Street)",
       "city":"(Your City)",
@@ -69,8 +69,8 @@
         "title":"Software Application Engineer Intern",
         "years":"Mar 2019 - Current",
         "description":[
-          "Developed websites based on Django for retail, industrial, and VIP membership management system, which led to successful customer service",
-          "Performed software testing on websites, resulting in less errors and 50% less total deployment time",
+          "Developed websites based on Django for retail, industrial, and VIP membership management system; deployed to production using NGINX and Gunicorn",
+          "Performed software testing on websites and tracked issues with JIRA system, resulting in less errors and 50% less total deployment time",
           "Reduced 20% ML model deployment time by implementing automation tools and applications based on Jenkins and Django"
         ]
       },
@@ -81,7 +81,9 @@
         "description":[
           "Developed HiCloud (cloud service) Java/Python SDK; allowed developers to build software application",
           "Improved front-end user portal to enhance user usability",
-          "Tested on HiCloud Rest API to improve its security, solving privilege escalation issues caused by improper authentication"]
+          "Tested on HiCloud Rest API to improve its security, solving privilege escalation issues caused by improper authentication",
+          "Built software using Scrum methodology and Kanban scheduling method"
+        ]
       }
     ],
     "skills":[
@@ -141,6 +143,9 @@
       },{
         "name":"Git",
         "level":"80%"
+      },{
+        "name": "JIRA",
+        "level": "70%"
       },
       {
         "name":"Software Engineering",
