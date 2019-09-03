@@ -3,12 +3,12 @@
     "name":"Yan-Ru Jhou",
     "occupation":"incoming master's student in computer science",
     "description": [
-                    "Seeking for Software Development Internship in 2020 summer",
-                    "Software engineering experience in web development",
-                    "Cloud Service experience as an intern in Chunghwa Telecom Laboratories, the largest telecom in Taiwan"
+                    "Seeking Software Development Intern in 2020 summer",
+                    "Software Engineering Experience in Web Development",
+                    "Software Application Intern in Full Stack Development in Deep Force, a Machine Learning Start-up in San Diego and Taiwan"
                     ],
     "image":"profilepic.jpg",
-    "bio":"Experienced software engineer in both Cloud and Web industry. Multi-faceted software developer knowledgeable in HTML, JavaScript, and Python. Excellent reputation for resolving problems, improving customer satisfaction, and driving overall operational improvements. Experienced in full project life cycle from design to implementation to integration.",
+    "bio":"Love software development in both Cloud and Web industry. Multi-faceted software developer knowledgeable in HTML, JavaScript, and Python. Excellent reputation for resolving problems, improving customer satisfaction, and driving overall operational improvements. Experienced in full project life cycle from design to implementation to integration.",
     "contactmessage":"Feel free to leave any message to me",
     "email": "yanrujhou@g.ucla.edu",
     "phone": ["LA: (310) 254-6047", "Taiwan: (886) 975-791-527" ],
@@ -35,7 +35,7 @@
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/延儒-周-1b455b105/",
+        "url":"https://www.linkedin.com/in/yanrujhou/",
         "className":"fa fa-linkedin"
       },
       {
@@ -51,27 +51,28 @@
       {
         "school":"University of California, Los Angeles",
         "degree":"Master's Degree in Computer Science",
-        "graduated":"Sep 2019 – ",
+        "graduated":"Sep 2019 – Present",
         "ranking": "",
-        "description":"Focus on Web Development, Software Engineering, Machine Learning"
+        "description":"Focus on Web Development, Software Engineering, and Machine Learning"
       },
       {
         "school":"National Tsing Hua University",
         "degree":"Bachelor's Degree in Computer Science",
         "ranking": "Overall GPA: 4.09/4.30; Class rank: 3/41 Department rank: 7/126",
         "graduated":"Sep 2014 – Jun 2018",
-        "description":""
+        "description":"Presidential Award (3 times), EECS College Scholarship"
       }
     ],
     "work":[
       {
         "company":"Deep Force",
         "title":"Software Application Engineer Intern",
-        "years":"Mar 2019 - Current",
+        "years":"Mar 2019 - Aug 2019",
         "description":[
-          "Developed websites based on Django for retail, industrial, and VIP membership management system; deployed to production using NGINX and Gunicorn",
-          "Performed software testing on websites and tracked issues with JIRA system, resulting in less errors and 50% less total deployment time",
-          "Reduced 20% ML model deployment time by implementing automation tools and applications based on Jenkins and Django"
+          "Developed websites based on Django for retail, industrial, and VIP membership management systems; deployed to production using NGINX and Gunicorn",
+          "Maintained facial recognition system library by C++ and CMake tool, which allowed door security systems to detect human faces and send back results to management systems by socket",
+          "Performed testing on websites and tracked issues with JIRA system, resulting in 50% less total deployment time",
+          "Reduced 20% ML models testing time and provided real-time performance benchmark by implementing automation tools and applications by Jenkins and Django"
         ]
       },
       {
@@ -79,9 +80,9 @@
         "title":"Software Intern",
         "years":"Jul 2018 – Aug 2018",
         "description":[
-          "Developed HiCloud (cloud service) Java/Python SDK; allowed developers to build software application",
-          "Improved front-end user portal to enhance user usability",
-          "Tested on HiCloud Rest API to improve its security, solving privilege escalation issues caused by improper authentication",
+          "Developed HiCloud (cloud service) Java/Python SDK; allowed developers to build and deploy software applications",
+          "Improved front-end user portal and generated API library documentation to enhance user usability",
+          "Tested on HiCloud Rest API to improve its security, solving privilege escalation issues from improper authentication",
           "Built software using Scrum methodology and Kanban scheduling method"
         ]
       }
