@@ -81,7 +81,7 @@
         "years":"Jul 2018 – Aug 2018",
         "description":[
           "Developed HiCloud (cloud service) Java/Python SDK; allowed developers to build and deploy software applications",
-          "Improved front-end user portal and generated API library documentation to enhance user usability",
+          "Improved front-end user portal and generated library documentation by StringTemplate to enhance user usability",
           "Tested on HiCloud Rest API to improve its security, solving privilege escalation issues from improper authentication",
           "Built software using Scrum methodology and Kanban scheduling method"
         ]
