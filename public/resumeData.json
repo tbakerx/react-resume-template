@@ -127,6 +127,10 @@
         "name":"Django",
         "level":"90%"
       },{
+        "name": "Flask",
+        "level" : "65%"
+
+      },{
         "name": "Jenkins",
         "level": "70%"
       },{
