@@ -131,6 +131,10 @@
         "level" : "65%"
 
       },{
+        "name" : "Node.js",
+        "level" : "70%"
+        
+      },{
         "name": "Jenkins",
         "level": "70%"
       },{
