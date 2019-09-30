@@ -133,7 +133,10 @@
       },{
         "name" : "Node.js",
         "level" : "70%"
-        
+
+      },{
+        "name" : "GO",
+        "level" : "20%"
       },{
         "name": "Jenkins",
         "level": "70%"
