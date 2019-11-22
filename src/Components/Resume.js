@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 
 class Resume extends Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         if (this.props.data) {
             var education = this.props.data.education.map(function (education) {

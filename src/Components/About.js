@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import PDF from '../JhouYanRuResume.pdf'
 
 class About extends Component {
+    constructor(props){
+        super(props);
+    }
     render() {
 
         if (this.props.data) {
