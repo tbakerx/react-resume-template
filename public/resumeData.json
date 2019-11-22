@@ -1,74 +1,77 @@
 {
   "main": {
-    "name":"Yan-Ru Jhou",
-    "occupation":" master's student in computer science",
+    "name": "Yan-Ru Jhou",
+    "occupation": " master's student in computer science",
     "description": [
-                    "Seeking Software Development Internship in 2020 summer",
-                    "Software Engineering Experience in Web Development",
-                    "Software Application Intern in Full Stack Development in Deep Force, a Machine Learning Start-up in San Diego and Taiwan"
-                    ],
-    "image":"profilepic.jpg",
-    "bio":"Love software development in both Cloud and Web industry. Multi-faceted software developer knowledgeable in HTML, JavaScript, and Python. Excellent reputation for resolving problems, improving customer satisfaction, and driving overall operational improvements. Experienced in full project life cycle from design to implementation to integration.",
-    "contactmessage":"Feel free to leave any message to me",
+      "Seeking Software Development Internship in 2020 summer",
+      "Software Engineering Experience in Web Development",
+      "Software Application Intern in Full Stack Development in Deep Force, a Machine Learning Start-up in San Diego and Taiwan"
+    ],
+    "image": "profilepic.jpg",
+    "bio": "Love software development in both Cloud and Web industry. Multi-faceted software developer knowledgeable in HTML, JavaScript, and Python. Excellent reputation for resolving problems, improving customer satisfaction, and driving overall operational improvements. Experienced in full project life cycle from design to implementation to integration.",
+    "contactmessage": "Feel free to leave any messages to me",
     "email": "yanrujhou@g.ucla.edu",
-    "phone": ["LA: (310) 254-6047", "Taiwan: (886) 975-791-527" ],
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
+    "phone": [
+      "LA: (310) 254-6047",
+      "Taiwan: (886) 975-791-527"
+    ],
+    "address": {
+      "street": "(Your Street)",
+      "city": "(Your City)",
+      "state": "(Your State)",
       "zip": "(Your Zip/Postal Code)",
       "country": "Taiwan, (ROC)"
     },
     "currentSchool": "UCLA",
     "website": "https://yanrujhou.herokuapp.com",
-    "resumedownload":"JhouYanRu-CV.pdf",
-    "social":[
+    "resumedownload": "JhouYanRu-CV.pdf",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/ru.chou.9",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "https://www.facebook.com/ru.chou.9",
+        "className": "fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"https://twitter.com/rrenchen",
-        "className":"fa fa-twitter"
+        "name": "twitter",
+        "url": "https://twitter.com/rrenchen",
+        "className": "fa fa-twitter"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/yanrujhou/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/yanrujhou/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"https://github.com/ruchou",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/ruchou",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
       {
-        "school":"University of California, Los Angeles",
-        "degree":"Master's Degree in Computer Science",
-        "graduated":"Sep 2019 – Present",
+        "school": "University of California, Los Angeles",
+        "degree": "Master's Degree in Computer Science",
+        "graduated": "Sep 2019 – Present",
         "ranking": "",
-        "description":"Focus on Web Development, Software Engineering, and Machine Learning"
+        "description": "Focus on Web Development, Software Engineering, and Programming Language"
       },
       {
-        "school":"National Tsing Hua University",
-        "degree":"Bachelor's Degree in Computer Science",
+        "school": "National Tsing Hua University",
+        "degree": "Bachelor's Degree in Computer Science",
         "ranking": "Overall GPA: 4.09/4.30; Class rank: 3/41 Department rank: 7/126",
-        "graduated":"Sep 2014 – Jun 2018",
-        "description":"Presidential Award (3 times), EECS College Scholarship"
+        "graduated": "Sep 2014 – Jun 2018",
+        "description": "Presidential Award (3 times), EECS College Scholarship"
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Deep Force",
-        "title":"Software Application Engineer Intern",
-        "years":"Mar 2019 - Aug 2019",
-        "description":[
+        "company": "Deep Force",
+        "title": "Software Application Engineer Intern",
+        "years": "Mar 2019 - Aug 2019",
+        "description": [
           "Developed websites based on Django for retail, industrial, and VIP membership management systems; deployed to production using NGINX and Gunicorn",
           "Maintained facial recognition system library by C++ and CMake tool, which allowed door security systems to detect human faces and send back results to management systems by socket",
           "Performed testing on websites and tracked issues with JIRA system, resulting in 50% less total deployment time",
@@ -76,10 +79,10 @@
         ]
       },
       {
-        "company":"Chunghwa Telecom Laboratories",
-        "title":"Software Intern",
-        "years":"Jul 2018 – Aug 2018",
-        "description":[
+        "company": "Chunghwa Telecom Laboratories",
+        "title": "Software Intern",
+        "years": "Jul 2018 – Aug 2018",
+        "description": [
           "Developed HiCloud (cloud service) Java/Python SDK; allowed developers to build and deploy software applications",
           "Improved front-end user portal and generated library documentation by StringTemplate to enhance user usability",
           "Tested on HiCloud Rest API to improve its security, solving privilege escalation issues from improper authentication",
@@ -87,123 +90,112 @@
         ]
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"C/C++",
-        "level":"80%"
+        "name": "C/C++",
+        "level": "80%"
       },
       {
-        "name":"Python",
-        "level":"90%"
-      }
-      ,{
-        "name":"Javscript",
-        "level":"85%"
-      }
-      ,{
-        "name":"Java",
-        "level":"85%"
+        "name": "Python",
+        "level": "90%"
+      },
+      {
+        "name": "Javscript",
+        "level": "85%"
+      },
+      {
+        "name": "Java",
+        "level": "85%"
       },
       {
         "name": "Haskell",
         "level": "70%"
-      },{
-        "name":"Matlab",
-        "level":"55%"
-      },{
-        "name":"Verilog",
-        "level":"50%"
-      },{
-        "name":"Html",
-        "level":"80%"
-      },{
-        "name":"CSS",
-        "level":"80%"
-      },{
-        "name":"React",
-        "level":"75%"
       },
       {
-        "name":"Django",
-        "level":"90%"
-      },{
+        "name": "Matlab",
+        "level": "50%"
+      },
+      {
+        "name": "Verilog",
+        "level": "40%"
+      },
+      {
+        "name": "Html",
+        "level": "80%"
+      },
+      {
+        "name": "CSS",
+        "level": "80%"
+      },
+      {
+        "name": "React",
+        "level": "75%"
+      },
+      {
+        "name": "Django",
+        "level": "90%"
+      },
+      {
         "name": "Flask",
-        "level" : "65%"
-
-      },{
-        "name" : "Node.js",
-        "level" : "70%"
-
-      },{
-        "name" : "GO",
-        "level" : "20%"
-      },{
+        "level": "70%"
+      },
+      {
+        "name": "Node.js",
+        "level": "70%"
+      },
+      {
+        "name": "GO",
+        "level": "20%"
+      },
+      {
         "name": "Jenkins",
         "level": "70%"
-      },{
-        "name":"Latex",
-        "level":"55%"
-      },{
-        "name":"Socket",
-        "level":"65%"
-      },{
-        "name":"OpenGL",
-        "level":"50%"
-      },{
-        "name":"JSON",
-        "level":"90%"
-      },{
-        "name":"Git",
-        "level":"80%"
-      },{
+      },
+      {
+        "name": "Latex",
+        "level": "55%"
+      },
+      {
+        "name": "Socket",
+        "level": "65%"
+      },
+      {
+        "name": "OpenGL",
+        "level": "50%"
+      },
+      {
+        "name": "JSON",
+        "level": "90%"
+      },
+      {
+        "name": "Git",
+        "level": "80%"
+      },
+      {
         "name": "JIRA",
         "level": "70%"
       },
       {
-        "name":"Software Engineering",
-        "level":"95%"
+        "name": "Software Engineering",
+        "level": "95%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "testimonials": {
+    "testimonials": [
       {
-        "text":"There is no single development, in either technology or management technique, which by itself promises even one order of magnitude improvement within a decade in productivity, in reliability, in simplicity.",
-        "user":"Fred Brooks"
+        "text": "There is no single development, in either technology or management technique, which by itself promises even one order of magnitude improvement within a decade in productivity, in reliability, in simplicity.",
+        "user": "Fred Brooks"
       }
     ]
   }
