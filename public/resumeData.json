@@ -1,56 +1,41 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Guruprasad Hebbar",
+    "occupation":"Prospective Electrical Engineer",
+    "description":"Self-driven and motivated Electrical Engineering student with experience of over 2 years in developing user-friendly web applications.Highly enthusiastic and a team player to bring out the best in me.",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
+    "email": "guruhebbar2@gmail.com",
     "phone": "555-555-5555",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Schillerstrasse",
+      "city":"Aachen",
+      "state":"NRW",
+      "zip": "52064"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://www.guruhebbar.ml",
+    "resumedownload":"http://guruhebbar.ml",
     "social":[
       {
         "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
+        "url":"https://www.facebook.com/guruhebbar2",
         "className":"fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/guruhebbar2/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"http://instagram.com/guruhebbar2",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/Guruprasad-Hebbar",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
@@ -58,60 +43,56 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"RWTH Aachen University",
+        "degree":"Masters in Electrical Engineering",
+        "graduated":"April 2019-Present",
+        "description":"Currently pursuing 2nd semester Master's in Electrical Engineering with majors in Biomedical System Engineering."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
+        "school":"PES Institute of Technology",
+        "degree":"Bachelor in Electronics and Communication Engineering",
+        "graduated":"April 2016",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Robert Bosch Engineering and Business Solutions Limited(RBEI)",
+        "title":"Software Developer",
+        "years":"August 2016 - March 2019",
+        "description":[
+          "Part of the Corporate Research team in developing ML based Indoor Positioning and Navigation System.",
+          "Working as a Full Stack Developer creating RESTful API endpoints using Spring Boot and Web",
+          "Development using Angular JS framework.",
+          "Worked on Automation of tests and deployment tools like Gradle, JUnit, Jenkins, SonarQube and Github.",
+          "Participated and won First Place in AI Department Hackathon held at BOSCH.",
+          "Nominated for Best Performing Junior by the department."]
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
+        "name":"MATLAB",
         "level":"50%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name":"Python",
+        "level":"55%"
+      },
+      {
+        "name":"Java",
+        "level":"50%"
+      },
+      {
+        "name":"Javascript",
+        "level":"60%"
       },
       {
         "name":"HTML5",
         "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
         "name":"MongoDB",
-        "level":"80%"
+        "level":"70%"
       }
     ]
   },
@@ -122,30 +103,6 @@
         "category":"My Travel Blog for my post-university travels",
         "image":"canadian-wanderlust.jpg",
         "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
       }
     ]
   },
