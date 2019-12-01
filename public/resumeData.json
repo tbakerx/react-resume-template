@@ -4,8 +4,8 @@
     "occupation":"Prospective Electrical Engineer",
     "description":"Self-driven and motivated with experience of almost 3 years in developing user-friendly web applications.Highly enthusiastic and a team player to bring out the best in me.",
     "image":"profilepic.jpg",
-    "bio":"I am currently pursuing my Master’s degree in Electrical Engineering with a major in Biomedical Systems Engineering at RWTH Aachen University, Germany. During the course of my academic career, I also managed to accrue nearly 3 years of work experience. I had the privilege of working for Robert Bosch Engineering and Business Solutions Limited (BOSCH) as a Software Developer under the corporate research department. During my time as a Software developer, I had various opportunities to work on topics such as Machine Learning, Microservices, Software Development, UX Design and many more and even collaborated with scientists and customers. I was consistently praised as a creative thinker and results-oriented by my peers.",
-    "contactmessage":"Got an internship offer for me ? Or would like to get to know more about me? Please use the below form or send me an email. ",
+    "bio":"I am currently pursuing my Master’s degree in Electrical Engineering with a major in Biomedical Systems Engineering at RWTH Aachen University, Germany. During the course of my academic career, I also managed to accrue nearly 3 years of work experience. I had the privilege of working for Robert Bosch Engineering and Business Solutions Limited (BOSCH) as a Software Developer under the corporate research department. During my time as a Software developer, I had various opportunities to work on topics such as Machine Learning, Microservices, Software Development, UX Design and many more and even collaborated with scientists and customers. I was consistently praised as a creative thinker and results-oriented by my peers. I also love playing table tennis, football, billiards, cooking and going on a nature trek.",
+    "contactmessage":"Got an internship offer for me ? Or would like to get to know more about me? Please use the below form or send me an email.(Form doesn't work currently, please contact through mail.)",
     "email": "guruhebbar2@gmail.com",
     "phone": "(+49) 1573 7730255",
     "address":{
@@ -16,7 +16,7 @@
       "zip": "52064"
     },
     "website": "http://www.guruhebbar.ml",
-    "resumedownload":"http://guruhebbar.ml",
+    "resumedownload":"http://ec2-18-220-196-123.us-east-2.compute.amazonaws.com/file/resume",
     "social":[
       {
         "name":"facebook",
@@ -47,7 +47,7 @@
         "school":"RWTH Aachen University",
         "degree":"Masters in Electrical Engineering",
         "graduated":"April 2019-Present",
-        "description":"Currently pursuing my 2nd semester Master's in Electrical Engineering with majors in Biomedical System Engineering. I have immense interest to work on medical imaging topics and currently working on project in detecting Microaneurysms in Retinopathy Images using Deep Learning algorithms."
+        "description":"Currently pursuing my 2nd semester Master's in Electrical Engineering with major in Biomedical System Engineering. I have immense interest to work on medical imaging topics and currently working on project in detecting Microaneurysms in Retinopathy Images using Deep Learning algorithms."
       },
       {
         "school":"PES Institute of Technology",
