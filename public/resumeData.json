@@ -2,16 +2,17 @@
   "main": {
     "name":"Guruprasad Hebbar",
     "occupation":"Prospective Electrical Engineer",
-    "description":"Self-driven and motivated Electrical Engineering student with experience of over 2 years in developing user-friendly web applications.Highly enthusiastic and a team player to bring out the best in me.",
+    "description":"Self-driven and motivated with experience of almost 3 years in developing user-friendly web applications.Highly enthusiastic and a team player to bring out the best in me.",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"I am currently pursuing my Master’s degree in Electrical Engineering with a major in Biomedical Systems Engineering at RWTH Aachen University, Germany. During the course of my academic career, I also managed to accrue nearly 3 years of work experience. I had the privilege of working for Robert Bosch Engineering and Business Solutions Limited (BOSCH) as a Software Developer under the corporate research department. During my time as a Software developer, I had various opportunities to work on topics such as Machine Learning, Microservices, Software Development, UX Design and many more and even collaborated with scientists and customers. I was consistently praised as a creative thinker and results-oriented by my peers.",
+    "contactmessage":"Got an internship offer for me ? Or would like to get to know more about me? Please use the below form or send me an email. ",
     "email": "guruhebbar2@gmail.com",
-    "phone": "555-555-5555",
+    "phone": "(+49) 1573 7730255",
     "address":{
-      "street":"Schillerstrasse",
+      "street":"Schillerstrasse 88",
       "city":"Aachen",
       "state":"NRW",
+      "country":"Germany",
       "zip": "52064"
     },
     "website": "http://www.guruhebbar.ml",
@@ -40,19 +41,19 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Skillset I'm particularly interested in.",
     "education":[
       {
         "school":"RWTH Aachen University",
         "degree":"Masters in Electrical Engineering",
         "graduated":"April 2019-Present",
-        "description":"Currently pursuing 2nd semester Master's in Electrical Engineering with majors in Biomedical System Engineering."
+        "description":"Currently pursuing my 2nd semester Master's in Electrical Engineering with majors in Biomedical System Engineering. I have immense interest to work on medical imaging topics and currently working on project in detecting Microaneurysms in Retinopathy Images using Deep Learning algorithms."
       },
       {
         "school":"PES Institute of Technology",
         "degree":"Bachelor in Electronics and Communication Engineering",
         "graduated":"April 2016",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"I had worked on two major projects in the field of Healthcare. One was for Texas Instruments challenge, where the goal was design a smart health watch that could be used during the time of distress or emergency. The second one was Robotic hospital bed with autonomous navigation and on the go health monitoring features."
       }
     ],
     "work":[
@@ -99,8 +100,8 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Microaneurysms detection",
+        "category":"Image Processing",
         "image":"canadian-wanderlust.jpg",
         "url":"https://www.canadianwanderlust.com"
       }
@@ -109,11 +110,11 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "text":"blah blah",
         "user":"Kareem Abdul Jabbar"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "text":"blah blah",
         "user":"Steve Wozniak... impersonator"
       }
     ]

@@ -7,6 +7,7 @@ class Contact extends Component {
       var name = this.props.data.name;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
+      var country = this.props.data.address.country;
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
@@ -56,7 +57,7 @@ class Contact extends Component {
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="1" rows="1" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
@@ -82,12 +83,13 @@ class Contact extends Component {
 					   <p className="address">
 						   {name}<br />
 						   {street} <br />
-						   {city}, {state} {zip}<br />
+						   {city}, {state} <br />
+                     {country},{zip} <br/>
 						   <span>{phone}</span>
 					   </p>
 				   </div>
 
-               <div className="widget widget_tweets">
+               {/* <div className="widget widget_tweets">
                   <h4 className="widget-title">Latest Tweets</h4>
                   <ul id="twitter">
                      <li>
@@ -107,7 +109,7 @@ class Contact extends Component {
                         <b><a href="#">3 Days Ago</a></b>
                      </li>
                   </ul>
-		         </div>
+		         </div> */}
             </aside>
       </div>
    </section>
