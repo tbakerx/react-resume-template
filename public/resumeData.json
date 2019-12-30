@@ -54,7 +54,7 @@
         "school": "University of California, Los Angeles",
         "degree": "Master's Degree in Computer Science",
         "graduated": "Sep 2019 – Present",
-        "ranking": "",
+        "ranking": "Current Overall GPA: 4.0/4.0",
         "description": "Focus on Web Development, Software Engineering, and Programming Language"
       },
       {
@@ -91,10 +91,6 @@
     ],
     "skills": [
       {
-        "name": "C/C++",
-        "level": "80%"
-      },
-      {
         "name": "Python",
         "level": "90%"
       },
@@ -104,10 +100,18 @@
       },
       {
         "name": "Java",
+        "level": "80%"
+      },
+      {
+        "name": "Scala",
         "level": "85%"
       },
       {
         "name": "Haskell",
+        "level": "65%"
+      },
+      {
+        "name": "C/C++",
         "level": "70%"
       },
       {
@@ -141,10 +145,6 @@
       {
         "name": "Node.js",
         "level": "70%"
-      },
-      {
-        "name": "Scala",
-        "level": "60%"
       },
       {
         "name": "GO",
