@@ -95,16 +95,16 @@
         "level": "90%"
       },
       {
-        "name": "Javscript",
+        "name": "Scala",
+        "level": "85%"
+      },
+      {
+        "name": "Javascript",
         "level": "85%"
       },
       {
         "name": "Java",
         "level": "80%"
-      },
-      {
-        "name": "Scala",
-        "level": "85%"
       },
       {
         "name": "Haskell",
