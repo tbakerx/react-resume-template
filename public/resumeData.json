@@ -109,6 +109,9 @@
       {
         "name": "Haskell",
         "level": "65%"
+      },{
+        "name" : "OCaml",
+        "level": "30%"
       },
       {
         "name": "C/C++",
@@ -120,7 +123,7 @@
       },
       {
         "name": "Verilog",
-        "level": "40%"
+        "level": "30%"
       },
       {
         "name": "Html",
