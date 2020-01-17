@@ -107,15 +107,16 @@
         "level": "80%"
       },
       {
-        "name": "Haskell",
-        "level": "65%"
-      },{
         "name" : "OCaml",
-        "level": "30%"
+        "level": "70%"
+      },
+      {
+        "name": "Haskell",
+        "level": "66%"
       },
       {
         "name": "C/C++",
-        "level": "70%"
+        "level": "50%"
       },
       {
         "name": "Matlab",
