@@ -67,6 +67,15 @@
     ],
     "work": [
       {
+        "company": "University of California, Los Angeles",
+        "title": "Graduate Reader",
+        "years": "Jan 2020 - Current",
+        "description": [
+          "Graduate Reader in CS130, Software Engineering, taught by Dr. Maged Elaasar",
+          "Assisted with the reading and grading of students’ papers and exams under the guidance and supervision of faculty members"
+        ]
+      },
+      {
         "company": "Deep Force",
         "title": "Software Application Engineer Intern",
         "years": "Mar 2019 - Aug 2019",
@@ -191,10 +200,10 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "",
+        "category": "",
+        "image": "",
+        "url": ""
       }
     ]
   },
