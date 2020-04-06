@@ -109,11 +109,14 @@
       },
       {
         "name": "Javascript",
-        "level": "85%"
+        "level": "80%"
       },
       {
         "name": "Java",
         "level": "80%"
+      },{
+        "name": "R",
+        "level": "70%"
       },
       {
         "name" : "OCaml",
