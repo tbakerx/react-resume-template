@@ -3,7 +3,6 @@
     "name": "Yan-Ru Jhou",
     "occupation": " master's student in computer science",
     "description": [
-      "Seeking Software Development Internship in 2020 summer",
       "Software Engineering Experience in Web Development"
     ],
     "image": "profilepic.jpg",
@@ -23,7 +22,7 @@
     },
     "currentSchool": "UCLA",
     "website": "https://yanrujhou.herokuapp.com",
-    "resumedownload": "JhouYanRu-CV.pdf",
+    "resumedownload": "Yan_Ru_Jhou_CV.pdf",
     "social": [
       {
         "name": "facebook",
@@ -54,7 +53,7 @@
         "school": "University of California, Los Angeles",
         "degree": "Master's Degree in Computer Science",
         "graduated": "Sep 2019 – Present",
-        "ranking": "Current Overall GPA: 4.0/4.0",
+        "ranking": "Current Overall GPA: 3.78/4.0",
         "description": "Focus on Web Development, Software Engineering, and Programming Language"
       },
       {
@@ -69,9 +68,9 @@
       {
         "company": "University of California, Los Angeles",
         "title": "Graduate Reader",
-        "years": "Jan 2020 - Current",
+        "years": "Jan 2020 - Jun 2020",
         "description": [
-          "Graduate Reader in CS130, Software Engineering, taught by Dr. Maged Elaasar",
+          "Graduate Reader in CS130, Software Engineering",
           "Assisted with the reading and grading of students’ papers and exams under the guidance and supervision of faculty members"
         ]
       },
