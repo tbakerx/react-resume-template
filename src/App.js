@@ -11,6 +11,11 @@ import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 
 class App extends Component {
+  const App =()=>{
+    return (
+    <MYName />
+    )
+  }
 
   constructor(props){
     super(props);
