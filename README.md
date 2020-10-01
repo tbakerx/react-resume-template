@@ -5,7 +5,7 @@
 ## Description
 This is a ReactJS based personal resume website template. I have built this by following a Udemy course (credits below) and by beginning with the Ceevee template by Styleshout (credits also below), and breaking up their template into isolated React components. Data is fed directly from a JSON File. This means that in its final form, it can be customized and used by anybody simply by filling in their own personal info into the JSON file and the changes will be dynamically fed into the site. If you would like to use this template for your own personal resume website, read on to learn how to build your own copy.
 
-## Make it Your Own!
+## Make it your own!
 ### 1. Make sure you have what you need
 To build this website, you will need to have Node >=6 downloaded and installed on your machine. If you don't already have it, you can get it <a href="https://nodejs.org/en/download/">HERE</a>
 ### 2. Build a Create-React-App
@@ -32,8 +32,8 @@ When you're all done, run `npm start` again and you'll see your new personal res
 #### HTML Design Template
 <a href="https://www.styleshout.com/free-templates/ceevee/">Ceevee Template by Styleshout</a>
 
-##### Header photo credit
+##### Header Photo Credit
 <a href="https://unsplash.com/@mischievous_penguins?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Casey Horner</a>
 
-##### Testimonial photo credit
+##### Testimonial Photo Credit
 <a href="https://unsplash.com/@samuelzeller?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Samuel Zeller</a>
