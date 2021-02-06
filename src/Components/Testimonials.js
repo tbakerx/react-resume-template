@@ -36,3 +36,4 @@ class Testimonials extends Component {
 }
 
 export default Testimonials;
+
