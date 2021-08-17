@@ -1,6 +1,20 @@
 import React, { Component } from 'react';
+import emailjs from 'emailjs-com';
+
 
 class Contact extends Component {
+
+   sendEmail = (e) => {
+      e.preventDefault();
+      emailjs.sendForm('service_tit21f9', 'template_to3qq5b', e.target, 'user_Mjm9Zv6iu3lV7LWKsxHV4')
+         .then((result) => {
+            console.log('submitted')
+            console.log(result.text);
+         }, (error) => {
+            console.log(error.text);
+         });
+         e.target.reset()
+      }
   render() {
 
     if(this.props.data){
@@ -36,7 +50,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form onSubmit={this.sendEmail}  id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -64,7 +78,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit" onSubmit={this.sendEmail}>Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>

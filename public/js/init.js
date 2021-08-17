@@ -137,44 +137,41 @@
 /*	contact form
 ------------------------------------------------------*/
 
-   $('form#contactForm button.submit').click(function() {
+   // $('form#contactForm button.submit').click(function() {
 
-      $('#image-loader').fadeIn();
+   //    $('#image-loader').fadeIn();
 
-      var contactName = $('#contactForm #contactName').val();
-      var contactEmail = $('#contactForm #contactEmail').val();
-      var contactSubject = $('#contactForm #contactSubject').val();
-      var contactMessage = $('#contactForm #contactMessage').val();
+   //    var contactName = $('#contactForm #contactName').val();
+   //    var contactEmail = $('#contactForm #contactEmail').val();
+   //    var contactSubject = $('#contactForm #contactSubject').val();
+   //    var contactMessage = $('#contactForm #contactMessage').val();
 
-      var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
-               '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
+   //    var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
+   //             '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
 
-      $.ajax({
+   //    $.ajax({
+	//       data: data,
+	//       success: function(msg) {
 
-	      type: "POST",
-	      url: "inc/sendEmail.php",
-	      data: data,
-	      success: function(msg) {
+   //          // Message was sent
+   //          if (msg == 'OK') {
+   //             $('#image-loader').fadeOut();
+   //             $('#message-warning').hide();
+   //             $('#contactForm').fadeOut();
+   //             $('#message-success').fadeIn();   
+   //          }
+   //          // There was an error
+   //          else {
+   //             $('#image-loader').fadeOut();
+   //             $('#message-warning').html(msg);
+	//             $('#message-warning').fadeIn();
+   //          }
 
-            // Message was sent
-            if (msg == 'OK') {
-               $('#image-loader').fadeOut();
-               $('#message-warning').hide();
-               $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
-            }
-            // There was an error
-            else {
-               $('#image-loader').fadeOut();
-               $('#message-warning').html(msg);
-	            $('#message-warning').fadeIn();
-            }
+	//       }
 
-	      }
-
-      });
-      return false;
-   });
+   //    });
+   //    return false;
+   // });
 
 
 });
