@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
-import { Alert, AlertTitle } from '@material-ui/lab';
+import { Alert, AlertTitle } from "@material-ui/lab";
 
 class Contact extends Component {
   constructor(props) {
@@ -23,7 +23,7 @@ class Contact extends Component {
         (result) => {
           console.log("submitted");
           console.log(result.text);
-          alert('FILL WITH PROPER ALERT FROM MATERIAL UI')
+          alert("FILL WITH PROPER ALERT FROM MATERIAL UI");
         },
         (error) => {
           console.log(error.text);
@@ -119,10 +119,7 @@ class Contact extends Component {
                 </div>
 
                 <div>
-                  <button
-                    className="submit"
-                    onSubmit={this.sendEmail}
-                  >
+                  <button className="submit" onSubmit={this.sendEmail}>
                     Submit
                   </button>
                 </div>
