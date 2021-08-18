@@ -213,11 +213,11 @@ ul#nav li.current a {
 
 #about a,
 #about a:visited {
-  color: #fff;
+  color: #11abb0;
 }
 #about a:hover,
 #about a:focus {
-  color: #11abb0;
+  color: #fff;
 }
 
 #about h2 {

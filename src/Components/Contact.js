@@ -137,7 +137,8 @@ class Contact extends Component {
                 {name}
                 <br />
                 {city}, {state} <br />
-                <span>{phone}</span>
+                <span>{phone}</span> <br />
+                <a href="mailto:humza718@gmail.com">humza718@gmail.com</a>
               </p>
             </div>
           </aside>
