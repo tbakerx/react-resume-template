@@ -30,8 +30,8 @@ class Contact extends Component {
     e.target.reset();
   };
   successMsg = () => {
-   alert('Message Success')
-}
+    alert("Message Success");
+  };
 
   render() {
     if (this.props.data) {
@@ -120,7 +120,11 @@ class Contact extends Component {
                 </div>
 
                 <div>
-                  <button className="submit" onSubmit={this.sendEmail} onClick={this.successMsg}>
+                  <button
+                    className="submit"
+                    onSubmit={this.sendEmail}
+                    onClick={this.successMsg}
+                  >
                     Submit
                   </button>
                   <span id="image-loader">
@@ -151,8 +155,7 @@ class Contact extends Component {
         </div>
       </section>
     );
-  
-}
+  }
 }
 
 export default Contact;
