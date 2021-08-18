@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
 import { Alert, AlertTitle } from "@material-ui/lab";
+import swal from 'sweetalert'
 
 class Contact extends Component {
   constructor(props) {
@@ -30,6 +31,12 @@ class Contact extends Component {
         }
       );
     e.target.reset();
+    swal({
+      title: "Good job!",
+      text: "You clicked the button!",
+      icon: "success",
+      button: "Aww yiss!",
+    });
   };
 
   render() {
