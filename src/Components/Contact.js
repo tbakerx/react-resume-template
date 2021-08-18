@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
-import { Alert, AlertTitle } from "@material-ui/lab";
 import swal from 'sweetalert'
 
 class Contact extends Component {
