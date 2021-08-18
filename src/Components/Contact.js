@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
+import { Alert, AlertTitle } from '@material-ui/lab';
 
 class Contact extends Component {
   constructor(props) {
@@ -22,15 +23,13 @@ class Contact extends Component {
         (result) => {
           console.log("submitted");
           console.log(result.text);
+          alert('FILL WITH PROPER ALERT FROM MATERIAL UI')
         },
         (error) => {
           console.log(error.text);
         }
       );
     e.target.reset();
-  };
-  successMsg = () => {
-    alert("Message Success");
   };
 
   render() {
@@ -123,22 +122,12 @@ class Contact extends Component {
                   <button
                     className="submit"
                     onSubmit={this.sendEmail}
-                    onClick={this.successMsg}
                   >
                     Submit
                   </button>
-                  <span id="image-loader">
-                    <img alt="" src="images/loader.gif" />
-                  </span>
                 </div>
               </fieldset>
             </form>
-
-            <div id="message-warning"> Error boy</div>
-            <div id="message-success">
-              <i className="fa fa-check"></i>Your message was sent, thank you!
-              <br />
-            </div>
           </div>
 
           <aside className="four columns footer-widgets">
