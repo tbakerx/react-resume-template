@@ -24,7 +24,6 @@ class Contact extends Component {
         (result) => {
           console.log("submitted");
           console.log(result.text);
-          alert("FILL WITH PROPER ALERT FROM MATERIAL UI");
         },
         (error) => {
           console.log(error.text);
@@ -32,10 +31,10 @@ class Contact extends Component {
       );
     e.target.reset();
     swal({
-      title: "Good job!",
-      text: "You clicked the button!",
+      title: "Message Sent!",
+      text: "I look forward to speaking with you!",
       icon: "success",
-      button: "Aww yiss!",
+      button: "Done!",
     });
   };
 
