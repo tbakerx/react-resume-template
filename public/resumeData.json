@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Humza Malik",
-    "occupation": "Fullstack Web Developer",
+    "occupation": "Full Stack Web Developer",
     "description": "",
     "image": "profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
@@ -46,30 +46,37 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Lambda School",
+        "degree": "Full Stack Web Development",
+        "graduated": " August 2021",
+        "description1": "Intensive Full Stack Web Development program with a focus on HTML, CSS, JavaScript, React, Node, Express, and SQL"
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Brooklyn College",
+        "degree": "Childhood Education",
+        "graduated": " May 2020",
+        "description1": ""
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "New York City Department of Education",
+        "title": "Paraprofessional ",
+        "years": "February 2020 - Present",
+        "description1": "Engaged one-on-one with students with behavioral problems in both classroom and extracurricular settings",
+        "description2": "Actively developed and executed individualized learning plans and behavior plans for students",
+        "description3": "Conducted small group and individual classroom activities based on differentiated learning needs to reinforce concepts presented by teachers",
+        "description4": "Sustained transparent communication with parents on student behavior and academic progress"
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "New York City Department of Education",
+        "title": "Student Teacher ",
+        "years": "September 2019 - February 2020",
+        "description1": "Prepared and executed differentiated lesson plans for a classroom of 27 students",
+        "description2": "Fostered a classroom environment conducive to learning and promoting excellent student engagement",
+        "description3": "Developed plans to facilitate interactive learning experiences and accommodate the academic needs of students",
+        "description4": "Established positive relationships with students, parents, teachers, and school administrators"
+        
       }
     ],
     "skills": [
