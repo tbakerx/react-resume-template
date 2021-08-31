@@ -322,6 +322,11 @@ ul#nav li.current a {
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+.skillsImages {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
 .bars {
   width: 95%;

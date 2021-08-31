@@ -1,4 +1,12 @@
 import React, { Component } from "react";
+import logoReact from '../skillsImgs/logoReact.svg'
+import logoCSS from '../skillsImgs/logoCSS.svg'
+import logoExpress from '../skillsImgs/logoExpress.svg'
+import logoHTML from '../skillsImgs/logoHTML.svg'
+import logoNode from '../skillsImgs/logoNode.svg'
+import logoPostgreSQL from '../skillsImgs/logoPostgreSQL.svg'
+import logoSQLite from '../skillsImgs/logoSQLite.svg'
+import logoJS from '../skillsImgs/logoJS.svg'
 
 class Resume extends Component {
   render() {
@@ -42,10 +50,10 @@ class Resume extends Component {
         );
       });
       var skills = this.props.data.skills.map(function (skills) {
-        var className = "bar-expand " + skills.name.toLowerCase();
+        // var className = "bar-expand " + skills.name.toLowerCase();
         return (
           <li key={skills.name}>
-            <span style={{ width: skills.level }} className={className}></span>
+            {/* <span style={{ width: skills.level }} className={className}></span> */}
             <em>{skills.name}</em>
           </li>
         );
@@ -86,10 +94,16 @@ class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <p>{skillmessage}</p>
 
-            <div className="bars">
-              <ul className="skills">{skills}</ul>
+            <div className="skillsImages">
+              <img className="logoImages" src={logoReact} alt="React" />
+              <img className="logoImages" src={logoJS} alt="JavaScript" />
+              <img className="logoImages" src={logoHTML} alt="HTML" />
+              <img className="logoImages" src={logoCSS} alt="CSS" />
+              <img className="logoImages" src={logoNode} alt="Node" />
+              <img className="logoImages" src={logoExpress} alt="Express" />
+              <img className="logoImages" src={logoPostgreSQL} alt="PostgreSQL" />
+              <img className="logoImages" src={logoSQLite} alt="SQLite" />
             </div>
           </div>
         </div>
