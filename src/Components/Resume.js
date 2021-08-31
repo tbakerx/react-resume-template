@@ -11,7 +11,6 @@ import logoJS from '../skillsImgs/logoJS.svg'
 class Resume extends Component {
   render() {
     if (this.props.data) {
-      var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function (education) {
         return (
           <div key={education.school}>
@@ -94,16 +93,15 @@ class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-
             <div className="skillsImages">
-              <img className="logoImages" src={logoReact} alt="React" />
-              <img className="logoImages" src={logoJS} alt="JavaScript" />
-              <img className="logoImages" src={logoHTML} alt="HTML" />
-              <img className="logoImages" src={logoCSS} alt="CSS" />
-              <img className="logoImages" src={logoNode} alt="Node" />
-              <img className="logoImages" src={logoExpress} alt="Express" />
-              <img className="logoImages" src={logoPostgreSQL} alt="PostgreSQL" />
-              <img className="logoImages" src={logoSQLite} alt="SQLite" />
+              <img className="logoImages" src={logoReact} alt="React" title="React"/>
+              <img className="logoImages" src={logoJS} alt="JavaScript" title="JavaScript"/>
+              <img className="logoImages" src={logoHTML} alt="HTML" title="HTML" />
+              <img className="logoImages" src={logoCSS} alt="CSS" title="CSS"/>
+              <img className="logoImages" src={logoNode} alt="Node" title="Node"/>
+              <img className="logoImages" src={logoExpress} alt="Express" title="Express"/>
+              <img className="logoImages" src={logoPostgreSQL} alt="PostgreSQL" title="PostgreSQL"/>
+              <img className="logoImages" src={logoSQLite} alt="SQLite" title="SQLite"/>
             </div>
           </div>
         </div>
