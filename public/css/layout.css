@@ -1035,8 +1035,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-  padding-top: 48px;
-  margin-bottom: 48px;
+  padding-top: 30px;
+  margin-bottom: 0px;
   color: #303030;
   font-size: 14px;
   text-align: center;
