@@ -206,8 +206,8 @@ ul#nav li.current a {
 
 #about {
   background: #2b2b2b;
-  padding-top: 96px;
-  padding-bottom: 66px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   overflow: hidden;
 }
 
@@ -264,8 +264,8 @@ ul#nav li.current a {
 
 #resume {
   background: #fff;
-  padding-top: 90px;
-  padding-bottom: 72px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   overflow: hidden;
 }
 
@@ -461,8 +461,8 @@ ul#nav li.current a {
 
 #portfolio {
   background: #ebeeee;
-  padding-top: 90px;
-  padding-bottom: 60px;
+  padding-top: 46px;
+  padding-bottom: 24px;
 }
 #portfolio h1 {
   font: 15px/24px "opensans-semibold", sans-serif;
@@ -470,7 +470,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #95a3a3;
+  color: black;
 }
 
 /* Portfolio Content */
@@ -883,7 +883,7 @@ call-to-action .button {
 
 #contact {
   background: #191919;
-  padding-top: 96px;
+  padding-top: 54px;
   padding-bottom: 5px;
   color: #636363;
 }
