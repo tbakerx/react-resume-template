@@ -17,7 +17,7 @@
     "social": [
       {
         "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
+        "url": "http://facebook.com/",
         "className": "fa fa-facebook"
       },
       {
@@ -27,17 +27,17 @@
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/humzamalik/",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
+        "url": "http://instagram.com/",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "http://github.com/tbakerx",
+        "url": "http://github.com/Humza23",
         "className": "fa fa-github"
       }
     ]
@@ -53,7 +53,7 @@
       },
       {
         "school": "Brooklyn College",
-        "degree": "Childhood Education",
+        "degree": "Bachelors of Arts in Childhood Education",
         "graduated": " May 2020",
         "description1": ""
       }
