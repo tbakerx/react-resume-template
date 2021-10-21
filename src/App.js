@@ -7,6 +7,7 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 import data from "./resumeData.json";
+import SignUp from "./Components/SignUp";
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
       <About data={data.main} />
       <Resume data={data.resume} />
       <Portfolio data={data.portfolio} />
-      <Contact data={data.main} />
+      {/* <Contact data={data.main} /> */}
+      <SignUp />
       <Footer data={data.main} />
     </div>
   );
