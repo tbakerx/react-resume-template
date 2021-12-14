@@ -49,24 +49,24 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Volunteer State Community College",
+        "degree": "Business Administration, Minor in CIT",
+        "graduated": "September 2020",
+        "description": "I am a current student at Vol State, I plan on continuing my education by attending a four year institute to finish my bachelors degree."
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Digital Crafts",
+        "degree": "Certificate in Software Engineering",
+        "graduated": "July 2019",
+        "description": "Digital Craft is a coding bootcamp out of Atlanta, Georgia. There I completed a Full Stack Immersive Program. I created fullstack applications using Node.js, MySQL, React.js, JavaScript, HTML, and CSS. Even though this was a very hands-on experience building projects, we also were taught general theories and concepts to complex programming."
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Eyeconic.tv",
+        "title": "Junior Software Developer",
+        "years": "October 2020 - June 2021",
+        "description": "Experience with creating and modifying scripts using mySQL, SQL, and mongoDB. Creating UI/UX design and wireframes for new business applications. Using Confluence to document the integration process for our POS integrations. Using Postman to test API calls created with node from our POS integrations. Experience with testing and documenting new features/bugs. Using Jira, Monday, and Slack, to communicate with members of our team."
       },
       {
         "company": "Super Cool Studio",
