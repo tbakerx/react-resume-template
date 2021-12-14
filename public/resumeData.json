@@ -1,30 +1,31 @@
 {
   "main": {
-    "name": "Tim Baker",
-    "occupation": "(Your Occupation Here)",
+    "name": "Brodie Brock",
+    "occupation": "Software Developer",
     "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image": "profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "brodiebrock@gmail.com",
+    "phone": "615-337-5974",
     "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street": "1047 Grassland Chase Drive",
+      "city": "Gallatin",
+      "city2": "Nashville",
+      "state": "Tennessee",
+      "zip": "37066"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "https://drive.google.com/file/d/1aCcJGmg_b_8C4jvLSmVWFyPrlRuaPerz/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
+        "url": "http://facebook.com/brodiebrock",
         "className": "fa fa-facebook"
       },
       {
         "name": "twitter",
-        "url": "http://twitter.com",
+        "url": "http://twitter.com/youngwarthogg",
         "className": "fa fa-twitter"
       },
       {
@@ -34,12 +35,12 @@
       },
       {
         "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
+        "url": "http://instagram.com/brodie_brock",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "http://github.com/tbakerx",
+        "url": "http://github.com/brodie2121",
         "className": "fa fa-github"
       }
     ]
