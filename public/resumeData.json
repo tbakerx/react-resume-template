@@ -69,24 +69,20 @@
         "description": "Experience with creating and modifying scripts using mySQL, SQL, and mongoDB. Creating UI/UX design and wireframes for new business applications. Using Confluence to document the integration process for our POS integrations. Using Postman to test API calls created with node from our POS integrations. Experience with testing and documenting new features/bugs. Using Jira, Monday, and Slack, to communicate with members of our team."
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Benchcraft Company",
+        "title": "Project Coordinator",
+        "years": "October 2019 - October 2020",
+        "description": "Prospecting my own leads to develop relationships with business owners across North America. I generated over $100,000 in revenue for the company. Working daily with my team to hit our daily office number."
       }
     ],
     "skills": [
       {
-        "name": "Git",
+        "name": "MySQL",
         "level": "60%"
       },
       {
-        "name": "Illustrator",
-        "level": "55%"
-      },
-      {
         "name": "ReactJs",
-        "level": "50%"
+        "level": "80%"
       },
       {
         "name": "CSS",
@@ -97,12 +93,16 @@
         "level": "80%"
       },
       {
-        "name": "VueJs",
-        "level": "50%"
+        "name": "TypeScript",
+        "level": "60%"
+      },
+      {
+        "name": "NodeJS",
+        "level": "80%"
       },
       {
         "name": "MongoDB",
-        "level": "80%"
+        "level": "40%"
       }
     ]
   },
