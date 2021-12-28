@@ -1,46 +1,36 @@
 {
   "main": {
-    "name": "Tim Baker",
-    "occupation": "(Your Occupation Here)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name": "Scott McHenry",
+    "occupation": "Software and DevOps Engineer",
+    "description": "I'm a Vice President of Software Engineering for JPMorgan Chase & Co., and I'm a graduate of both Case Western Reserve University (2014, B.S. Computer Engineering) and Drexel University (2018, M.S. Software Engineering).",
     "image": "profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "smchenry2014@gmail.com",
+    "phone": "+1 (215) 595-4873",
     "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street": "2603 Heritage Farm Drive",
+      "city": "Wilmington",
+      "state": "DE",
+      "zip": "19808"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "/mchenry-scott-resume.pdf",
     "social": [
       {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/scottmmchenry/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
+        "name": "github",
+        "url": "http://github.com/scottmc500",
+        "className": "fa fa-github"
       },
       {
-        "name": "github",
-        "url": "http://github.com/tbakerx",
-        "className": "fa fa-github"
+        "name": "stack-overflow",
+        "url": "https://stackoverflow.com/users/17783295/scott-mchenry",
+        "className": "fa fa-stack-overflow"
       }
     ]
   },
@@ -48,60 +38,64 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
+        "school": "Case Western Reserve University",
+        "degree": "Bachelor of Science in Computer Engineering",
+        "graduated": "May 2014",
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
+        "school": "Drexel University",
+        "degree": "Master of Science in Software Engineering",
+        "graduated": "June 2018",
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "JPMorgan Chase & Co.",
+        "title": "Vice President of Software Engineering",
+        "years": "January 2019 - Present",
+        "description": "JPMorgan Chase & Co. (NYSE: JPM) is a leading global financial services firm with assets of $2.6 trillion and operations worldwide. The Firm is a leader in investment banking, financial services for consumers and small businesses, commercial banking, financial transaction processing, and asset management. A component of the Dow Jones Industrial Average, JPMorgan Chase & Co. serves millions of consumers in the United States and many of the world's most prominent corporate, institutional and government clients under its J.P. Morgan and Chase brands. Information about JPMorgan Chase & Co. is available at www.jpmorganchase.com."
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Program Executive Office of Enterprise Information Systems (PEO EIS)",
+        "title": "Computer Engineer",
+        "years": "June 2018 - December 2018",
+        "description": "While working as a civilian with the US Navy, I worked as a mobile application developer for the FMS Calculator mobile app, and as Assistant Program Manager of Engineering (APME) for the Naval Justice Information System (NJIS). I managed all systems engineering processes and day-to-day development. I provided technical expertise to stakeholders across multiple departments and areas of expertise."
       }
     ],
     "skills": [
       {
-        "name": "Git",
-        "level": "60%"
+        "name": "Agile (Scrum/Kanban)",
+        "level": "100%"
       },
       {
-        "name": "Illustrator",
-        "level": "55%"
+        "name": "Software Requirements",
+        "level": "80%"
       },
       {
-        "name": "ReactJs",
+        "name": "Cloud Architecture Design",
+        "level": "80%"
+      },
+      {
+        "name": "Risk and Schedule Management",
         "level": "50%"
       },
       {
-        "name": "CSS",
+        "name": "Back-End Object-Oriented Programming (Java, Python, C#)",
         "level": "90%"
       },
       {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "VueJs",
+        "name": "Front-End UX Programming (JavaScript, ReactJS, HTML5)",
         "level": "50%"
       },
       {
-        "name": "MongoDB",
+        "name": "Relational Databases (Oracle, MySQL, SQLServer, Sybase)",
         "level": "80%"
+      },
+      {
+        "name": "NoSQL Databases (DynamoDB, MongoDB)",
+        "level": "50%"
       }
     ]
   },
