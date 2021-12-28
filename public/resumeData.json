@@ -5,7 +5,7 @@
     "description": "I'm a Vice President of Software Engineering for JPMorgan Chase & Co., and I'm a graduate of both Case Western Reserve University (2014, B.S. Computer Engineering) and Drexel University (2018, M.S. Software Engineering).",
     "image": "profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage": "Feel free to send me a message, and I will get back to you as soon as I can.",
     "email": "smchenry2014@gmail.com",
     "phone": "+1 (215) 595-4873",
     "address": {
@@ -35,19 +35,19 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "I have a broad array of knowledge of different software development techniques and tools, but I specialize in designing efficient, scalable back-end microservice cloud architectures and Platform-as-a-Service (PaaS) application delivery.",
     "education": [
       {
         "school": "Case Western Reserve University",
         "degree": "Bachelor of Science in Computer Engineering",
         "graduated": "May 2014",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": "I graduated with a 3.19 GPA.  Relevant course work included Introduction to Data Structures, Computer Architecture, Logic Design and Computer Organization, Circuits and Instruments, Discrete Mathematics, Introduction to Database Systems, Digital Systems Design, Compiler Design, Introduction to Operating Systems, VLSI/CAD, Algorithms and Data Structures, and Programming Language Concepts."
       },
       {
         "school": "Drexel University",
         "degree": "Master of Science in Software Engineering",
         "graduated": "June 2018",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": "I graduated with a 3.86 GPA.  Relavant course work included Advanced Database Management, Data Mining, Information Systems Management, Requirements Engineering and Management, Information Technology Integration, Software Project Management, Human Computer Interaction, Computer Networks, Software Engineering Processes, Information Systems Analysis and Design, Database Management, Evaluation of Information Systems, and Dependable Software Systems."
       }
     ],
     "work": [
@@ -102,34 +102,16 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "FMS Calculator",
+        "category": "A mobile app to help enlisted US Navy personnel advance their careers.",
+        "image": "fms-calculator.jpg",
+        "url": "https://www.applocker.navy.mil/#!/apps/C28CB458-ADA9-4758-B13E-5F13F1EC4FFF"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Naval Justice Information System",
+        "category": "A web-based information system that enables ‘cradle-to-grave’ tracking of military/criminal justice information.",
+        "image": "NJIS_tri.jpeg",
+        "url": "https://www.hqmc.marines.mil/Portals/138/Docs/PS/PSL/NJIS/NJIS_TrifoldFinal.pdf"
       }
     ]
   },
@@ -137,11 +119,11 @@
     "testimonials": [
       {
         "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
+        "user": "Joshua Kershaw, JPMorgan Chase & Co."
       },
       {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "That Scott McHenry must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, because I am confident that he will be one of your best developers in no time!",
+        "user": "Kevin Burnett, PEO EIS"
       }
     ]
   }
