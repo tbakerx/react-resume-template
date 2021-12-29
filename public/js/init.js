@@ -147,7 +147,7 @@
 
       $.getJSON("resumeData.json",function(data) {
          console.log(data);
-         window.open("mailto:" + data.main.email + "?subject=" + contactName + " - " + contactSubject + "&body=" + contactMessage);
+         window.location.href = "mailto:" + data.main.email + "?subject=" + contactName + " - " + contactSubject + "&body=" + contactMessage
          console.log("success");
       }).error(function() {
          console.log("error");
