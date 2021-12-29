@@ -142,15 +142,10 @@
       $('#image-loader').fadeIn();
 
       var contactName = $('#contactForm #contactName').val();
-      var contactEmail = $('#contactForm #contactEmail').val();
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
 
-      var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
-               '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
-
-      window.open("mailto:smchenry2014@gmail.com?subject=" + contactName + " - " + contactSubject +
-               "&body=" + contactMessage);
+      window.open("mailto:smchenry2014@gmail.com?subject=" + contactName + " - " + contactSubject + "&body=" + contactMessage);
       return false;
    });
 
