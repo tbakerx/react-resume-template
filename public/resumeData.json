@@ -78,8 +78,12 @@
         "level": "80%"
       },
       {
+        "name": "Amazon Web Services (S3, Elastic Beanstalk, Amplify, CloudFront)",
+        "level": "90%"
+      },
+      {
         "name": "Risk and Schedule Management",
-        "level": "50%"
+        "level": "70%"
       },
       {
         "name": "Back-End Object-Oriented Programming (Java, Python, C#)",
