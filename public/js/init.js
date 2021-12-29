@@ -145,7 +145,13 @@
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
 
-      window.open("mailto:smchenry2014@gmail.com?subject=" + contactName + " - " + contactSubject + "&body=" + contactMessage);
+      $.getJSON("resumeData.json",function(data) {
+         console.log(data);
+         window.open("mailto:" + data.main.email + "?subject=" + contactName + " - " + contactSubject + "&body=" + contactMessage);
+         console.log("success");
+      }).error(function() {
+         console.log("error");
+      });
       return false;
    });
 
