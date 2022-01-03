@@ -150,14 +150,23 @@
 
       $.getJSON("resumeData.json",function(data) {
          Email.send({
-            Host : data.main.emailhost,
-            Username : data.main.email,
-            Password : data.main.emailpassword,
+            SecureToken : "b6818582-4790-47b2-9084-db36ac62d649",
             To : data.main.email,
-            From : contactEmail,
+            From : data.main.email,
             Subject : "Someone Tried to Message You",
             Body : body
-         }).then(message => alert(message));
+         }).then(msg => {
+            if (msg == 'OK') {
+               $('#image-loader').fadeOut();
+               $('#message-warning').hide();
+               $('#contactForm').fadeOut();
+               $('#message-success').fadeIn();
+            } else {
+               $('#image-loader').fadeOut();
+               $('#message-warning').html(msg);
+	            $('#message-warning').fadeIn();
+            }
+         });
       }).error(function() {
          console.log("error");
       });
