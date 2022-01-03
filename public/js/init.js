@@ -154,14 +154,10 @@
             Username : data.main.email,
             Password : data.main.emailpassword,
             To : data.main.email,
-            From : data.main.email,
+            From : contactEmail,
             Subject : "Someone Tried to Message You",
             Body : body
-        }).then(
-          message => alert(message)
-        );
-         //console.log(contactEmail);
-         //window.location.href = `mailto:${data.main.email}?subject=${contactName} - ${contactSubject}&body=${contactMessage}`;
+         }).then(message => alert(message));
       }).error(function() {
          console.log("error");
       });
