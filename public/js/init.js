@@ -142,12 +142,10 @@
       $('#image-loader').fadeIn();
 
       var contactName = $('#contactForm #contactName').val();
-      var contactEmail = $('#contactForm #contactEmail').val();
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
 
       $.getJSON("resumeData.json",function(data) {
-         console.log(contactEmail);
          window.location.href = `mailto:${data.main.email}?subject=${contactName} - ${contactSubject}&body=${contactMessage}`;
       }).error(function() {
          console.log("error");
