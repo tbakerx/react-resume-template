@@ -142,11 +142,26 @@
       $('#image-loader').fadeIn();
 
       var contactName = $('#contactForm #contactName').val();
+      var contactEmail = $('#contactForm #contactEmail').val();
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
 
+      var body = `You received a message from ${contactName}! <br/><br/> Name: ${contactName} <br/> Email: ${contactEmail} <br/> Subject: ${contactSubject} <br/> Message: ${contactMessage}`
+
       $.getJSON("resumeData.json",function(data) {
-         window.location.href = `mailto:${data.main.email}?subject=${contactName} - ${contactSubject}&body=${contactMessage}`;
+         Email.send({
+            Host : data.main.emailhost,
+            Username : data.main.email,
+            Password : data.main.emailpassword,
+            To : data.main.email,
+            From : data.main.email,
+            Subject : "Someone Tried to Message You",
+            Body : body
+        }).then(
+          message => alert(message)
+        );
+         //console.log(contactEmail);
+         //window.location.href = `mailto:${data.main.email}?subject=${contactName} - ${contactSubject}&body=${contactMessage}`;
       }).error(function() {
          console.log("error");
       });
