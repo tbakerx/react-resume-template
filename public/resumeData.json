@@ -15,7 +15,7 @@
       "zip": "19808"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "/mchenry-scott-resume.pdf",
+    "resumedownload": "https://s3.amazonaws.com/scottmchenry.info/mchenry-scott-resume.pdf",
     "social": [
       {
         "name": "linkedin",
