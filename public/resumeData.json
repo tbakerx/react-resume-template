@@ -122,12 +122,8 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "text": "As one of our only true developers, Scott has a lot of opportunity to assist our product teams to better serve our customers. Scott has shown a willingness to grow and has accepted any challenges thrown his way. I look forward to seeing what Scott can do to further his influence on our products in 2022.",
         "user": "Joshua Kershaw, JPMorgan Chase & Co."
-      },
-      {
-        "text": "That Scott McHenry must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, because I am confident that he will be one of your best developers in no time!",
-        "user": "Kevin Burnett, PEO EIS"
       }
     ]
   }
