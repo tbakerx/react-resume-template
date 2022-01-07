@@ -41,12 +41,14 @@
         "school": "Case Western Reserve University",
         "degree": "Bachelor of Science in Computer Engineering",
         "graduated": "May 2014",
+        "picture": "cwru.jpeg",
         "description": "I graduated with a 3.19 GPA.  Relevant course work included Introduction to Data Structures, Computer Architecture, Logic Design and Computer Organization, Circuits and Instruments, Discrete Mathematics, Introduction to Database Systems, Digital Systems Design, Compiler Design, Introduction to Operating Systems, VLSI/CAD, Algorithms and Data Structures, and Programming Language Concepts."
       },
       {
         "school": "Drexel University",
         "degree": "Master of Science in Software Engineering",
         "graduated": "June 2018",
+        "picture": "drexel.png",
         "description": "I graduated with a 3.86 GPA.  Relavant course work included Advanced Database Management, Data Mining, Information Systems Management, Requirements Engineering and Management, Information Technology Integration, Software Project Management, Human Computer Interaction, Computer Networks, Software Engineering Processes, Information Systems Analysis and Design, Database Management, Evaluation of Information Systems, and Dependable Software Systems."
       }
     ],
@@ -55,12 +57,14 @@
         "company": "JPMorgan Chase & Co.",
         "title": "Vice President of Software Engineering",
         "years": "January 2019 - Present",
+        "picture": "jpmorgan.png",
         "description": "JPMorgan Chase & Co. (NYSE: JPM) is a leading global financial services firm with assets of $2.6 trillion and operations worldwide. The Firm is a leader in investment banking, financial services for consumers and small businesses, commercial banking, financial transaction processing, and asset management. A component of the Dow Jones Industrial Average, JPMorgan Chase & Co. serves millions of consumers in the United States and many of the world's most prominent corporate, institutional and government clients under its J.P. Morgan and Chase brands. Information about JPMorgan Chase & Co. is available at www.jpmorganchase.com."
       },
       {
         "company": "Program Executive Office of Enterprise Information Systems (PEO EIS)",
         "title": "Computer Engineer",
         "years": "June 2018 - December 2018",
+        "picture": "peoeis.png",
         "description": "While working as a civilian with the US Navy, I worked as a mobile application developer for the FMS Calculator mobile app, and as Assistant Program Manager of Engineering (APME) for the Naval Justice Information System (NJIS). I managed all systems engineering processes and day-to-day development. I provided technical expertise to stakeholders across multiple departments and areas of expertise."
       }
     ],
