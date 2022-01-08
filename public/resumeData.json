@@ -35,7 +35,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "I have a broad array of knowledge of different software development techniques and tools, but I specialize in designing efficient, scalable back-end microservice cloud architectures and Platform-as-a-Service (PaaS) application delivery.",
+    "skillmessage": "I'm always looking to explore new tools and techinques to make myself a better software engineer.  Here are a few that I use regularly.",
     "education": [
       {
         "school": "Case Western Reserve University",
@@ -70,40 +70,44 @@
     ],
     "skills": [
       {
-        "name": "Agile (Scrum/Kanban)",
-        "level": "100%"
+        "name": "Python",
+        "picture": "python.png",
+        "description": "Python was my first programming language, and I've used it in both personal and work projects.  It has come in handy as a robust scripting language for use when deploying large application components."
       },
       {
-        "name": "Software Requirements",
-        "level": "80%"
+        "name": "Java",
+        "picture": "java.svg",
+        "description": "Java is currently my most used programming language, and it is my most familiar and fluent programming language.  I have experience with using frameworks such as Spring Boot to create robust and high-performance APIs and web applications."
       },
       {
-        "name": "Cloud Architecture Design",
-        "level": "80%"
+        "name": "React",
+        "picture": "react.jpeg",
+        "description": "I have used React to design front-end user interfaces for several applications, including this website and a metadata storage application I designed for JPMorgan Chase."
       },
       {
         "name": "Amazon Web Services",
-        "level": "90%"
+        "picture": "aws.png",
+        "description": "I work frequently with Amazon Web Services in both my personal and work projects.  My work includes hosting static websites on Amazon S3 and running Spring Boot applications in Elastic Beanstalk.  I also manage web domains and content using Amazon Route 53 and CloudFront."
       },
       {
-        "name": "Risk and Schedule Management",
-        "level": "70%"
+        "name": "Jenkins/GitHub Actions",
+        "picture": "jenkins.png",
+        "description": "I believe that Continuous Integration and Delivery of new requirements and capabilities is crucial for any software project.  To that end, I've gain significant skill in using both Jenkins and GitHub Actions for all of my CI/CD needs."
       },
       {
-        "name": "Back-End Object-Oriented Programming (Java, Python, C#)",
-        "level": "90%"
+        "name": "GitHub",
+        "picture": "github.png",
+        "description": "I primarily use Git and GitHub for version control on personal and smaller projects.  I also have experience with Bitbucket, which I have used on my larger projects with JPMorgan Chase."
       },
       {
-        "name": "Front-End UX Programming (JavaScript, ReactJS, HTML5)",
-        "level": "50%"
+        "name": "Relational Databases (Oracle, MySQL, MariaDB)",
+        "picture": "mysql.png",
+        "description": "Most of my experience working with databases has been with designing and implementing relational databases, including Oracle, MySQL, and MariaDB.  Of these, MySQL is my personal favorite."
       },
       {
-        "name": "Relational Databases (Oracle, MySQL, SQLServer, Sybase)",
-        "level": "80%"
-      },
-      {
-        "name": "NoSQL Databases (DynamoDB, MongoDB)",
-        "level": "50%"
+        "name": "Excel Spreadsheets",
+        "picture": "excel.png",
+        "description": "I have considerable experience working with excel spreadsheets, including complex formulas and macro functions using Visual Basic Applications (VBA) for Excel."
       }
     ]
   },
