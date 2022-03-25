@@ -44,7 +44,127 @@
       }
     ]
   },
+  
   "resume": {
+    "string": [{
+      "id": "165",
+      "title":"Compare Version Numbers"
+      },
+      {
+        "id": "214",
+        "title":"Shortest Palindrome"
+      }
+    ],
+    "ds":[{
+      "id": "200",
+      "title": "Number of Island"
+    },{
+      "id": "130",
+      "title": "Surrounded Regions"
+    },{
+      "id": "684",
+      "title": "Redundant Connection"
+      },{
+        "id": "128",
+        "title": "Longest Consecutive Sequence"
+      }
+    ],
+
+    "recursion":[{
+      "id": "21",
+      "title": "Merge Two Sorted Lists"
+      },{
+      "id": "369",
+      "title": "Plus One Linked List"
+      },{
+      "id": "2",
+      "title": "Add Two Numbers"
+      },{
+        "id": "24",
+        "title": "Swap Nodes in Pairs"
+      },{
+        "id": "160",
+        "title": "Intersection of Two Linked Lists"
+      },{
+        "id": "260",
+        "title": "Reverse Linked List"
+      }
+      ,{
+        "id": "92",
+        "title": "Reverse Linked List II"
+      }
+      ,{
+        "id": "19",
+        "title": "Remove Nth Node From End of List"
+      }
+    ],
+
+    "tree":[{
+      "id": "94",
+      "title": "Binary Tree Inorder Tranversal"
+      },{
+      "id": "98",
+      "title": "Validate Binary Search Tree"
+      },{
+      "id": "199",
+      "title": "Binary Tree Right Side View"
+      },{
+        "id": "24",
+        "title": "Swap Nodes in Pairs"
+      },{
+        "id": "100",
+        "title": "Same Tree"
+      },{
+        "id": "101",
+        "title": "Symmetric Tree"
+      }
+      ,{
+        "id": "104",
+        "title": "Maximum Depth of Binary Tree"
+      }
+      ,{
+        "id": "114",
+        "title": "Flatten Binary Tree to Linked List"
+      },{
+        "id": "108",
+        "title": "Convert Sorted Array to Binary Search Tree"
+      },{
+        "id": "437",
+        "title": "Path Sum III"
+      },{
+        "id": "105",
+        "title": "Construct Binary Tree from Preorder and Inorder Traversal"
+      }
+    ],
+    
+    "bfsdfs":[{
+      "id": "286",
+      "title": "Walls and Gates"
+      },{
+      "id": "102",
+      "title": "Binary Tree Level Order Traversal"
+      },{
+      "id": "111",
+      "title": "Minimum Depth of Binary Tree"
+      },{
+        "id": "200",
+        "title": "Number of Islands"
+      },{
+        "id": "116",
+        "title": "Populating Next Right Pointers in Each Node"
+      }
+    ],
+    "backtracking":[{
+      "id": "46",
+      "title": "Permutations"
+      },{
+      "id": "77",
+      "title": "Combinations"
+      },{
+      "id": "17",
+      "title": "Letter Combination of a Phone Number"
+      }
+    ],
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
