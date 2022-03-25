@@ -44,7 +44,7 @@
     ]
   },
   
-  "resume": {
+  "type": {
     "string": [{
       "id": "165",
       "title":"Compare Version Numbers"
@@ -52,6 +52,23 @@
       {
         "id": "214",
         "title":"Shortest Palindrome"
+      },{
+        "id": "43",
+        "title":"Multiply Strings"
+      },
+      {
+        "id": "306",
+          "title":"Addictive Number"
+      },{
+        "id": "459",
+        "title":"Repeated Substring Patter"
+      },
+      {
+        "id": "777",
+        "title":"Swap Adjacent in LR String"
+      },{
+        "id": "792",
+        "title":"Number of Matching Subsequences"
       }
     ],
     "ds":[{
@@ -167,199 +184,191 @@
   },
 
   "company": {
-    "Akuna": [{
-      "id": "239",
-      "title":"Sliding Window Maximum"
-      },
-      {
-        "id": "214",
-        "title":"Shortest Palindrome"
-      }
-    ],
-  
-    "Audible":[{
-      "id": "56",
-      "title": "Merge Intervals"
-      },{
-      "id": "387",
-      "title": "First Unique Character in a String"
-      },{
-      "id": "92",
-      "title": "Reverse Linked List II"
-      },{
-        "id": "1492",
-        "title": "The kth Factor of n"
-      },{
-        "id": "786",
-        "title": "K-th Smallest Prime Fraction"
-      },{
-        "id": "546",
-        "title": "emove Boxes"
-      }
-      ,{
-        "id": "209",
-        "title": "Minimum Size Subarray Sum"
-      }
-      ,{
-        "id": "114",
-        "title": "Flatten Binary Tree to Linked List"
-      },{
-        "id": "146",
-        "title": "LRU Cache"
-      },{
-        "id": "1481",
-        "title": "Least Number of Unique Integers after K Removals"
-      },{
-        "id": "20",
-        "title": "valid parentheses"
-      }
-      ,{
-        "id": "21",
-        "title": "Merge two sorted list"
-      },{
-        "id": "49",
-        "title": "Group Anagrams"
-      },{
-        "id": "1135",
-        "title": "Connecting Cities With Minimum Cost"
-      },{
-        "id": "287",
-        "title": "Find the Duplicate Number"
-      },{
-        "id": "829",
-        "title": "Consecutive Numbers Sum"
-      },{
-        "id": "221",
-        "title": "Maximal Square"
-      },{
-        "id": "14",
-        "title": "Two Sum Unique Pairs"
-      }
-    ],
+    "Akuna": {
+      "time":"2021-3-23", 
+      "questions":[{
+        "id": "239",
+        "title":"Sliding Window Maximum"
+        },{
+          "id": "214",
+          "title":"Shortest Palindrome"
+        }]
+    },
+    "Audible":{
+      "time": "2021-11-5",
+      "questions": [{
+        "id": "56",
+        "title": "Merge Intervals"
+        },{
+        "id": "387",
+        "title": "First Unique Character in a String"
+        },{
+        "id": "92",
+        "title": "Reverse Linked List II"
+        },{
+          "id": "1492",
+          "title": "The kth Factor of n"
+        },{
+          "id": "786",
+          "title": "K-th Smallest Prime Fraction"
+        },{
+          "id": "546",
+          "title": "emove Boxes"
+        }
+        ,{
+          "id": "209",
+          "title": "Minimum Size Subarray Sum"
+        }
+        ,{
+          "id": "114",
+          "title": "Flatten Binary Tree to Linked List"
+        },{
+          "id": "146",
+          "title": "LRU Cache"
+        },{
+          "id": "1481",
+          "title": "Least Number of Unique Integers after K Removals"
+        },{
+          "id": "20",
+          "title": "valid parentheses"
+        }
+        ,{
+          "id": "21",
+          "title": "Merge two sorted list"
+        },{
+          "id": "49",
+          "title": "Group Anagrams"
+        },{
+          "id": "1135",
+          "title": "Connecting Cities With Minimum Cost"
+        },{
+          "id": "287",
+          "title": "Find the Duplicate Number"
+        },{
+          "id": "829",
+          "title": "Consecutive Numbers Sum"
+        },{
+          "id": "221",
+          "title": "Maximal Square"
+        },{
+          "id": "14",
+          "title": "Two Sum Unique Pairs"
+        }
+      ]
+    },
     
-    "bloomberg-20210-11-15":[{
-      "id": "42",
-      "title": "Trapping Rain Water"
-      },{
-      "id": "135",
-      "title": "Candy"
-      },{
-        "id": "146",
-        "title": "LRU Cache"
-      },{
-      "id": "124",
-      "title": "Binary Tree Maxium Path Sum"
-      },{
-        "id": "1169",
-        "title": "Invalid Transactions"
-      },{
-        "id": "1244",
-        "title": "Desgin a Leaderboard"
-      },{
-        "id": "723",
-        "title": "My Calendar i"
+    "bloomberg-20210-11-15":{
+      "time":"2021-11-9",
+      "questions":[{
+        "id": "42",
+        "title": "Trapping Rain Water"
         },{
-        "id": "1209",
-        "title": "Remove all adjacent duplicates in string ii"
+        "id": "135",
+        "title": "Candy"
         },{
-          "id": "199",
-          "title": "Binary Tree Right Side View"
+          "id": "146",
+          "title": "LRU Cache"
         },{
-        "id": "79",
-        "title": "Word Search"
+        "id": "124",
+        "title": "Binary Tree Maxium Path Sum"
         },{
-          "id": "1396",
-          "title": "design underground system"
+          "id": "1169",
+          "title": "Invalid Transactions"
         },{
-          "id": "429",
-          "title": "n-ary tree level order traversal"
+          "id": "1244",
+          "title": "Desgin a Leaderboard"
         },{
-          "id": "199",
-          "title": "Binary Tree Right Side View"
-        },{
-        "id": "200",
-        "title": "Number of Islands"
-        },{
-          "id": "91",
-          "title": "Decode Ways"
-        },{
-          "id": "430",
-          "title": "Flattern doubly linked list"
-        },
-        {
+          "id": "723",
+          "title": "My Calendar i"
+          },{
           "id": "1209",
-          "title": "two city scheduling"
+          "title": "Remove all adjacent duplicates in string ii"
           },{
-            "id": "12",
-            "title": "integer to roman"
+            "id": "199",
+            "title": "Binary Tree Right Side View"
           },{
-            "id": "24",
-            "title": "swap nodes in pairs"
+          "id": "79",
+          "title": "Word Search"
           },{
-            "id": "572",
-            "title": "subtree of another tree"
+            "id": "1396",
+            "title": "design underground system"
           },{
-          "id": "380",
-          "title": "Insert Delete GetRandom O1"
+            "id": "429",
+            "title": "n-ary tree level order traversal"
           },{
-            "id": "109",
-            "title": "shortest path in binary matrix"
+            "id": "199",
+            "title": "Binary Tree Right Side View"
           },{
-            "id": "273",
-            "title": "remove all adjacent duplicates in string ii"
+          "id": "200",
+          "title": "Number of Islands"
+          },{
+            "id": "91",
+            "title": "Decode Ways"
+          },{
+            "id": "430",
+            "title": "Flattern doubly linked list"
           },
           {
-            "id": "542",
-            "title": "01 matrix"
+            "id": "1209",
+            "title": "two city scheduling"
             },{
-              "id": "1249",
-              "title": "minimum remove to make valid parentheses"
+              "id": "12",
+              "title": "integer to roman"
             },{
-              "id": "445",
-              "title": "Add Two Numbers II"
+              "id": "24",
+              "title": "swap nodes in pairs"
             },{
-              "id": "114",
-              "title": "Flatten Binary Tree to Linked List"
+              "id": "572",
+              "title": "subtree of another tree"
             },{
-            "id": "4",
-            "title": "longest substring without repeating characters"
+            "id": "380",
+            "title": "Insert Delete GetRandom O1"
             },{
-              "id": "88",
-              "title": "merge sorted array"
+              "id": "109",
+              "title": "shortest path in binary matrix"
             },{
-              "id": "897",
-              "title": "vertical order of traversal of a binary tree"
-            },{
-              "id": "1396",
-              "title": "Design Underground System"
+              "id": "273",
+              "title": "remove all adjacent duplicates in string ii"
             },
             {
-              "id": "155",
-              "title": "Min Stack"
+              "id": "542",
+              "title": "01 matrix"
               },{
-                "id": "543",
-                "title": "Diameter of Binary Tree"
+                "id": "1249",
+                "title": "minimum remove to make valid parentheses"
               },{
-                "id": "207",
-                "title": "Course Schedule"
+                "id": "445",
+                "title": "Add Two Numbers II"
               },{
-                "id": "127",
-                "title": "Word Ladder"
-              }
-
-          
-    ],
-    "backtracking":[{
-      "id": "46",
-      "title": "Permutations"
-      },{
-      "id": "77",
-      "title": "Combinations"
-      },{
-      "id": "17",
-      "title": "Letter Combination of a Phone Number"
-      }
-    ]
+                "id": "114",
+                "title": "Flatten Binary Tree to Linked List"
+              },{
+              "id": "4",
+              "title": "longest substring without repeating characters"
+              },{
+                "id": "88",
+                "title": "merge sorted array"
+              },{
+                "id": "897",
+                "title": "vertical order of traversal of a binary tree"
+              },{
+                "id": "1396",
+                "title": "Design Underground System"
+              },
+              {
+                "id": "155",
+                "title": "Min Stack"
+                },{
+                  "id": "543",
+                  "title": "Diameter of Binary Tree"
+                },{
+                  "id": "207",
+                  "title": "Course Schedule"
+                },{
+                  "id": "127",
+                  "title": "Word Ladder"
+                }]
+    }
   },
   "portfolio": {
     "projects": [
