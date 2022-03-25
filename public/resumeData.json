@@ -163,64 +163,201 @@
       "id": "17",
       "title": "Letter Combination of a Phone Number"
       }
-    ],
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-    "education": [
-      {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+    ]
+  },
+
+  "company": {
+    "Akuna": [{
+      "id": "239",
+      "title":"Sliding Window Maximum"
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "id": "214",
+        "title":"Shortest Palindrome"
       }
     ],
-    "work": [
-      {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+  
+    "Audible":[{
+      "id": "56",
+      "title": "Merge Intervals"
+      },{
+      "id": "387",
+      "title": "First Unique Character in a String"
+      },{
+      "id": "92",
+      "title": "Reverse Linked List II"
+      },{
+        "id": "1492",
+        "title": "The kth Factor of n"
+      },{
+        "id": "786",
+        "title": "K-th Smallest Prime Fraction"
+      },{
+        "id": "546",
+        "title": "emove Boxes"
+      }
+      ,{
+        "id": "209",
+        "title": "Minimum Size Subarray Sum"
+      }
+      ,{
+        "id": "114",
+        "title": "Flatten Binary Tree to Linked List"
+      },{
+        "id": "146",
+        "title": "LRU Cache"
+      },{
+        "id": "1481",
+        "title": "Least Number of Unique Integers after K Removals"
+      },{
+        "id": "20",
+        "title": "valid parentheses"
+      }
+      ,{
+        "id": "21",
+        "title": "Merge two sorted list"
+      },{
+        "id": "49",
+        "title": "Group Anagrams"
+      },{
+        "id": "1135",
+        "title": "Connecting Cities With Minimum Cost"
+      },{
+        "id": "287",
+        "title": "Find the Duplicate Number"
+      },{
+        "id": "829",
+        "title": "Consecutive Numbers Sum"
+      },{
+        "id": "221",
+        "title": "Maximal Square"
+      },{
+        "id": "14",
+        "title": "Two Sum Unique Pairs"
       }
     ],
-    "skills": [
-      {
-        "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Illustrator",
-        "level": "55%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "VueJs",
-        "level": "50%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
+    
+    "bloomberg-20210-11-15":[{
+      "id": "42",
+      "title": "Trapping Rain Water"
+      },{
+      "id": "135",
+      "title": "Candy"
+      },{
+        "id": "146",
+        "title": "LRU Cache"
+      },{
+      "id": "124",
+      "title": "Binary Tree Maxium Path Sum"
+      },{
+        "id": "1169",
+        "title": "Invalid Transactions"
+      },{
+        "id": "1244",
+        "title": "Desgin a Leaderboard"
+      },{
+        "id": "723",
+        "title": "My Calendar i"
+        },{
+        "id": "1209",
+        "title": "Remove all adjacent duplicates in string ii"
+        },{
+          "id": "199",
+          "title": "Binary Tree Right Side View"
+        },{
+        "id": "79",
+        "title": "Word Search"
+        },{
+          "id": "1396",
+          "title": "design underground system"
+        },{
+          "id": "429",
+          "title": "n-ary tree level order traversal"
+        },{
+          "id": "199",
+          "title": "Binary Tree Right Side View"
+        },{
+        "id": "200",
+        "title": "Number of Islands"
+        },{
+          "id": "91",
+          "title": "Decode Ways"
+        },{
+          "id": "430",
+          "title": "Flattern doubly linked list"
+        },
+        {
+          "id": "1209",
+          "title": "two city scheduling"
+          },{
+            "id": "12",
+            "title": "integer to roman"
+          },{
+            "id": "24",
+            "title": "swap nodes in pairs"
+          },{
+            "id": "572",
+            "title": "subtree of another tree"
+          },{
+          "id": "380",
+          "title": "Insert Delete GetRandom O1"
+          },{
+            "id": "109",
+            "title": "shortest path in binary matrix"
+          },{
+            "id": "273",
+            "title": "remove all adjacent duplicates in string ii"
+          },
+          {
+            "id": "542",
+            "title": "01 matrix"
+            },{
+              "id": "1249",
+              "title": "minimum remove to make valid parentheses"
+            },{
+              "id": "445",
+              "title": "Add Two Numbers II"
+            },{
+              "id": "114",
+              "title": "Flatten Binary Tree to Linked List"
+            },{
+            "id": "4",
+            "title": "longest substring without repeating characters"
+            },{
+              "id": "88",
+              "title": "merge sorted array"
+            },{
+              "id": "897",
+              "title": "vertical order of traversal of a binary tree"
+            },{
+              "id": "1396",
+              "title": "Design Underground System"
+            },
+            {
+              "id": "155",
+              "title": "Min Stack"
+              },{
+                "id": "543",
+                "title": "Diameter of Binary Tree"
+              },{
+                "id": "207",
+                "title": "Course Schedule"
+              },{
+                "id": "127",
+                "title": "Word Ladder"
+              }
+
+          
+    ],
+    "backtracking":[{
+      "id": "46",
+      "title": "Permutations"
+      },{
+      "id": "77",
+      "title": "Combinations"
+      },{
+      "id": "17",
+      "title": "Letter Combination of a Phone Number"
       }
     ]
   },
