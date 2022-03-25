@@ -57,10 +57,10 @@
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
 
-   /* Resume Section
+   /* Topic Section
    ------------------------------------------------------------------- */
-   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-   #resume .main-col { padding-right: 5%; }   
+   #topic h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #topic .main-col { padding-right: 5%; }   
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
@@ -226,14 +226,14 @@
 
    /* Resume Section
    --------------------------------------------------------------------- */
-   #resume .header-col {
+   #topic .header-col {
       padding-top: 0;
       margin-bottom: 48px;
       text-align: center;
    }
-   #resume h1 { letter-spacing: 3px; }
-   #resume .main-col { padding-right: 30px; }
-   #resume h3, #resume .info { text-align: center; }
+   #topic h1 { letter-spacing: 3px; }
+   #topic .main-col { padding-right: 30px; }
+   #topic h3, #topic .info { text-align: center; }
       
    .bars { width: 100%; }
 

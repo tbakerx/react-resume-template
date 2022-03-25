@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Resume extends Component {
+class Topic extends Component {
   render() {
 
     if(this.props.data){
@@ -62,7 +62,7 @@ class Resume extends Component {
     }
 
     return (
-      <section id="resume">
+      <section id="topic">
     <div className="row type">
          <div className="three columns header-col">
             <h1><span>String</span></h1>
@@ -121,4 +121,4 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+export default Topic;
