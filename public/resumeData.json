@@ -61,7 +61,7 @@
           "title":"Additive Number"
       },{
         "id": "459",
-        "title":"Repeated Substring Patter"
+        "title":"Repeated Substring Pattern"
       },
       {
         "id": "777",
@@ -256,8 +256,7 @@
         }
       ]
     },
-    
-    "bloomberg-20210-11-15":{
+   "Bloomberg":{
       "time":"2021-11-9",
       "questions":[{
         "id": "42",
