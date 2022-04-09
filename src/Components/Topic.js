@@ -23,7 +23,7 @@ class Topic extends Component {
       })
 
 
-      var recursion = this.props.data.ds.map(function(recursion){
+      var recursion = this.props.data.recursion.map(function(recursion){
         var name = recursion.title.toLowerCase();
         name =name.replace(/\s+/g, '-');
         var url ="https://leetcode.com/problems/"+name+"/";
@@ -32,7 +32,7 @@ class Topic extends Component {
         </div>
       })
      
-      var tree = this.props.data.ds.map(function(tree){
+      var tree = this.props.data.tree.map(function(tree){
         var name = tree.title.toLowerCase();
         name =name.replace(/\s+/g, '-');
         var url ="https://leetcode.com/problems/"+name+"/";
@@ -41,16 +41,16 @@ class Topic extends Component {
         </div>
       }) 
       
-      var fs = this.props.data.ds.map(function(fs){
-        var name = fs.title.toLowerCase();
+      var bfsdfs = this.props.data.bfsdfs.map(function(bfsdfs){
+        var name = bfsdfs.title.toLowerCase();
         name =name.replace(/\s+/g, '-');
         var url ="https://leetcode.com/problems/"+name+"/";
-        return <div key={fs.id}>
-          <a title="Styleshout" href={url} target="_blank" rel="noreferrer noopener">{fs.id}</a>. {fs.title}
+        return <div key={bfsdfs.id}>
+          <a title="Styleshout" href={url} target="_blank" rel="noreferrer noopener">{bfsdfs.id}</a>. {bfsdfs.title}
         </div>
       }) 
 
-      var backtracking = this.props.data.ds.map(function(backtracking){
+      var backtracking = this.props.data.backtracking.map(function(backtracking){
         var name = backtracking.title.toLowerCase();
         name =name.replace(/\s+/g, '-');
         var url ="https://leetcode.com/problems/"+name+"/";
@@ -104,7 +104,7 @@ class Topic extends Component {
             <h1><span>BFS & DFS </span></h1>
          </div>
          <div className="nine columns main-col">
-          {fs}
+          {bfsdfs}
         </div>
       </div>
 

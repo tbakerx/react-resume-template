@@ -58,7 +58,7 @@
       },
       {
         "id": "306",
-          "title":"Addictive Number"
+          "title":"Additive Number"
       },{
         "id": "459",
         "title":"Repeated Substring Patter"
@@ -73,7 +73,7 @@
     ],
     "ds":[{
       "id": "200",
-      "title": "Number of Island"
+      "title": "Number of Islands"
     },{
       "id": "130",
       "title": "Surrounded Regions"
