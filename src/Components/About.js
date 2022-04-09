@@ -78,7 +78,7 @@ class About extends Component {
       <section id="about">
          <div className="row type">
             <div className="three columns header-col">
-               <h1><span>Akuna</span></h1>
+               <h2><span>Akuna</span></h2>
             </div>
             <div className="nine columns main-col">
                {akuna}
@@ -87,7 +87,7 @@ class About extends Component {
 
          <div className="row type">
             <div className="three columns header-col">
-               <h1><span>Audible</span></h1>
+               <h2><span>Audible</span></h2>
             </div>
             <div className="nine columns main-col">
                {audible}
@@ -95,7 +95,7 @@ class About extends Component {
          </div> 
          <div className="row type">
             <div className="three columns header-col">
-               <h1><span>Bloomberg</span></h1>
+               <h2><span>Bloomberg</span></h2>
             </div>
             <div className="nine columns main-col">
                {bloomberg}
