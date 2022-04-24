@@ -1,0 +1,382 @@
+/* ==================================================================
+
+*   Ceevee Media Queries
+*   url: styleshout.com
+*   03-18-2014
+
+/* ================================================================== */
+
+
+/* screenwidth less than 1024px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+
+    /* header styles
+   ------------------------------------------------------------------ */
+   header .banner-text h1 {
+      font: 80px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;
+      margin: 0 auto 12px auto;
+   }
+
+}
+
+/* screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+    /* header styles
+   ------------------------------------------------------------------ */
+   header .banner { padding-bottom: 12px; }
+   header .banner-text h1 {
+      font: 78px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;      
+   }
+   header .banner-text h3 {
+      font: 17px/1.9em 'librebaskerville-regular', serif;
+      width: 80%;
+   }
+   header .banner-text hr {
+      width: 65%;
+      margin: 12px auto;
+   }
+   /* nav-wrap */
+   #nav-wrap {
+      font: 11px 'opensans-bold', sans-serif;
+      letter-spacing: 1.5px;
+   }
+
+
+   /* About Section
+   ------------------------------------------------------------------- */
+   #about .profile-pic {
+      width: 114px;
+      height: 114px;
+      margin-left: 12px;
+   }
+   #about .contact-details { width: 50%; }
+   #about .download { width: 50%; }
+
+   /* Resume Section
+   ------------------------------------------------------------------- */
+   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #resume .main-col { padding-right: 5%; }   
+
+   /* Testimonials Section
+   ------------------------------------------------------------------- */
+   #testimonials .header-col h1:before {
+      font-size: 66px;
+      line-height: 66px;
+   }
+   #testimonials blockquote p {
+      font-size: 22px;
+      line-height: 46px;      
+   }
+
+    /* Call to Action Section
+   ------------------------------------------------------------------- */
+   #call-to-action .header-col h1:before {
+      font-size: 66px;
+      line-height: 66px;
+   }
+
+   /* Contact Section
+   ------------------------------------------------------------------- */
+   #contact .section-head { margin-bottom: 30px; }
+   #contact .header-col h1:before {
+      font-size: 66px;
+      line-height: 66px;
+   }
+   #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
+
+
+}
+
+/* mobile wide/smaller tablets
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+   /* mobile navigation
+   -------------------------------------------------------------------- */
+   #nav-wrap {
+      font: 12px 'opensans-bold', sans-serif;
+      background: transparent !important;
+      letter-spacing: 1.5px;  
+      width: auto;
+      position: fixed;
+      top: 0;
+      right: 0;
+   }
+   #nav-wrap > a {
+	   width: 48px;
+		height: 48px;
+		text-align: left;
+		background-color: #CC5200;
+		position: relative;
+      border: none;
+      float: right;
+
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+
+      position: relative;
+      top: 0px;
+      right: 30px;
+   }
+
+	#nav-wrap > a:before,
+   #nav-wrap > a:after {
+	   position: absolute;
+		border: 2px solid #fff;
+		top: 35%;
+		left: 25%;
+		right: 25%;
+		content: '';
+	}
+   #nav-wrap > a:after { top: 60%; }
+
+   /* toggle buttons */
+	#nav-wrap:not( :target ) > a:first-of-type,
+	#nav-wrap:target > a:last-of-type  {
+	   display: block;
+	}
+
+   /* hide menu panel */
+   #nav-wrap ul#nav {
+      height: auto;
+		display: none;
+      clear: both;
+      width: auto; 
+      float: right;     
+
+      position: relative;
+      top: 12px;
+      right: 0;
+   }
+
+   /* display menu panels */
+	#nav-wrap:target > ul#nav	{
+	   display: block;
+      padding: 30px 20px 48px 20px;
+      background: #1f2024;
+      margin: 0 30px;
+      clear: both;
+   }
+
+   ul#nav li {
+      display: block;
+      height: auto;      
+      margin: 0 auto; 
+      padding: 0 4%;           
+      text-align: left;
+      border-bottom: 1px solid #2D2E34;
+      border-bottom-style: dotted; 
+   }
+  
+   ul#nav li a {  
+      display: block;    
+      margin: 0;
+      padding: 0;      
+      margin: 12px 0; 
+      line-height: 16px; /* reset line-height from 48px */
+      border: none;
+   }  
+
+
+   /* Header Styles
+   -------------------------------------------------------------------- */
+   header .banner {
+      padding-bottom: 12px;
+      padding-top: 6px;
+   }
+   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h3 {
+      font: 16px/1.9em 'librebaskerville-regular', serif;
+      width: 85%;
+   }
+   header .banner-text hr {
+      width: 80%;
+      margin: 18px auto;
+   }
+
+   /* header social links */
+   header .social {
+      margin: 18px 0 24px 0;
+      font-size: 24px;
+      line-height: 36px;      
+   }
+   header .social li { margin: 0 10px; }
+
+    /* scrolldown link */
+   header .scrolldown { display: none; }
+
+
+   /* About Section
+   -------------------------------------------------------------------- */
+   #about .profile-pic { display: none; }
+   #about .download .button {
+      width: 100%;
+      text-align: center;
+      padding: 15px 20px;
+   }
+   #about .main-col { padding-right: 30px; }
+
+
+   /* Resume Section
+   --------------------------------------------------------------------- */
+   #resume .header-col {
+      padding-top: 0;
+      margin-bottom: 48px;
+      text-align: center;
+   }
+   #resume h1 { letter-spacing: 3px; }
+   #resume .main-col { padding-right: 30px; }
+   #resume h3, #resume .info { text-align: center; }
+      
+   .bars { width: 100%; }
+
+
+   /* Call To Action Section
+   /* ----------------------------------------------------------------- */
+   #call-to-action { text-align: center; }
+   #call-to-action h1 {
+      font: 16px/24px 'opensans-bold', sans-serif;
+      text-align: center;
+      margin-bottom: 30px;
+      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+   }
+   #call-to-action h1 span { display: block; }
+   #call-to-action .header-col h1:before { content: none; }
+   #call-to-action p { font-size: 15px; }
+
+
+   /* Portfolio Section
+   /* ----------------------------------------------------------------- */
+   #portfolio-wrapper .columns { margin-bottom: 40px; }
+   .popup-modal {	max-width: 85%; }
+
+
+   /* Testimonials Section
+   ----------------------------------------------------------------------- */
+   #testimonials .text-container { text-align: center; }
+   #testimonials h1 {
+      font: 16px/24px 'opensans-bold', sans-serif;
+      text-align: center;
+      margin-bottom: 30px;
+      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+   }
+   #testimonials h1 span { display: block; }
+   #testimonials .header-col h1:before { content: none; }
+   #testimonials blockquote { padding-bottom: 24px; }
+   #testimonials blockquote p {
+      font-size: 20px;
+      line-height: 42px;      
+   }
+
+   /* Control Nav */
+   .flex-control-nav {
+      text-align: center;
+      margin-left: -30px;
+   }
+
+
+   /* contact Section
+   ----------------------------------------------------------------------- */
+   #contact { padding-bottom: 66px; }
+   #contact .section-head { margin-bottom: 12px; }
+   #contact .section-head h1 {
+      font: 16px/24px 'opensans-bold', sans-serif;            
+      text-align: center;   
+      margin-bottom: 30px;
+      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+   }  
+   #contact h1 span { display: block; }
+   #contact .header-col { padding-top: 0; }
+   #contact .header-col h1:before { content: none;	}
+   #contact .section-head p.lead { text-align: center;}
+
+   /* form */
+   #contact label {
+      float: none;
+      width: 100%;
+   }
+   #contact input,
+   #contact textarea,
+   #contact select {
+     	margin-bottom: 6px;    	
+      width: 100%;
+   }
+   #contact button.submit { margin: 30px 0 24px 0; }
+   #message-warning, #message-success {
+      width: 100%;
+      margin-left: 0;
+   }
+
+
+   /* footer
+   ------------------------------------------------------------------------ */
+  
+   /* copyright */
+   footer .copyright li:before { content: none; }
+   footer .copyright li { margin-right: 12px; }
+
+   /* social links */
+   footer .social-links { font-size: 22px; }
+   footer .social-links li { margin-left: 18px; }
+
+   /* Go To Top Button */
+   #go-top { margin-left: -22px; }
+   #go-top a {
+   	width: 54px;
+   	height: 54px;
+      font-size: 18px;
+      line-height: 54px;
+   }
+
+
+}
+
+/* mobile narrow
+  -------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+
+   /* mobile navigation
+   -------------------------------------------------------------------- */
+   #nav-wrap ul#nav { width: auto; float: none; }
+
+   /* header styles
+   -------------------------------------------------------------------- */
+   header .banner { padding-top: 24px; }
+   header .banner-text h1 {
+      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      margin: 0 auto 24px auto;
+   }
+   header .banner-text h3 {
+      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      width: 90%;
+   }
+  
+   /* header social links */
+   header .social { font-size: 20px;}
+   header .social li { margin: 0 6px; }
+
+   /* footer
+   ------------------------------------------------------------------------ */
+
+   /* social links */
+   footer .social-links { font-size: 20px; }
+   footer .social-links li { margin-left: 14px; }   
+
+}
+
+
+
+
+
+
+
+
+
