@@ -2,14 +2,14 @@
 deployment:
     tasks:
         - export DEPLOYPATH=/home/zaribfnz/public_html/
-        -  /bin/cp -R -f css $DEPLOYPATH
-        -  /bin/cp -R -f images $DEPLOYPATH
-        -  /bin/cp -R -f js $DEPLOYPATH
-        -  /bin/cp -R -f static $DEPLOYPATH
-        -  /bin/cp -f asset-manifest.json $DEPLOYPATH
-        -  /bin/cp -f favicon.ico $DEPLOYPATH
-        -  /bin/cp -f index.html $DEPLOYPATH
-        -  /bin/cp -f manifest.json $DEPLOYPATH
-        -  /bin/cp -f resumeData.json $DEPLOYPATH
-        -  /bin/cp -f service-worker.js $DEPLOYPATH
+        -  /bin/cp -R -f build/css $DEPLOYPATH
+        -  /bin/cp -R -f build/images $DEPLOYPATH
+        -  /bin/cp -R -f build/js $DEPLOYPATH
+        -  /bin/cp -R -f build/static $DEPLOYPATH
+        -  /bin/cp -f build/asset-manifest.json $DEPLOYPATH
+        -  /bin/cp -f build/favicon.ico $DEPLOYPATH
+        -  /bin/cp -f build/index.html $DEPLOYPATH
+        -  /bin/cp -f build/manifest.json $DEPLOYPATH
+        -  /bin/cp -f build/resumeData.json $DEPLOYPATH
+        -  /bin/cp -f build/service-worker.js $DEPLOYPATH
     
