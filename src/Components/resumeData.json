@@ -4,7 +4,7 @@
     "name":"Vadim Zaripov",
     "occupation":"Full-Stack Developer with main focus on modern frontend/backend technologies",
     "description":"who is very passionate about Software Developement especially with Technologies based on JVM",
-    "image":"profilepic.jpeg",
+    "image":"images/profilepic.jpeg",
     "bio":"I'm the kind of person who wants to learn something new all the time. I like surfing (on the Eisbach river as well), boxing and music. I am very cooperative and open person. Discipline and willingness to work hard characterize me. ",
     "contactmessage":"Feel free to ping me if you want get in touch or find me on social media.",
     "email": "vadim@zaripov.website",
@@ -38,7 +38,7 @@
       }
     ]
   },
-  "resume":{
+  "resume": {
     "skillmessage":"Gernerally I'm always open to learn some new technologies.",
     "education":[
       {
@@ -51,7 +51,7 @@
         "school":"Apprenticeship at BMW plant in Munich",
         "degree":"Production mechanic",
         "graduated":"February 2016",
-        "description":"Basics of various processes for machining metal, Fabrication of unmachined blanks into workpieces, Turning and milling, Introduction to assembly technology, Quality control and ensuring adequate assembly of workpieces, Execution of various work steps in the assembly process, Peculiarities of different specialist areas such as assembly or engine construction"
+        "description":"Basics of various processes for machining metal, Fabrication of unmachined blanks into workpieces, Turning and milling, Introduction to assembly technology, Quality control and ensuring adequate assembly of workpieces, Execution of various work steps in the assembly process, Peculiarities of different specialist areas such as assembly or engine construction."
       }
     ],
     "work":[
@@ -59,32 +59,40 @@
         "company":"Senacor Technologies AG",
         "title":"Software Developer",
         "years":"February 2021 - Present",
-        "description":""
+        "description": "Backend developement of a modern employee enterprise plattform."
       },
       {
-        "company":"AUSY Technologies Germany AG",
-        "title":"Fullstack Software Developer",
-        "years":"Mai 2020 - February 2021",
-        "description":""
+        "company": "AUSY Technologies Germany AG",
+        "title": "Software Developer",
+        "years": "Mai 2020 - February 2021",
+        "description": "Fullstack developent of a DWH Application."
       },
       {
-        "company":"ESG Mobility GmbH",
-        "title":"Software Developer",
-        "years":"June 2018 - March 2020",
-        "description":""
+        "company" :"ESG Mobility GmbH",
+        "title": "Software Developer",
+        "years": "June 2018 - March 2020",
+        "description": "Working as a working student on various projects."
       }
     ],
     "skills":[
       {
-        "name":"Kotlin, Java (Spring, Micronaut)",
+        "name":"Agile working - Certified SCRUM Master",
+        "level":"100%"
+      },
+      {
+        "name":"Kotlin, Java - Spring, Micronaut",
         "level":"70%"
       },
       {
-        "name":"React",
+        "name":"Git",
+        "level":"70%"
+      },
+      {
+        "name":"JavaScript - Angular, Vue, Svelte, React, Next.js",
         "level":"60%"
       },
       {
-        "name":"GCP",
+        "name":"DevOps, Cloud - GCP, AWS",
         "level":"50%"
       }
     ]

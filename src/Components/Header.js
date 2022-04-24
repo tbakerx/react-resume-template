@@ -1,19 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
+import data from './resumeData.json';
 
-class Header extends Component {
-  render() {
-
-    if(this.props.data){
-      var name = this.props.data.name;
-      var occupation= this.props.data.occupation;
-      var description= this.props.data.description;
-      var city= this.props.data.city;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
-    }
-
-    return (
+const Header = () => {
+   return (
       <header id="home">
 
       <nav id="nav-wrap">
@@ -31,11 +20,15 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">Hello, I am {name}.</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h1 className="responsive-headline">Hello, I am {data.main.name}.</h1>
+            <h3>I'm a {data.main.city} based <span>{data.main.occupation}</span>. {data.main.description}.</h3>
             <hr />
             <ul className="social">
-               {networks}
+               {
+                  data.main.social.map(({name, url, className}) => (
+                     <li key={name}><a href={url}><i className={className}></i></a></li>
+                  ))
+               }
             </ul>
          </div>
       </div>
@@ -45,8 +38,7 @@ class Header extends Component {
       </p>
 
    </header>
-    );
-  }
+   );
 }
 
 export default Header;

@@ -1,36 +1,29 @@
-import React, { Component } from 'react';
+import React from 'react';
+import data from './resumeData.json';
 
-class Footer extends Component {
-  currDate = new Date().getFullYear();
-
-  render() {
-
-    if(this.props.data){
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
-    }
-
-    return (
-      <footer>
-
-     <div className="row">
+const Footer = () => {
+  const currDate = new Date().getFullYear();
+  return (
+    <footer>
+      <div className="row">
         <div className="twelve columns">
-           <ul className="social-links">
-              {networks}
-           </ul>
+          <ul className="social-links">
+            {
+              data.main.social.map(({ name, url, className }) => (
+                <li key={name}><a href={url}><i className={className}></i></a></li>
+              ))
+            }
+          </ul>
 
-           <ul className="copyright">
-              <li>&copy; Copyright {this.currDate} Vadim Zaripov</li>
-              <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-           </ul>
-
+          <ul className="copyright">
+            <li>&copy; Copyright {currDate} Vadim Zaripov</li>
+            <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+          </ul>
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
-     </div>
-  </footer>
-    );
-  }
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;
