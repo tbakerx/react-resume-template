@@ -1,51 +1,42 @@
 {
   "main": {
-    "name": "Tim Baker",
-    "occupation": "(Your Occupation Here)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name": "Brendan Frisby",
+    "occupation": "aspiring Software Engineer and UI/UX designer",
+    "description": "My passions are Fitness, Reading, and Tech",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio": "I'm a recent General Assembly Software Engineering Cohort graduate looking to find work in a related field. I'm a big nerd when it comes to reading, I've read countless non-fiction books over the years on topics I enjoy. I've also been passionate about Fitness/Health for about 12 years.",
+    "contactmessage": "Reach Out via Phone, Email, or Form Below. I'd love to hear from you!",
+    "email": "bfrisbyh92@gmail.com",
+    "email2": "bfrisby92@proton.me",
+    "phone": "571-291-5188",
     "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street": "1114 N Stuart St",
+      "city": "Arlington",
+      "state": "Virginia",
+      "zip": "22207"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "website": "http://brendanfrisby.com",
+    "resumedownload": "http://brendanfrisby.com",
     "social": [
       {
         "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
+        "url": "https://www.facebook.com/BrendanFriz/",
         "className": "fa fa-facebook"
       },
       {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/brendanfrisby",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "github",
-        "url": "http://github.com/tbakerx",
+        "url": "http://github.com/bfrisbyh92",
         "className": "fa fa-github"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "Javascript, Python, HTML, and CSS are my focus. I'm familiar with a wide variety of Javascript libraries, CSS frameworks and UI/UX design kits.",
     "education": [
       {
         "school": "University?",
@@ -76,32 +67,40 @@
     ],
     "skills": [
       {
-        "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Illustrator",
-        "level": "55%"
-      },
-      {
         "name": "ReactJs",
         "level": "50%"
       },
       {
+        "name": "Git",
+        "level": "80%"
+      },
+      {
+        "name": "Material-UI/Bootstrap",
+        "level": "70%"
+      },
+      {
+        "name": "Node.js/NPM",
+        "level": "70%"
+      },
+      {
         "name": "CSS",
-        "level": "90%"
+        "level": "70%"
       },
       {
         "name": "HTML5",
         "level": "80%"
       },
       {
-        "name": "VueJs",
-        "level": "50%"
-      },
-      {
         "name": "MongoDB",
         "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "20%"
+      },
+      {
+        "name": "WordPress",
+        "level": "40%"
       }
     ]
   },
