@@ -27,9 +27,6 @@ const nextConfig = {
   strictMode: true,
   swcMinify: true,
   trailingSlash: false,
-  images: {
-    domains: ['api.mapbox.com'],
-  },
 };
 
 module.exports = nextConfig;
