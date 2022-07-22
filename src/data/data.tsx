@@ -1,5 +1,10 @@
 import {DownloadIcon} from '@heroicons/react/outline';
 
+import GithubIcon from '../components/Icon/GithubIcon';
+import InstagramIcon from '../components/Icon/InstagramIcon';
+import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.jpg';
 import {ContactItem, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, Stat, TimelineItem} from './dataDef';
 
@@ -37,7 +42,20 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
 export const heroData: Hero = {
   imageSrc: heroImage,
   name: `I'm Tim Baker.`,
-  description: <></>,
+  description: (
+    <>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
+        registrar and site builder.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
+        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">Vancouver Island</strong>.
+      </p>
+    </>
+  ),
   actions: [
     {
       href: '/assets/resume.pdf',
@@ -81,4 +99,10 @@ export const contactItems: ContactItem[] = [];
 /**
  * Social items
  */
-export const socialLinks: Social[] = [];
+export const socialLinks: Social[] = [
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+];
