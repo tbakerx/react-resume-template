@@ -1,4 +1,12 @@
-import {DownloadIcon} from '@heroicons/react/outline';
+import {
+  AcademicCapIcon,
+  CalendarIcon,
+  DownloadIcon,
+  FlagIcon,
+  MapIcon,
+  OfficeBuildingIcon,
+  SparklesIcon,
+} from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
@@ -6,7 +14,8 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.jpg';
-import {ContactItem, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, Stat, TimelineItem} from './dataDef';
+import profilepic from '../images/profilepic.jpg';
+import {About, ContactItem, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, Stat, TimelineItem} from './dataDef';
 
 /**
  * Page meta data
@@ -27,6 +36,7 @@ export const homePageMeta: HomepageMeta = {
  */
 export const SectionId = {
   Hero: 'hero',
+  About: 'about',
   Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
@@ -68,6 +78,24 @@ export const heroData: Hero = {
       text: 'Contact',
       primary: false,
     },
+  ],
+};
+
+/**
+ * About section
+ */
+export const aboutData: About = {
+  profileImageSrc: profilepic,
+  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
+  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
+  in.`,
+  aboutItems: [
+    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
+    {label: 'Age', text: '29', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
   ],
 };
 

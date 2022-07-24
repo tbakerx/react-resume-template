@@ -3,11 +3,11 @@ import {FC, memo} from 'react';
 
 import {SectionId} from '../../data/data';
 
-const Section: FC<{sectionId: SectionId; sectionTitle?: string; noPadding?: boolean}> = memo(
-  ({children, sectionId, noPadding = false}) => {
+const Section: FC<{sectionId: SectionId; sectionTitle?: string; noPadding?: boolean; className?: string}> = memo(
+  ({children, sectionId, noPadding = false, className}) => {
     return (
-      <section className={classNames({'p-4 md:p-8': !noPadding})} id={sectionId}>
-        {children}
+      <section className={classNames(className, {'px-4 py-16 md:py-24 lg:px-8': !noPadding})} id={sectionId}>
+        <div className={classNames({'mx-auto max-w-screen-lg': !noPadding})}>{children}</div>
       </section>
     );
   },

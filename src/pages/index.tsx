@@ -1,6 +1,7 @@
 import {FC, memo} from 'react';
 
 import Page from '../components/Layout/Page';
+import About from '../components/Sections/About';
 import Hero from '../components/Sections/Hero';
 
 const Home: FC = memo(() => {
@@ -10,6 +11,7 @@ const Home: FC = memo(() => {
   return (
     <Page description={description} title={title}>
       <Hero />
+      <About />
     </Page>
   );
 });

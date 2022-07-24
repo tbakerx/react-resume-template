@@ -34,6 +34,21 @@ interface HeroActionItem {
 }
 
 /**
+ * About section
+ */
+export interface About {
+  profileImageSrc?: string;
+  description: string;
+  aboutItems: AboutItem[];
+}
+
+export interface AboutItem {
+  label: string;
+  text: string;
+  Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+}
+
+/**
  * Stat section
  */
 export interface Stat {
