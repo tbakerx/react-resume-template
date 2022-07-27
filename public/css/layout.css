@@ -10,7 +10,7 @@
    b. Header Styles
    c. About Section
    d. Resume Section
-   e. Portfolio Section
+   e. website Section
    f. Call To Action Section
    g. Testimonials Section
    h. Contact Section
@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -261,11 +261,6 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
-}
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -290,10 +285,6 @@ ul#nav li.current a { color: #F06000; }
 	float: left;
 	padding: 0;
 	text-align: left;
-}
-.bars .skills {
-  	margin-top: 36px;
-   list-style: none;
 }
 .bars li {
    position: relative;
@@ -413,15 +404,15 @@ ul#nav li.current a { color: #F06000; }
 }  */
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* e. website Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
+#website {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
 }
-#portfolio h1 {
+#website h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
@@ -430,9 +421,9 @@ ul#nav li.current a { color: #F06000; }
    color: #95A3A3;
 }
 
-/* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
-.portfolio-item .item-wrap {
+/* website Content */
+#website-wrapper .columns { margin-bottom: 36px; }
+.website-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
@@ -443,13 +434,13 @@ ul#nav li.current a { color: #F06000; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.portfolio-item .item-wrap a {
+.website-item .item-wrap a {
    display: block;
    cursor: pointer;
 }
 
 /* overlay */
-.portfolio-item .item-wrap .overlay {
+.website-item .item-wrap .overlay {
    position: absolute;
    left: 0;
    top: 0;
@@ -467,7 +458,7 @@ ul#nav li.current a { color: #F06000; }
 
    background: url(../images/overlay-bg.png) repeat;
 }
-.portfolio-item .item-wrap .link-icon {
+.website-item .item-wrap .link-icon {
    display: block;
    color: #fff;
    height: 30px;
@@ -491,27 +482,27 @@ ul#nav li.current a { color: #F06000; }
    margin-left: -15px;
    margin-top: -15px;
 }
-.portfolio-item .item-wrap img {
+.website-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
-.portfolio-item .portfolio-item-meta h5 {
+.website-item .website-item-meta { padding: 18px }
+.website-item .website-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
 }
-.portfolio-item .portfolio-item-meta p {
+.website-item .website-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
 
 /* on hover */
-.portfolio-item:hover .overlay {
+.website-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
-.portfolio-item:hover .link-icon {
+.website-item:hover .link-icon {
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
@@ -645,7 +636,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(https://images.pexels.com/photos/2881229/pexels-photo-2881229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
