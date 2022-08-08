@@ -3,6 +3,7 @@ import {FC, memo} from 'react';
 import Page from '../components/Layout/Page';
 import About from '../components/Sections/About';
 import Hero from '../components/Sections/Hero';
+import Resume from '../components/Sections/Resume';
 
 const Home: FC = memo(() => {
   const title = 'React Resume Template';
@@ -12,6 +13,7 @@ const Home: FC = memo(() => {
     <Page description={description} title={title}>
       <Hero />
       <About />
+      <Resume />
     </Page>
   );
 });
