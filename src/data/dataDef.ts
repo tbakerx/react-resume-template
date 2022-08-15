@@ -77,16 +77,10 @@ export interface SkillGroup {
  */
 export interface PortfolioItem {
   title: string;
-  category: {
-    name: PortfolioCategory;
-    url: string;
-  };
   description: string;
   url: string;
   imageUrl: string;
 }
-
-type PortfolioCategory = 'Tool' | 'App' | 'Service';
 
 /**
  * Resume section
