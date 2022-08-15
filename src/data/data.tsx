@@ -181,7 +181,14 @@ export const skills: SkillGroup[] = [
 /**
  * Portfolio section
  */
-export const portfolioItems: PortfolioItem[] = [];
+export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'Test project',
+    description: 'This is a test project',
+    url: 'https://timbaker.me',
+    imageUrl: 'https://source.unsplash.com/random/',
+  },
+];
 
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
