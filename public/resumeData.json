@@ -1,94 +1,118 @@
 {
   "main": {
     "name": "Irene",
+    "completename": "Irene Orienti",
+    "nationality" : "italian",
     "occupation": "SW Developer",
-    "description": "potential employer",
-    "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "description": "Sw developer",
+    "image": "profile-pic.png",
+    "bio": [
+      "I am Open Minded   Proactive   Loyable and Reliable",
+      "I am looking for a dynamic environment that meets the values I believe in the most: TeamWorking & Play to WIN with Integrity & Respect",
+      "Available to travel occasionally",
+      " ... ",
+      "Born July 1979, married, 3 childrens and a dog",
+      "My time is for family, dog too, MuayThai and Surf",
+      "Life philosophy Buenas Vibras",
+      " ... ",
+      "2005 - Inventor of European Patent No. 05425500.5-"
+
+    ],
+    "contactmessage": "Open for work Hybrid or Remotely",
+    "email": "Airin79@gmail.com",
+    "phone": "+39 328 199 5086",
+    "phonees": "+34 643 189 481",
     "address": {
-      "city": "(Alicante)",
-      "state": "España"
+      "city": "Alicante",
+      "state": "España",
+      "zip": "03540"
     },
-    "website": "http://www.irene.orienti.me",
-    "resumedownload": "http://timbakerdev.com",
+    "website": "http://www.ireneorienti.me",
+    "resumedownload": "/assets/resume.pdf",
     "social": [
       {
         "name": "linkedin",
-        "url": "www.linkedin.com/in/irene-orienti",
+        "url": "http://www.linkedin.com/in/irene-orienti",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
+        "name": "github",
+        "url": "https://github.com/airin79",
+        "className": "fa fa-github"
       },
       {
-        "name": "github",
-        "url": "http://github.com/tbakerx",
-        "className": "fa fa-github"
+        "name": "mail",
+        "url": "mailto:airin79@gmail.com",
+        "className": "fa fa-envelope"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "SW developer since the very beginning with 20+ years of C# C++ .Net in stand alone applications on Microsoft SQL Server databases and currently getting fun with the WEB using JS React Entity Framework and GraphQL",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Computer Science",
+        "degree": "60/60 (full marks)",
+        "graduated": "July 1998 I.T.I.S Galilei jesi IT"
+      }      
+    ],
+    "language": [
+      {
+        "lang": "🇮🇹 Italian",
+        "level": "mother tongue"
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
+        "lang": "🇬🇧 English",
+        "level": "advanced written & spoken"
+      },
+      {
+        "lang": "🇪🇸 Español",
+        "level": "only matter of time (living in Spain) 😊"
+      }      
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Whirlpool spa",
+        "title": "Senior SW Developer",
+        "years": "July 2014 - Present",
+        "description": "working in the Electronic Department Responsible for an internal strategic Tool that allows to configure and personalize appliance software Project scheduling, Requirements, Analysis Define processes and tools best suited to each need, working Customer oriented for the common Mission Responsible for defining the best practices and the best processes among different appliance electronic organizations within the company; Responsible for leading the standardization of processes, taking the Best of Best and defining standards. Company Ambassador : Responsible for creating a positive and productive work environment Active member of the Engagement Team, organizing Team Building activities to keep people engaged & committed."
+     },
+      {
+        "company": "Indesit Company spa",
+        "title": "Junior SW Developer",
+        "years": "March 2000 - July 2014",
+        "description": "started as a software developer and Project Manager later, working from Concept through Delivery in the Research & Innovation department Worked cross-functionally in collecting data, analyzing scenarios and patterns, defining requirements and developing algorithms applications in the field of Preventive Maintenance and Early Fault Discovery Worked cross-functionally in collecting data, analyzing scenarios and patterns, defining requirements and developing algorithms applications for IoT Designs, programs, codes, develops, tests, documents, build/install, debugs, and performs analysis on software Requirements analysis and project scheduling Responsible for many ‘Fields Tests’ projects Responsible for  HW and SW Suppliers engagement Responsible for European Funded projects Responsible for End-of-Line test applications in Factories."
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Reale Mutua Ass.ni spa",
+        "title": "Director Assistant 1999 - Jesi (AN)",
+        "years": "Sept. 1999 - March 2000",
+        "description": "Director Assistant and accountant."
       }
     ],
     "skills": [
       {
-        "name": "Git",
-        "level": "60%"
+        "name": "C++ and C#",
+        "level": "85%"
       },
       {
-        "name": "Illustrator",
-        "level": "55%"
+        "name": ".NET framework",
+        "level": "75%"
       },
       {
-        "name": "ReactJs",
+        "name": "JavaScript and React",
         "level": "50%"
       },
       {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "VueJs",
+        "name": "HTML5 and CSS",
         "level": "50%"
       },
       {
-        "name": "MongoDB",
+        "name": "Entity Framework and GraphQL",
+        "level": "25%"
+      },
+      {
+        "name": "SQL databases",
         "level": "80%"
       }
     ]
@@ -96,46 +120,31 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Simon says",
+        "category": "My very first JS application",
+        "image": "simon-says.jpeg",
+        "url": "add url"
       }
+     
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
+        "text": "2020 - Above and Beyond - keep the ‘spirit of Winning’",
+        "user": "My department Manager"
       },
       {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "Irene demonstrated to Play to Win  since she is  strongly  supporting the Setting File team to improve editor and processes. Irene is impacting indirect improvement on Product Quality through her behavior and positive result on this",
+        "user": "2020 - From Washing Machine electronic board department Manager - Play to Win"
+      },
+      {
+        "text": "You are someone who has inspired extraordinary performance in others at Whirlpool",
+        "user": "2019 - my supervisor - director of SW Tools area"
+      },
+      {
+        "text": "People Excellence recognition",
+        "user": "2018 - Whirlpool spa"
       }
     ]
   }

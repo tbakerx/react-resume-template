@@ -1,5 +1,5 @@
 const siteConfig = {
-  showContact: true
+  showContact: false
 };
 
 export default siteConfig;
