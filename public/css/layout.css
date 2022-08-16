@@ -45,7 +45,7 @@ header:before {
    content: '';
    display: inline-block;
    vertical-align: middle;
-   height: 100%;
+   height: 45%;
 }
 header .banner {
    display: inline-block;
