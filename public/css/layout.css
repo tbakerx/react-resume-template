@@ -268,8 +268,12 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 1px solid #E8E8E8;
 }
 
+.work-description{
+   padding: 0 30px;
+}
+
 .language {
-   line-height: 0.5;
+   line-height: 1.2;
 }
 
 
@@ -315,17 +319,17 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 8px;
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 12px 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+	top: -22px;
 }
 .bar-expand {
    position: absolute;
@@ -336,8 +340,8 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 8px;
+   line-height: 8px;
    border-radius: 3px 0 0 3px;
 }
 
