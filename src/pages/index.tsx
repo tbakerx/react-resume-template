@@ -5,6 +5,7 @@ import About from '../components/Sections/About';
 import Hero from '../components/Sections/Hero';
 import Portfolio from '../components/Sections/Portfolio';
 import Resume from '../components/Sections/Resume';
+import Testimonials from '../components/Sections/Testimonials';
 
 const Home: FC = memo(() => {
   const title = 'React Resume Template';
@@ -16,6 +17,7 @@ const Home: FC = memo(() => {
       <About />
       <Resume />
       <Portfolio />
+      <Testimonials />
     </Page>
   );
 });
