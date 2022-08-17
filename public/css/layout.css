@@ -49,12 +49,15 @@ header:before {
 }
 header .banner {
    display: inline-block;
-   vertical-align: middle;
+   vertical-align: bottom;
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;
    text-align: center;
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 2em;
 }
+
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
@@ -262,19 +265,26 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
+.h3-resume{
+   margin-top: 12px;
+}
+
 .education, .language, .work, .skills {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;   
+   border-bottom: 1px solid #E8E8E8; 
+   text-align: left;  
 }
 
 .work-description{
-   padding: 0 2px;
+   
+   text-align: left;
 }
 
 .work-description-row{
    margin: 12px 5px;
-   line-height: 1.4;   
+   line-height: 1.4;
+   text-align: justify;      
 }
 
 .language {
@@ -287,6 +297,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .bolder{
+   font-size: 50;
    font-weight: bolder;
 }
 
@@ -305,6 +316,25 @@ ul#nav li.current a { color: #F06000; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+
+
+.recognition-p{
+   margin-bottom: 0;
+ 
+}
+
+.recognition-pic{
+   padding-top: 0;
+   width: 350px;
+
+   transition: transform 3s; /* Animation */
+}
+
+.recognition-pic:hover{
+   width: 850px;
+}
+
+
 
 /*----------------------------------------------*/
 /*	Skill Bars

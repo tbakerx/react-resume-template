@@ -20,12 +20,16 @@ class About extends Component {
       <section id="about">
         <div className="row">
           <div className="three columns">
-            <img className="profile-pic" src={profilePic} alt="Irene Profile" />
+            <img
+              className="profile-pic"
+              src={profilePic}
+              alt="ire-profile-img"
+            />
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            {bio && bio.map((row) => <p>{row}</p>)}
+            {bio && bio.map((row) => <p className="bolder">{row}</p>)}
 
             <div className="row">
               <div className="columns contact-details">

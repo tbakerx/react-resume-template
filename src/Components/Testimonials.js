@@ -9,7 +9,7 @@ class Testimonials extends Component {
         return (
           <li key={testimonials.user}>
             <blockquote>
-              <p>{testimonials.text}</p>
+              <p className="recognition-p">{testimonials.text}</p>
               <img
                 className="recognition-pic"
                 src={testimonials.img}
