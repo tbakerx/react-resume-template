@@ -20,7 +20,7 @@ class Resume extends Component {
 
       var language = this.props.data.language.map(function (language) {
         return (
-          <div key={language.language}>
+          <div key={language.lang}>
             <p>
               <span>
                 <span className="bolder">{language.lang}</span> &bull;{" "}
@@ -39,8 +39,8 @@ class Resume extends Component {
               {work.title}
               <span>&bull;</span> <em className="date">{work.years}</em>
             </p>
-            {work.description.map((row) => (
-              <p key={row.index} className="work-description-row">
+            {work.description.map((row, idx) => (
+              <p key={idx} className="work-description-row">
                 {row}
               </p>
             ))}
