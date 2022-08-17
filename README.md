@@ -1,7 +1,6 @@
-# React JS Resume Web App Template      
+## This is my personal resume - developed while learning the React JS technology
 ![ReactJS Resume Website Template](resume-screenshot.png?raw=true "ReactJS Resume Website Template")
+### www.ireneorienti.me
 ### <a href="https://ireneorienti.me/">LIVE DEMO</a> 
 ## Credits
-### Forked from (https://github.com/tbakerx/react-resume-template)
-#### This is my first React JS Resume - developed while learning the React technology
-### www.ireneorienti.me
+## Forked from (https://github.com/tbakerx/react-resume-template)
