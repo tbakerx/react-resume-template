@@ -202,7 +202,7 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 12px;
 }
 #about p {
-   line-height: 25px;
+   line-height: 18px;
    margin-bottom: 20px;
    color: #7A7A7A;
 }
@@ -253,7 +253,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume h1 span {
    border-bottom: 1px solid #11ABB0;
-   padding-bottom: 6px;
+   padding-bottom: 2px;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
@@ -262,14 +262,19 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .language, .work {
+.education, .language, .work, .skills {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   border-bottom: 1px solid #E8E8E8;   
 }
 
 .work-description{
-   padding: 0 30px;
+   padding: 0 2px;
+}
+
+.work-description-row{
+   margin: 12px 5px;
+   line-height: 1.4;   
 }
 
 .language {

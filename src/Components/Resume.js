@@ -13,7 +13,7 @@ class Resume extends Component {
               {education.degree} <span>&bull; </span>
               <em className="date">{education.graduated}</em>
             </p>
-            <p>{education.description}</p>
+            <p className="work-description">{education.description}</p>
           </div>
         );
       });
@@ -30,6 +30,7 @@ class Resume extends Component {
           </div>
         );
       });
+
       var work = this.props.data.work.map(function (work) {
         return (
           <div key={work.company}>
@@ -38,10 +39,15 @@ class Resume extends Component {
               {work.title}
               <span>&bull;</span> <em className="date">{work.years}</em>
             </p>
-            <p className="work-description">{work.description}</p>
+            {work.description.map((row) => (
+              <p key={row.index} className="work-description-row">
+                {row}
+              </p>
+            ))}
           </div>
         );
       });
+
       var skills = this.props.data.skills.map(function (skills) {
         var className = "bar-expand " + skills.name.toLowerCase();
         return (

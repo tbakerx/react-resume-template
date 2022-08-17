@@ -16,7 +16,6 @@
       "Life philosophy Buenas Vibras",
       " ... ",
       "2005 - Inventor of European Patent No. 05425500.5-"
-
     ],
     "contactmessage": "Open for work Hybrid or Remotely",
     "email": "Airin79@gmail.com",
@@ -70,24 +69,52 @@
         "level": "only matter of time (living in Spain) 😊"
       }      
     ],
+
+
+    "bio": [
+      "I am Open Minded   Proactive   Loyable and Reliable",
+      "I am looking for a dynamic environment that meets the values I believe in the most: TeamWorking & Play to WIN with Integrity & Respect",
+      "Available to travel occasionally",
+      " ... ",
+      "Born July 1979, married, 3 childrens and a dog",
+      "My time is for family, dog too, MuayThai and Surf",
+      "Life philosophy Buenas Vibras",
+      " ... ",
+      "2005 - Inventor of European Patent No. 05425500.5-"
+    ],
+
     "work": [
       {
         "company": "Whirlpool spa",
         "title": "Senior SW Developer",
         "years": "July 2014 - Present",
-        "description": "working in the Electronic Department Responsible for an internal strategic Tool that allows to configure and personalize appliance software Project scheduling, Requirements, Analysis Define processes and tools best suited to each need, working Customer oriented for the common Mission Responsible for defining the best practices and the best processes among different appliance electronic organizations within the company; Responsible for leading the standardization of processes, taking the Best of Best and defining standards. Company Ambassador : Responsible for creating a positive and productive work environment Active member of the Engagement Team, organizing Team Building activities to keep people engaged & committed."
+        "description": [
+        "I am responsible for the Electronic Department internal strategic tool to configure and personalize appliance software.",
+        "I am defining processes, Requirements, Analysis of data and tools to best suit to each need,", 
+        "Responsible for standardizing the best practices and the best processes among different cross appliances electronic organizations", 
+        "Leading the standardization of processes, taking the Best of Best and defining standards. Working Customer oriented for the common Mission.",
+        "Plus : Company Ambassador : Responsible for creating a positive and productive work environment as an active member of the Engagement Team, organizing Team Building activities to keep people engaged and committed."
+      ]
      },
       {
         "company": "Indesit Company spa",
         "title": "Junior SW Developer",
         "years": "March 2000 - July 2014",
-        "description": "started as a software developer and Project Manager later, working from Concept through Delivery in the Research & Innovation department Worked cross-functionally in collecting data, analyzing scenarios and patterns, defining requirements and developing algorithms applications in the field of Preventive Maintenance and Early Fault Discovery Worked cross-functionally in collecting data, analyzing scenarios and patterns, defining requirements and developing algorithms applications for IoT Designs, programs, codes, develops, tests, documents, build/install, debugs, and performs analysis on software Requirements analysis and project scheduling Responsible for many ‘Fields Tests’ projects Responsible for  HW and SW Suppliers engagement Responsible for European Funded projects Responsible for End-of-Line test applications in Factories."
+        "description": [
+        "Started as a software developer and gathering experience also in Project Management, my role is various and reach of activities",
+        "Working from Concept through delivery in the Research & Innovation department ",
+        "Working cross-functionally in collecting data, analyzing scenarios and patterns, defining requirements and developing algorithms applications in the field of -preventive maintenance- and -early Fault discovery",
+        "IoT Designs, coding and testing, documenting, build/install, performing analysis on software Requirements ",
+        "Responsible for -Fields Tests- projects",
+        "Responsible for HW and SW Suppliers engagement Responsible for European Funded projects ",
+        "Responsible for End-of-Line test applications in Factories."
+        ]
       },
       {
         "company": "Reale Mutua Ass.ni spa",
         "title": "Director Assistant 1999 - Jesi (AN)",
         "years": "Sept. 1999 - March 2000",
-        "description": "Director Assistant and accountant."
+        "description": ["Director Assistant and accountant."]
       }
     ],
     "skills": [
@@ -132,19 +159,23 @@
     "testimonials": [
       {
         "text": "2020 - Above and Beyond - keep the ‘spirit of Winning’",
-        "user": "My department Manager"
+        "user": "My department Manager",
+        "img": "images/recognition001.png"
       },
       {
         "text": "Irene demonstrated to Play to Win  since she is  strongly  supporting the Setting File team to improve editor and processes. Irene is impacting indirect improvement on Product Quality through her behavior and positive result on this",
-        "user": "2020 - From Washing Machine electronic board department Manager - Play to Win"
+        "user": "2020 - From Washing Machine electronic board department Manager - Play to Win",
+        "img": ""
       },
       {
         "text": "You are someone who has inspired extraordinary performance in others at Whirlpool",
-        "user": "2019 - my supervisor - director of SW Tools area"
+        "user": "2019 - my supervisor - director of SW Tools area",
+        "img": "images/recognition003.png"
       },
       {
         "text": "People Excellence recognition",
-        "user": "2018 - Whirlpool spa"
+        "user": "2018 - Whirlpool spa",
+        "img": "images/recognition004.png"
       }
     ]
   }
