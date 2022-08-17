@@ -13,9 +13,21 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.jpg';
+import heroImage from '../images/header-background.webp';
 import profilepic from '../images/profilepic.jpg';
-import {About, ContactItem, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, Stat, TimelineItem} from './dataDef';
+import testimonialImage from '../images/testimonial.webp';
+import {
+  About,
+  ContactItem,
+  Hero,
+  HomepageMeta,
+  PortfolioItem,
+  SkillGroup,
+  Social,
+  Stat,
+  TestimonialSection,
+  TimelineItem,
+} from './dataDef';
 
 /**
  * Page meta data
@@ -42,6 +54,7 @@ export const SectionId = {
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
+  Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -232,6 +245,30 @@ export const experience: TimelineItem[] = [
     ),
   },
 ];
+
+/**
+ * Testimonial section
+ */
+export const testimonial: TestimonialSection = {
+  imageSrc: testimonialImage,
+  testimonials: [
+    {
+      name: 'John Doe',
+      text: 'Here you should write some nice things that someone has said about you. No lies though, people can tell when you are lying.',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+    },
+    {
+      name: 'Jane Doe',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet.',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+    },
+    {
+      name: 'Someone else',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    },
+  ],
+};
 
 /**
  * Contact section
