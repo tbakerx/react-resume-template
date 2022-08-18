@@ -1,5 +1,3 @@
-import React, { Component } from "react";
-
 const Resume = (props) => {
   if (!props.data) return <p></p>;
 
