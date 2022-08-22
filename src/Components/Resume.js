@@ -33,6 +33,7 @@ const Resume = (props) => {
     return (
       <div key={work.company}>
         <h3 className="h3-resume">{work.company}</h3>
+
         <p className="info work-description">
           {work.title}
           <span>&bull;</span> <em className="date">{work.years}</em>
