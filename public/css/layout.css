@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -122,6 +122,20 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
+.language-selector {
+   appearance: none;
+   background-color: transparent;
+   border: none;
+   font-size: 24px;
+   border: none;
+   min-width: 40px;
+   max-width: 40px;
+   width: 40px;
+   padding: 0;
+   text-align: center;
+}
+
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -183,7 +197,6 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
-
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -319,13 +332,14 @@ ul#nav li.current a { color: #F06000; }
 
 
 .recognition-p{
-   margin-bottom: 0;
- 
+   margin-bottom: 0;   
 }
 
 .recognition-pic{
    padding-top: 0;
-   width: 350px;
+   width: 350px;   
+   border: 10px solid rgb(2, 2, 2);
+   padding: 3px;
 
    transition: transform 3s; /* Animation */
 }

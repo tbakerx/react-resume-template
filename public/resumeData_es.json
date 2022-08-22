@@ -1,0 +1,168 @@
+{
+  "main": {
+    "name": "Soy Irene",
+    "completename": "Irene Orienti",
+    "occupation": "desarrolladora de código, italiana y vivo en Alicante (España)",
+    "image": "profile-pic.png",
+    "bio": [
+      "Soy :  Open Minded   Proactiva  leal y confiable",
+      "Busco un ambiente dinámico que cumpla con los valores en los que más creo: Equipo con meta común, integridad y respeto",
+      "Disponible para viajar ocasionalmente",
+      " ... ",
+      "Nacida julio 1979, casada, 3 hijos y perro",
+      "Mi tiempo libre es para la familia, el perro también, muay thai y surf",
+      "Filosofía de vida Buenas Vibras",
+      " ... ",
+      "2005 - Inventor de la Patente Europea No. 05425500.5-"
+    ],
+    "contactmessage": "Disponible para trabajar híbrido o remoto",
+    "email": "Airin79@gmail.com",
+    "phone": "+39 328 199 5086",
+    "phonees": "+34 643 189 481",
+    "address": {
+      "city": "Alicante",
+      "state": "España",
+      "zip": "03540"
+    },
+    "website": "http://www.ireneorienti.me",
+    "resumedownload": "/assets/resume.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "http://www.linkedin.com/in/irene-orienti",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/airin79",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "mail",
+        "url": "mailto:airin79@gmail.com",
+        "className": "fa fa-envelope"
+      }
+    ]    
+  },
+  "resume": {
+    "skillmessage": "Desarrolladora de SW desde el principio con más de 20 años de C# C++ .Net en desktop y bases de datos de Microsoft SQL Server y actualmente me divierto aprendendo el WEB usando JS React Entity Framework y GraphQL",
+    "educationtitle" : "Cualificación",
+    "education": [
+      {
+        "school": "Experto Técnico Informático",
+        "degree": "60/60 (máxima puntuación)",
+        "graduated": "Julio 1998 I.T.I.S Galilei Jesi IT"
+      }      
+    ],
+    "languagetitle" : "Idiomas",
+    "language": [
+      {
+        "lang": "🇮🇹 Italiano",
+        "level": "lengua materna"
+      },
+      {
+        "lang": "🇬🇧 English",
+        "level": "Avanzado escrito y hablado"
+      },
+      {
+        "lang": "🇪🇸 Español",
+        "level": "poco a poco ... solo cuestion de tiempo (viviendo en españa) 😊"
+      }      
+    ],
+    "work": [
+      {
+        "company": "Whirlpool spa",
+        "title": "Senior SW Developer",
+        "years": "Julio 2014 - actual",
+        "description": [
+        "Soy responsable de el software estratégico interno del Departamento de Electrónica para configurar y personalizar el software de los electrodomésticos",
+        "Defino procesos, requisitos, análisis de datos y sw cue es mejor a cada necesidad", 
+        "Líder de estandarizar las mejores prácticas y los mejores procesos entre diferentes organizaciones electrónicas de la empresa", 
+        "Plus: Embajador de la empresa: Responsable de crear un ambiente de trabajo positivo y productivo como miembro activo del Engagement Team, organizando actividades de equipo para mantener los empleados involucrados y comprometidos."
+      ]
+     },
+      {
+        "company": "Indesit Company spa",
+        "title": "Junior SW Developer",
+        "years": "Marzo 2000 - Julio 2014",
+        "description": [
+        "Empecé como desarrollador de software y también adquirí experiencia en la gestión de proyectos, mi función es variada",
+        "Trabajo desde la nuova idea y el concepto hasta el prototipo en el departamento de Innovación",
+        "Trabajo transversal en la recopilación de datos, el análisis de escenarios, la definición de requisitos y el desarrollo de algoritmos en el campo del mantenimiento preventivo y el descubrimiento temprano de fallas.",
+        "IoT Diseños, codificación y pruebas, documentación, construcción/instalación, análisis de requisitos de software",
+        "Responsable de proyectos -Fields Tests",
+        "Responsable de proveedores de HW y SW", 
+        "Responsable de proyectos financiados con fondos europeos",
+        "Responsable de aplicaciones de pruebas de Fin de Línea en fábricas"
+        ]
+      },
+      {
+        "company": "Reale Mutua Ass.ni spa",
+        "title": "Asistente de director 1999 - Jesi (AN)",
+        "years": "Septiembre. 1999 - Marzo 2000",
+        "description": ["Asistente de director y contadora."]
+      }
+    ],
+    "skills": [
+      {
+        "name": "C++ y C#",
+        "level": "85%"
+      },
+      {
+        "name": ".NET framework",
+        "level": "75%"
+      },
+      {
+        "name": "JavaScript y React",
+        "level": "50%"
+      },
+      {
+        "name": "HTML5 y CSS",
+        "level": "50%"
+      },
+      {
+        "name": "Entity Framework y GraphQL",
+        "level": "25%"
+      },
+      {
+        "name": "SQL databases",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Simon says",
+        "category": "Mi primer codigo",
+        "image": "simon-says.jpeg",
+        "url": "add url"
+      }
+     
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "2020 - Above and Beyond - keep the ‘spirit of Winning’",
+        "user": "My department Manager",
+        "img": "images/recognition001.png"
+      },
+      {
+        "text": "Irene demonstrated to Play to Win  since she is  strongly  supporting the Setting File team to improve editor and processes. Irene is impacting indirect improvement on Product Quality through her behavior and positive result on this",
+        "user": "2020 - From Washing Machine electronic board department Manager - Play to Win",
+        "img": ""
+      },
+      {
+        "text": "You are someone who has inspired extraordinary performance in others at Whirlpool",
+        "user": "2019 - my supervisor - director of SW Tools area",
+        "img": "images/recognition003.png"
+      },
+      {
+        "text": "People Excellence recognition",
+        "user": "2018 - Whirlpool spa",
+        "img": "images/recognition004.png"
+      }
+    ]
+  }
+}

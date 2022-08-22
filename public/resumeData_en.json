@@ -1,10 +1,7 @@
 {
   "main": {
-    "name": "Irene",
-    "completename": "Irene Orienti",
-    "nationality" : "italian",
-    "occupation": "SW Developer",
-    "description": "Sw developer",
+    "name": "I'm Irene",
+    "occupation": "I'm an italian SW Developer based in Alicante (España)",
     "image": "profile-pic.png",
     "bio": [
       "I am Open Minded   Proactive   Loyable and Reliable",
@@ -44,17 +41,19 @@
         "url": "mailto:airin79@gmail.com",
         "className": "fa fa-envelope"
       }
-    ]
+    ]    
   },
   "resume": {
     "skillmessage": "SW developer since the very beginning with 20+ years of C# C++ .Net in stand alone applications on Microsoft SQL Server databases and currently getting fun with the WEB using JS React Entity Framework and GraphQL",
+    "educationtitle" : "Education",
     "education": [
       {
         "school": "Computer Science",
         "degree": "60/60 (full marks)",
-        "graduated": "July 1998 I.T.I.S Galilei jesi IT"
+        "graduated": "July 1998 I.T.I.S Galilei Jesi IT"
       }      
     ],
+    "languagetitle" : "Languages",
     "language": [
       {
         "lang": "🇮🇹 Italian",
@@ -69,20 +68,6 @@
         "level": "only matter of time (living in Spain) 😊"
       }      
     ],
-
-
-    "bio": [
-      "I am Open Minded   Proactive   Loyable and Reliable",
-      "I am looking for a dynamic environment that meets the values I believe in the most: TeamWorking & Play to WIN with Integrity & Respect",
-      "Available to travel occasionally",
-      " ... ",
-      "Born July 1979, married, 3 childrens and a dog",
-      "My time is for family, dog too, MuayThai and Surf",
-      "Life philosophy Buenas Vibras",
-      " ... ",
-      "2005 - Inventor of European Patent No. 05425500.5-"
-    ],
-
     "work": [
       {
         "company": "Whirlpool spa",

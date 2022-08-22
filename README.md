@@ -4,3 +4,10 @@
 ### <a href="https://ireneorienti.me/">LIVE DEMO</a> 
 ## Credits
 ## Forked from (https://github.com/tbakerx/react-resume-template)
+## ---
+## ---
+## ---
+## Added from original 
+## From class to function components
+## Language section added
+##

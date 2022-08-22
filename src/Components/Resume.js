@@ -1,6 +1,7 @@
 const Resume = (props) => {
   if (!props.data) return <p></p>;
 
+  const educationtitle = props.data.educationtitle;
   const education = props.data.education.map(function (education) {
     return (
       <div key={education.school}>
@@ -14,6 +15,7 @@ const Resume = (props) => {
     );
   });
 
+  const languagetitle = props.data.languagetitle;
   const language = props.data.language.map(function (language) {
     return (
       <div key={language.lang}>
@@ -60,7 +62,7 @@ const Resume = (props) => {
       <div className="row education">
         <div className="three columns header-col">
           <h1>
-            <span>Education</span>
+            <span>{educationtitle}</span>
           </h1>
         </div>
 
@@ -74,7 +76,7 @@ const Resume = (props) => {
       <div className="row language">
         <div className="three columns header-col">
           <h1>
-            <span>Language</span>
+            <span>{languagetitle}</span>
           </h1>
         </div>
 

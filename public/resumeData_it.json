@@ -1,0 +1,168 @@
+{
+  "main": {
+    "name": "Sono Irene",
+    "occupation": "sviluppatrice di codice italiana che vive in Alicante (España)",
+    "image": "profile-pic.png",
+    "bio": [
+      "sono Open Minded   Proattiva   Affidabile  Leale",
+      "Sto cercando un ambiente dinamico che rispecchi i valori in cui credo fermamente : TeamWorking & Play to WIN, Integrità & Rispetto",
+      "Disponibile per viaggi occasionali",
+      " ... ",
+      "Nata Luglio 1979, sposata, 3 figli e cane",
+      "Il tempo libero è tutto per la famiglia, cane compreso, MuayThai e Surf",
+      "Filosofia di vita Good Vibes",
+      " ... ",
+      "2005 - Inventore del Brevetto Europeo Patent No. 05425500.5-"
+    ],
+    "contactmessage": "Disponibile per modalità di lavoro Hybrid o Remoto",
+    "email": "Airin79@gmail.com",
+    "phone": "+39 328 199 5086",
+    "phonees": "+34 643 189 481",
+    "address": {
+      "city": "Alicante",
+      "state": "España",
+      "zip": "03540"
+    },
+    "website": "http://www.ireneorienti.me",
+    "resumedownload": "/assets/resume.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "http://www.linkedin.com/in/irene-orienti",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/airin79",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "mail",
+        "url": "mailto:airin79@gmail.com",
+        "className": "fa fa-envelope"
+      }
+    ]    
+  },
+  "resume": {
+    "educationtitle" : "Titolo di studio",
+    "education": [
+      {
+        "school": "Diploma di perito industriale tecnico INFORMATICO",
+        "degree": "60/60 (pieni voti)",
+        "graduated": "Luglio 1998 I.T.I.S Galilei Jesi IT"
+      }      
+    ],
+    "languagetitle" : "Lingue",
+    "language": [
+      {
+        "lang": "🇮🇹 Italiano",
+        "level": "madre lingua"
+      },
+      {
+        "lang": "🇬🇧 Inglese",
+        "level": "avanzato scritto e parlato"
+      },
+      {
+        "lang": "🇪🇸 Spagnolo",
+        "level": "solo questione di tempo (vivo in Spagna) 😊"
+      }      
+    ],
+    "work": [
+      {
+        "company": "Whirlpool spa",
+        "title": "Senior SW Developer",
+        "years": "Luglio 2014 ad oggi",
+        "description": [
+        "Responsabile del tool strategico aziendale interno per la configurazione e personalizzazione degli elettrodomestici",
+        "Mi occupo della scritttura del codice ma anche di definizione processi, requisiti, analisi dati e strumenti che meglio si adattano alle situazioni da affrontare",
+        "Leader della standardizzazione dei processi e metodologie tra le varie organizzazioni cross-elettrodomestico", 
+        "Metodo di lavoro Customer oriented per raggiungere i traguardi aziendali comuni ai differenti dipartimenti",
+        "Plus : Company Ambassador : Responsibile della creazione e mantenimento di un ambiente positivo e produttivo sono membro attivo dell Engagement Team, organizzo attività di Team Building con lo scopo di mantenere committment e motivazione aziendale tra i dipendenti"
+      ]
+     },
+      {
+        "company": "Indesit Company spa",
+        "title": "Junior SW Developer",
+        "years": "Marzo 2000 - Luglio 2014",
+        "description": [
+        "Inizio la carriera come software developer e qualche anno dopo includo il Project Management, con un ruolo vario e ricco di attività e responsabilità",
+        "Nel dipartimento Ricerca ed Innovazione sono resposabile di progetti di innovazione, dalla idea iniziale fino allo sviluppo di prototipi e Field Test",
+        "Data collection, analisi di pattern, definizione requisiti e sviluppo di algoritmo nel campo della manutenzione preventiva e riconoscimento fault",
+        "IoT Designs, coding and testing, documenting, build/install, performing analysis on software Requirements ",
+        "Responsibile di progetti -Fields Tests- nelle case degli utenti americani, inglesi ed italiani",
+        "Responsibile della gestione di fornitori HW e SW",
+        "Responsibile di progetti europei (finanziamenti aziendali) ",
+        "Responsibile di test End-of-Line nelle linee di produzione"
+        ]
+      },
+      {
+        "company": "Reale Mutua Ass.ni spa",
+        "title": "Assistente personale 1999 - Jesi (AN)",
+        "years": "Settembre 1999 - Marzo 2000",
+        "description": ["Assistente personale del direttore e segretaria."]
+      }
+    ],
+    "skillmessage": "Sviluppatrice SW dal 2000 con piu di 20anni di C# C++ .Net in applicazioni desktop stand alone e Microsoft SQL Server databases ed al momento mi sto divertendo con il  WEB con JS React Entity Framework e GraphQL",
+    "skills": [
+      {
+        "name": "C++ and C#",
+        "level": "85%"
+      },
+      {
+        "name": ".NET framework",
+        "level": "75%"
+      },
+      {
+        "name": "JavaScript and React",
+        "level": "50%"
+      },
+      {
+        "name": "HTML5 and CSS",
+        "level": "50%"
+      },
+      {
+        "name": "Entity Framework and GraphQL",
+        "level": "25%"
+      },
+      {
+        "name": "SQL databases",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Simon says",
+        "category": "La mia prima applicazione JavaScript",
+        "image": "simon-says.jpeg",
+        "url": "add url"
+      }
+     
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "2020 - Above and Beyond - keep the ‘spirit of Winning’",
+        "user": "dal mio Manager",
+        "img": "images/recognition001.png"
+      },
+      {
+        "text": "Irene demonstrated to Play to Win  since she is  strongly  supporting the Setting File team to improve editor and processes. Irene is impacting indirect improvement on Product Quality through her behavior and positive result on this",
+        "user": "2020 - Dal manager del dipartimento elettronico lavatrici - Play to Win",
+        "img": ""
+      },
+      {
+        "text": "You are someone who has inspired extraordinary performance in others at Whirlpool",
+        "user": "2019 - il mip supervisore - direttore area SW",
+        "img": "images/recognition003.png"
+      },
+      {
+        "text": "People Excellence recognition",
+        "user": "2018 - recognition aziendale Whirlpool spa",
+        "img": "images/recognition004.png"
+      }
+    ]
+  }
+}

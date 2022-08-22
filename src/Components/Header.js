@@ -1,9 +1,10 @@
+import { useRef } from "react";
 import siteConfig from "../site-config";
 
 const Header = (props) => {
   if (!props.data) return <p></p>;
-  const { name, nationality, occupation } = props.data;
-  const { city, state } = props.data.address;
+  const { name, occupation } = props.data;
+  const langRef = useRef();
 
   const networks = props.data.social.map(function (network) {
     return (
@@ -14,6 +15,10 @@ const Header = (props) => {
       </li>
     );
   });
+
+  const langSelectHandler = (event) => {
+    props.onSetLang(langRef.current.value);
+  };
 
   return (
     <header id="home">
@@ -53,15 +58,32 @@ const Header = (props) => {
               </a>
             </li>
           )}
+          <li>
+            <a>
+              {props.languages.length > 1 && (
+                <select
+                  className="language-selector"
+                  value={props.lang}
+                  onChange={langSelectHandler}
+                  ref={langRef}
+                >
+                  {props.languages.map((lang, idx) => (
+                    <option className={lang} value={lang} key={lang}>
+                      {props.flags[idx]}
+                    </option>
+                  ))}
+                </select>
+              )}
+            </a>
+          </li>
         </ul>
       </nav>
 
       <div className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">I'm {name}</h1>
+          <h1 className="responsive-headline">{name}</h1>
           <h3>
-            I'm an {nationality}
-            <span> {occupation}</span> based in {city} ({state})
+            <span> {occupation}</span>
           </h3>
           <hr />
           <ul className="social">{networks}</ul>

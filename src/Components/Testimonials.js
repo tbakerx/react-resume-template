@@ -6,11 +6,14 @@ const Testimonials = (props) => {
       <li key={testimonials.user}>
         <blockquote>
           <p className="recognition-p">{testimonials.text}</p>
-          <img
-            className="recognition-pic"
-            src={testimonials.img}
-            alt="recognition-img"
-          />
+
+          {testimonials.img && (
+            <img
+              className="recognition-pic"
+              src={testimonials.img}
+              alt="recognition-img"
+            />
+          )}
           <cite>{testimonials.user}</cite>
         </blockquote>
       </li>
