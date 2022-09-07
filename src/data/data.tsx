@@ -25,7 +25,6 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
-  Stat,
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
@@ -114,11 +113,6 @@ export const aboutData: About = {
 };
 
 /**
- * Stat section
- */
-export const stats: Stat[] = [];
-
-/**
  * Skills section
  */
 export const skills: SkillGroup[] = [
@@ -197,8 +191,8 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Test project',
-    description: 'This is a test project',
+    title: 'Project title',
+    description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
     imageUrl: 'https://source.unsplash.com/random/',
   },
@@ -255,17 +249,17 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'John Doe',
-      text: 'Here you should write some nice things that someone has said about you. No lies though, people can tell when you are lying.',
+      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
       name: 'Jane Doe',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet.',
+      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
       name: 'Someone else',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et',
+      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
