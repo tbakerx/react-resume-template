@@ -1,0 +1,74 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "simple-import-sort", "import", "react", "react-memo", "react-hooks"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@next/next/recommended",
+    "prettier"
+  ],
+  "ignorePatterns": ["*/public", "*/node_modules/*", "*/.next/*", "*/dist/*"],
+  "rules": {
+    "react/display-name": "off",
+    // The next two rules should be errors. But for now we"ll leave them as warnings since this will take a while
+    "react-memo/require-usememo": "error",
+    "react-memo/require-memo": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/member-ordering": [
+      "warn",
+      {
+        "interfaces": ["signature", "method", "constructor", "field"],
+        "typeLiterals": ["signature", "method", "constructor", "field"]
+      }
+    ],
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "import/order": "off",
+    "no-irregular-whitespace": "off",
+    "@typescript-eslint/no-unused-vars": ["warn", {"argsIgnorePattern": "^_"}],
+    "object-curly-spacing": ["error", "never"],
+    "react/jsx-curly-brace-presence": [2, "never"],
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-sort-props": "error",
+    "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": "off",
+    "simple-import-sort/exports": "error",
+    "simple-import-sort/imports": "error",
+    "sort-imports": "off",
+    "jsx-a11y/no-onchange": "off",
+    "jsx-a11y/no-autofocus": "off",
+    "@next/next/no-img-element": "off"
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.tsx"],
+      "rules": {
+        "react/prop-types": "off"
+      }
+    },
+    {
+      "files": ["**/*.js"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off"
+      }
+    }
+  ]
+}
