@@ -194,7 +194,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Project title',
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
-    imageUrl: 'https://source.unsplash.com/random/',
+    imageUrl: 'https://source.unsplash.com/collection/51517718/',
   },
 ];
 

@@ -17,7 +17,7 @@ const Portfolio: FC = memo(() => {
   ].map((item, idx) => {
     const {imageUrl, ...rest} = item;
     // Simply a seed value for unsplash random image
-    return {imageUrl: `${imageUrl}${idx}`, ...rest};
+    return {imageUrl: `${imageUrl}?sig=${idx}`, ...rest};
   });
 
   return (
