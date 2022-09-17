@@ -44,14 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Tim Baker',
-  description: ``,
-  ogImageUrl: ``,
-  twitterCardType: 'summary_large',
-  twitterSite: `@timbakerx`,
-  twitterCreator: `@timbakerx`,
-  twitterDomain: `reactresume.com`,
-  twitterUrl: `https://reactresume.com`,
+  title: 'React Resume Template',
+  description: "Example site built with Tim Baker's react resume template",
 };
 
 /**

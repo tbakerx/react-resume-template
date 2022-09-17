@@ -3,12 +3,9 @@ import Head from 'next/head';
 import {useRouter} from 'next/router';
 import {memo} from 'react';
 
-interface PageProps {
-  title: string;
-  description: string;
-}
+import {HomepageMeta} from '../../data/dataDef';
 
-const Page: NextPage<PageProps> = memo(({children, title, description}) => {
+const Page: NextPage<HomepageMeta> = memo(({children, title, description}) => {
   const {asPath: pathname} = useRouter();
 
   return (

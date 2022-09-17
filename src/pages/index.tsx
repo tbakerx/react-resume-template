@@ -9,14 +9,13 @@ import Hero from '../components/Sections/Hero';
 import Portfolio from '../components/Sections/Portfolio';
 import Resume from '../components/Sections/Resume';
 import Testimonials from '../components/Sections/Testimonials';
+import {homePageMeta} from '../data/data';
 
 // eslint-disable-next-line react-memo/require-memo
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
 
 const Home: FC = memo(() => {
-  const title = 'React Resume Template';
-  const description = "Example site built with Tim Baker's react resume template";
-
+  const {title, description} = homePageMeta;
   return (
     <Page description={description} title={title}>
       <Header />
