@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+src/components/Sections/Testimonials.tsx.OLD
+ 
 # testing
 /coverage
 
