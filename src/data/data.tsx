@@ -119,15 +119,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Terraform',
-        level: 7,
-      },
-      {
-        name: 'Docker',
         level: 8,
       },
       {
+        name: 'Docker',
+        level: 9,
+      },
+      {
         name: 'Kubernetes',
-        level: 6,
+        level: 8,
       },
     ],
   },
@@ -170,11 +170,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Gitlab',
-        level: 7,
+        level: 8,
       },
       {
         name: 'GitHub Actions',
-        level: 6,
+        level: 8,
       },
     ],
   },
