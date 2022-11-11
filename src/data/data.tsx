@@ -1,7 +1,6 @@
 import {
-  AcademicCapIcon,
-  CalendarIcon,
   DownloadIcon,
+  CalendarIcon,
   FlagIcon,
   MapIcon,
   OfficeBuildingIcon,
@@ -13,7 +12,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/website_background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -25,7 +24,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/profilepic_tonytruong.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -44,8 +43,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Tony Truong - DevOps Ninja',
+  description: "The Personal website of Tony Truong",
 };
 
 /**
@@ -69,24 +68,23 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Tony Truong.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Vancouver based <strong className="text-stone-100">DevOps Engineer</strong>, currently working
+        at <strong className="text-stone-100">Rennie</strong> helping build out our cloud infrastructure, dockerized containers,
+	and CI/CD pipelines!
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you'll find me writing articles over at <strong className="text-stone-100">kaizendev.medium</strong>,
+         hanging out with my beautiful orange tabby <strong className="text-stone-100">Kaido</strong> or exploring beautiful{' '} <strong className="text-stone-100">Vancouver</strong>.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '../images/Tony_Truong_Resume_2.PDF',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -104,16 +102,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `DevOps Fanatic with a penchant to automate anything and everything — Terraform Nerd, Docker practitioner and self proclaimed AWS guru.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
+    {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Nationality', text: 'Canadian / Vietnamese', Icon: FlagIcon},
+    {label: 'Interests', text: 'Gaming, Anime, food, ', Icon: SparklesIcon},
+    {label: 'Employment', text: 'Rennie', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -129,12 +124,8 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        name: 'Vietnamese',
+        level: 8,
       },
     ],
   },
@@ -143,14 +134,10 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 6,
       },
       {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
+        name: 'Nextjs',
         level: 6,
       },
     ],
@@ -160,11 +147,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 7,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Ruby',
+        level: 6,
       },
       {
         name: 'Golang',
@@ -198,74 +185,74 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'http://localhost:3000',
     image: porfolioImage1,
   },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'http://localhost:3000',
     image: porfolioImage2,
   },
   {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'http://localhost:3000',
     image: porfolioImage3,
   },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'http://localhost:3000',
     image: porfolioImage4,
   },
   {
     title: 'Project title 5',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'http://localhost:3000',
     image: porfolioImage5,
   },
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'http://localhost:3000',
     image: porfolioImage6,
   },
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'http://localhost:3000',
     image: porfolioImage7,
   },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'http://localhost:3000',
     image: porfolioImage8,
   },
   {
     title: 'Project title 9',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'http://localhost:3000',
     image: porfolioImage9,
   },
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'http://localhost:3000',
     image: porfolioImage10,
   },
   {
     title: 'Project title 11',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'http://localhost:3000',
     image: porfolioImage11,
   },
 ];
 
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
- */
+ *
 export const education: TimelineItem[] = [
   {
     date: 'April 2007',
@@ -280,6 +267,8 @@ export const education: TimelineItem[] = [
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
+
+*/
 
 export const experience: TimelineItem[] = [
   {
