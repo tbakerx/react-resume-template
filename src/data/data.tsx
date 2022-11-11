@@ -115,15 +115,19 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Platform Engineering',
     skills: [
       {
-        name: 'English',
-        level: 10,
+        name: 'Terraform',
+        level: 7,
       },
       {
-        name: 'Vietnamese',
+        name: 'Docker',
         level: 8,
+      },
+      {
+        name: 'Kubernetes',
+        level: 6,
       },
     ],
   },
@@ -145,32 +149,32 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 7,
+        level: 6,
       },
       {
         name: 'Ruby',
         level: 6,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'Python',
+        level: 6,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'CICD Tooling',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'Jenkins',
+        level: 8,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Gitlab',
+        level: 7,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'GitHub Actions',
+        level: 6,
       },
     ],
   },
@@ -275,7 +279,7 @@ export const experience: TimelineItem[] = [
     title: 'DevOps Engineer',
     content: (
       <p>
-        placeholder
+        Lead DevOps Engineer focusing on mentoring our development team instilling the devops methodology. Building out our cloud instracture and containerized applications.
       </p>
     ),
   },
@@ -285,7 +289,8 @@ export const experience: TimelineItem[] = [
     title: 'DevOps Administrator',
     content: (
       <p>
-	placeholder
+	Custom Software Solutions company - The origin story you can say, where I was in the trenches of learning many different tech stacks depending on the
+	needs of the client. MERN, MEAN, MAVN or even PERL we had to think of how to maintain all of those different application stacks.
       </p>
     ),
   },
