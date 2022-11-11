@@ -1,4 +1,4 @@
-name: NodeJS with Webpack
+name: NodeJS & NextJS application
 
 on:
   push:
@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: |
         yarn install
-        npx webpack
+        yarn build
