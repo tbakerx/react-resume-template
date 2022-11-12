@@ -230,7 +230,7 @@ export const experience: TimelineItem[] = [
     title: 'DevOps Engineer',
     content: (
       <p>
-        Lead DevOps Engineer focusing on mentoring our development team instilling the devops methodology. Building out our cloud instracture and containerized applications.
+        DevOps Engineer focusing on mentoring our development team instilling the devops methodology. Building out our cloud instracture and containerized applications.
       </p>
     ),
   },
