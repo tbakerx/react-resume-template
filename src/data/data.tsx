@@ -14,9 +14,10 @@ import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/website_background.jpg';
 import porfolioImage1 from '../images/portfolio/medium_post1.png';
-import porfolioImage2 from '../images/portfolio/medium_post2.png';
+import porfolioImage2 from '../images/portfolio/medium_post2.2.png';
 import porfolioImage3 from '../images/portfolio/medium_post3.png';
 import porfolioImage4 from '../images/portfolio/medium_post4.png';
+import porfolioImage5 from '../images/portfolio/github_logo.png';
 import profilepic from '../images/profilepic_tonytruong.png';
 import {
   About,
@@ -200,6 +201,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: '5 Min Read',
     url: 'https://medium.com/p/a92a7fdba66',
     image: porfolioImage4,
+  },
+  {
+    title: 'Github - Tonytruong',
+    description: 'Personal Projects',
+    url: 'https://github.com/tonytruong101',
+    image: porfolioImage5,
   },
 ];
 
