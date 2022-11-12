@@ -1,10 +1,9 @@
 # React JS Resume Website Template
+Forked from tbakerx/react-resume-template
 
+## Changelog
 
-## Description
-
-
-## Make it Your Own!
+Added multi-stage docker build. Simply run `docker-compose up -d` in the root directory to start serve this app on `localhost:3000`
 
 ### 1. Make sure you have what you need
 
