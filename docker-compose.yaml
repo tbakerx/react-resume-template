@@ -1,0 +1,9 @@
+services:
+  frontend:
+    build:
+      context: .
+    container_name: frontend
+    ports:
+      - "3000:3000"
+
+
