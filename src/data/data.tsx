@@ -136,6 +136,10 @@ export const skills: SkillGroup[] = [
         name: 'Nextjs',
         level: 6,
       },
+      {
+        name: 'Javascript',
+        level: 6,
+      },
     ],
   },
   {
@@ -169,6 +173,23 @@ export const skills: SkillGroup[] = [
       {
         name: 'GitHub Actions',
         level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Database Management',
+    skills: [
+      {
+        name: 'Postgres',
+        level: 7,
+      },
+      {
+        name: 'Redis',
+        level: 7,
+      },
+      {
+        name: 'MongoDB',
+        level: 5,
       },
     ],
   },
@@ -237,7 +258,7 @@ export const experience: TimelineItem[] = [
     title: 'DevOps Engineer',
     content: (
       <p>
-        DevOps Engineer focusing on mentoring our development team instilling the devops methodology. Building out our cloud instracture and containerized applications.
+      DevOps Engineer focusing on mentoring our development team instilling the devops methodology. Building out our cloud instracture and containerized applications.
       </p>
     ),
   },
