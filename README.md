@@ -5,6 +5,40 @@ Forked from tbakerx/react-resume-template
 
 Added multi-stage docker build. Simply run `docker-compose up -d` in the root directory to start serve this app on `localhost:3000`
 
+```
+$ docker-compose up -d
+[+] Building 125.6s (17/18)
+ => [internal] load build definition from Dockerfile                                                                                                                                      0.1s
+ => => transferring dockerfile: 1.11kB                                                                                                                                                    0.0s 
+ => [internal] load .dockerignore                                                                                                                                                         0.0s 
+ => => transferring context: 2B                                                                                                                                                           0.0s 
+ => [internal] load metadata for docker.io/library/node:latest                                                                                                                          125.4s
+ => [internal] load build context                                                                                                                                                        12.8s
+ => => transferring context: 264.30MB                                                                                                                                                    12.7s 
+ => CACHED [stage-1 1/4] FROM docker.io/library/node:latest@sha256:6da4e30e3952e460fe4ad256e46a8b79acce46dd596bbe4ef882d5ec0d1ef6cb                                                       0.0s 
+ => CACHED [base  2/10] RUN mkdir /app                                                                                                                                                    0.0s
+ => CACHED [base  3/10] WORKDIR /app                                                                                                                                                      0.0s 
+ => CACHED [base  4/10] COPY package.json /app/package.json                                                                                                                               0.0s 
+ => CACHED [base  5/10] RUN yarn install                                                                                                                                                  0.0s 
+ => [base  6/10] COPY . /app                                                                                                                                                             17.7s
+ => [stage-1 2/4] COPY . ./app                                                                                                                                                           10.0s 
+ => [base  7/10] RUN apt-get install curl                                                                                                                                                 2.5s
+ => [base  8/10] RUN apt-get update &&     apt-get -y install sudo &&     apt-get -y install git &&     apt-get -y install vim &&     curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg  42.6s
+ => [base  9/10] RUN yarn lint --fix                                                                                                                                                      5.4s
+ => [base 10/10] RUN yarn build                                                                                                                                                          33.0s
+ => [stage-1 3/4] COPY --from=base ./app ./app                                                                                                                                            3.3s
+ => [stage-1 4/4] WORKDIR /app                                                                                                                                                            0.0s
+ => exporting to image                                                                                                                                                                    2.4s
+ => => exporting layers                                                                                                                                                                   2.3s
+ => => writing image sha256:71284ba7bd9720f0e70604f8bd5eac372d0e0920c071ce3bed54afb077f85a0c                                                                                              0.0s
+ => => naming to docker.io/library/react-resume-template-frontend                                                                                                                         0.0s
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+[+] Running 2/2
+ - Network react-resume-template_default  Created                                                                                                                                         0.8s 
+ - Container frontend                     Starte
+```
+
 ### 1. Make sure you have what you need
 
 To build this website, you will need to have the latest stable versions of Node and Yarn downloaded and installed on your machine. If you don't already have them, you can get Node [here,](https://nodejs.org/en/download/) and Yarn [here.](https://yarnpkg.com/getting-started/install)
