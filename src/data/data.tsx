@@ -13,7 +13,8 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/website_background.jpg';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage1 from '../images/portfolio/medium_post1.png';
+import porfolioImage2 from '../images/portfolio/medium_post2.png'
 import profilepic from '../images/profilepic_tonytruong.png';
 import {
   About,
@@ -175,10 +176,16 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'http://localhost:3000',
+    title: 'ReactJS & Nginx in Docker',
+    description: '12 Min Read',
+    url: 'https://kaizendev.medium.com/devops-docker-series-local-dev-reactjs-nginx-setup-c7b55b8e3c7d',
     image: porfolioImage1,
+  },
+  {
+    title: 'Multiple Running Localhost Apps - A Reverse Proxy Story',
+    description: '5 Min Read',
+    url: 'https://kaizendev.medium.com/devops-docker-series-local-dev-reactjs-nginx-setup-c7b55b8e3c7d',
+    image: porfolioImage2,
   },
 ];
 
