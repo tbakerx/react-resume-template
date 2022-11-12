@@ -212,8 +212,8 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Jenkins Pipelines — Postgres, NodeJs & ReactJS',
-    description: '4 Min Read',
-    url: 'https://kaizendev.medium.com/devops-docker-series-local-dev-reactjs-nginx-setup-c7b55b8e3c7d',
+    description: '5 Min Read',
+    url: 'https://medium.com/p/520b773c8919',
     image: porfolioImage3,
   },
   {
