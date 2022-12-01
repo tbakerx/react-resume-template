@@ -12,10 +12,17 @@ export const headerID = 'headerNav';
 const Header: FC = memo(() => {
   const [currentSection, setCurrentSection] = useState<SectionId | null>(null);
   const navSections = useMemo(
+    () => [SectionId.About, SectionId.Resume, SectionId.Portfolio, SectionId.Contact],
+    [],
+  );
+/*
+const Header: FC = memo(() => {
+  const [currentSection, setCurrentSection] = useState<SectionId | null>(null);
+  const navSections = useMemo(
     () => [SectionId.About, SectionId.Resume, SectionId.Portfolio, SectionId.Testimonials, SectionId.Contact],
     [],
   );
-
+*/
   const intersectionHandler = useCallback((section: SectionId | null) => {
     section && setCurrentSection(section);
   }, []);
@@ -33,8 +40,8 @@ const Header: FC = memo(() => {
 const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}> = memo(
   ({navSections, currentSection}) => {
     const baseClass =
-      '-m-1.5 p-1.5 rounded-md font-bold first-letter:uppercase hover:transition-colors hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 sm:hover:text-orange-500 text-neutral-100';
-    const activeClass = classNames(baseClass, 'text-orange-500');
+      '-m-1.5 p-1.5 rounded-md font-bold first-letter:uppercase hover:transition-colors hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 sm:hover:text-teal-500 text-neutral-100';
+    const activeClass = classNames(baseClass, 'text-teal-500');
     const inactiveClass = classNames(baseClass, 'text-neutral-100');
     return (
       <header className="fixed top-0 z-50 hidden w-full bg-neutral-900/50 p-4 backdrop-blur sm:block" id={headerID}>
@@ -63,14 +70,14 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
     }, [isOpen]);
 
     const baseClass =
-      'p-2 rounded-md first-letter:uppercase transition-colors duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500';
+      'p-2 rounded-md first-letter:uppercase transition-colors duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500';
     const activeClass = classNames(baseClass, 'bg-neutral-900 text-white font-bold');
     const inactiveClass = classNames(baseClass, 'text-neutral-200 font-medium');
     return (
       <>
         <button
           aria-label="Menu Button"
-          className="fixed top-2 right-2 z-40 rounded-md bg-orange-500 p-2 ring-offset-gray-800/60 hover:bg-orange-400 focus:outline-none focus:ring-0 focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 sm:hidden"
+          className="fixed top-2 right-2 z-40 rounded-md bg-teal-500 p-2 ring-offset-gray-800/60 hover:bg-teal-400 focus:outline-none focus:ring-0 focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2 sm:hidden"
           onClick={toggleOpen}>
           <MenuAlt3Icon className="h-8 w-8 text-white" />
           <span className="sr-only">Open sidebar</span>
