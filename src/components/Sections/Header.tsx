@@ -2,12 +2,15 @@ import {Dialog, Transition} from '@headlessui/react';
 import {MenuAlt3Icon} from '@heroicons/react/outline';
 import classNames from 'classnames';
 import Link from 'next/link';
+
 import {FC, Fragment, memo, useCallback, useMemo, useState} from 'react';
 
 import {SectionId} from '../../data/data';
 import {useNavObserver} from '../../hooks/useNavObserver';
 
 export const headerID = 'headerNav';
+
+
 
 const Header: FC = memo(() => {
   const [currentSection, setCurrentSection] = useState<SectionId | null>(null);
@@ -39,6 +42,25 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
     return (
       <header className="fixed top-0 z-50 hidden w-full bg-neutral-900/50 p-4 backdrop-blur sm:block" id={headerID}>
         <nav className="flex justify-center gap-x-8">
+        
+     
+        <div className='container'>
+ 
+    
+      
+
+  
+    
+    <a href="#" className='navbar-brand'><h1 className="logo" >France Idéal Formations </h1></a>
+     
+    
+           
+       
+      
+      
+    </div>
+        
+        
           {navSections.map(section => (
             <NavItem
               activeClass={activeClass}
