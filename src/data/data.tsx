@@ -1,17 +1,15 @@
 import {
-  AcademicCapIcon,
-  CalendarIcon,
+ 
   DownloadIcon,
-  FlagIcon,
-  MapIcon,
-  OfficeBuildingIcon,
-  SparklesIcon,
+
+   
+  
 } from '@heroicons/react/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
+
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -34,18 +32,23 @@ import {
   Hero,
   HomepageMeta,
   PortfolioItem,
-  SkillGroup,
+  
   Social,
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
+import FacebookIcon from '../components/Icon/FacebookIcon';
+//import { type } from 'os';
+//import { text } from 'node:stream/consumers';
 
 /**
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: ' France Idéal Formations',
+
+  
+  description: "E-learnin language  web site for  ",
 };
 
 /**
@@ -69,25 +72,25 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
-  description: (
+  name: `France Idéal Formations`,
+  description: ( 
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+          <strong className="text-stone-100">Vous feriez partie de la communauté France Idéal Formations </strong>, en optant idéalement pour une leçon gratuite en Visio pour mieux découvrir le programme d’anglais qui correspond à vos objectifs. Votre formateur sera prêt à répondre à toutes vos questions durant cette première réunion
+      <strong className="text-stone-100"> pour mieux découvrir le programme d’anglais</strong>  qui correspond à vos objectifs. 
+        
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+      Votre formateur  <strong className="text-stone-100">sera prêt à répondre à toutes vos questions durant cette  </strong>
+        <strong className="text-stone-100">première</strong>{' '}
+        <strong className="text-stone-100">réunion.</strong>
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
+      href: '/assets/Programme-anglais-TOEIC.pdf',
+      text: 'Programme',
       primary: true,
       Icon: DownloadIcon,
     },
@@ -104,92 +107,19 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Formateur et traducteur doté d’une solide expérience professionnelle,
+           titulaire d’un Master II en Langues Étrangères Appliquées et un MBA en Marketing Management, Paris Business School.
+              Diplômé de l’École Nationale de Aviation Civile de Toulouse. Un parcours diversifié et une expertise vous aidant à maîtriser la langue anglaise
+  aussi bien au quotidien que dans un contexte professionnel répondant aux nombreuses situations que vous pourriez être amené(e) à vivre et en fonction de vos besoins : Voyage, Marketing, Management, Commerce, Aéronautique...`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    
   ],
 };
 
 /**
  * Skills section
  */
-export const skills: SkillGroup[] = [
-  {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
-    ],
-  },
-];
+
 
 /**
  * Portfolio section
@@ -266,45 +196,74 @@ export const portfolioItems: PortfolioItem[] = [
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
-export const education: TimelineItem[] = [
+export const education: TimelineItem []= [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '',
+    location: 'PROGRAMME',
+    title: '',
+    content: <p>Programme Anglais Débutant 
+    Révisez, renforcez et enrichissez vos connaissances en anglais ! 
+    Vous souhaitez vous familiariser avec la langue anglaise, perfectionner vos acquis ou booster votre fluidité à l’oral et à l’écrit,
+    découvrez le programme le mieux adapté à vos besoins.</p>,
+   
   },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-];
+  
+  
+]
 
-export const experience: TimelineItem[] = [
+
+export const experience: TimelineItem [] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: '',
+    location: 'UN PARCOURS ADAPTÉ À VOTRE NIVEAU ',
+    title: ' ',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+      La Formation Anglais Débutant, composé de 8 modules principaux ainsi que des séquences bien détaillées outre un atelier de conversation efficace et simple . Le programme vous aidera à maîtriser l’anglais rapidement et de façon assez soutenue. Au terme du programme, vous aurez une connaissance approfondie du vocabulaire et des structures grammaticales essentielles à une conversation courante en anglais.
+      </p>
+    ),
+    
+  },
+  {
+    date: '',
+    location: 'INTERACTIONS ET SUIVI TOUT AU LONG DE LA FORMATION',
+    title: ' ',
+    content: (
+      <p>
+      Un suivi qui vous permet d'identifier continuellement vos besoins à l’issue de chacune des séances et en matière d'accompagnement pédagogique et ainsi d'instaurer une meilleure relation entre l'apprenant et sa formation. Vous pourrez toujours échanger votre formateur sur le groupe WhatsApp afin de donner du sens aux apprentissages en assurant votre satisfaction. 
+      </p>
+    ),
+
+  },
+  
+  {
+    date: '',
+    location: 'HORAIRES FLEXIBLES',
+    title: '',
+    content: (
+      <p>
+       Peu importe votre emploi du temps, votre formateur s’adaptera en fonction de vos disponibilités pour vous simplifier la vie. Cours d’anglais en ligne, offerts le jour, le soir et le week-end.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: '',
+    location: ' UNE PRIORITE A L’INNOVATION',
+    title: ' ',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+     Si France Idéal Formations est un lieu de diffusion de savoir par excellence, elle est aussi celui du développement des compétences et des aptitudes. L’innovation dans les pratiques pédagogiques est au cœur des préoccupations de l’organisme pour répondre à cet enjeu. Cette stratégie brille par l’amélioration de l’offre de formation et des enseignements ainsi que l’innovation en matière d’enseignement et la multiplication des différents dispositifs numériques.
       </p>
     ),
+
   },
-];
+
+
+]
+  
+;
+
+
 
 /**
  * Testimonial section
@@ -313,19 +272,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Yves CORRADIN',
+      text: 'Formation très enrichissante; j’en suis satisfait',
+      image: '',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Jan-François MORILLE ',
+      text: 'Très bonne implication de Nadir, disponible et est patient, un atout indispendable pour moi. Merci à Nadir ',
+      image: '',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Florence URBAIN',
+      text: 'Formateur très pédagogue et encourageant tenant compte des contraintes professionnelles et s’adaptant à mes horaires. Je recommande vivement Nadir',
+      image: '',
     },
   ],
 };
@@ -335,29 +294,41 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: 'NOUS CONTACTER',
+  description: '',
   items: [
-    {
-      type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
-    },
+
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: '8 Bis rue Abel,75012 Paris',
+      href: 'https://goo.gl/maps/H5g2CdPz3sfhxBCo7',
     },
+    {
+      type: ContactType.Email,
+      text: 'nad.ben.braham@gmail.com ',
+      href: 'mailto:nad.ben.braham@gmail.com ',
+    },
+    
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@Nadir',
+      href: 'https://www.instagram.com/',
     },
+ 
     {
-      type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      type: ContactType.Phone,
+      text: '07 64 27 05 97',
+      href: 'https://www.whatsapp.com/',
     },
+   
+
+    
+      
+
+
+    
+
+    
   ],
 };
 
@@ -365,9 +336,10 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+  
+  
+  { label:'Facebook',Icon:FacebookIcon  ,href :'/ '},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/nadir-ben-braham-445666238/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'}
 ];
