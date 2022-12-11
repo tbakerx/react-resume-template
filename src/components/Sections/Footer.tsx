@@ -17,7 +17,7 @@ const Footer: FC = memo(() => (
       <div className="flex gap-x-4 text-neutral-500">
         <Socials />
       </div>
-      <span className="text-sm text-neutral-700">© Copyright 2022 Tim Baker</span>
+      <span className="text-sm text-neutral-700">Société immatriculée au R.C.S de Paris sous le numéro SIREN 895 340 511© Copyright 2022 </span>
     </div>
   </div>
 ));
