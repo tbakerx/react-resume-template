@@ -1,5 +1,6 @@
 import {FC, memo, useCallback, useMemo, useState} from 'react';
 
+
 interface FormData {
   name: string;
   email: string;
@@ -35,10 +36,39 @@ const ContactForm: FC = memo(() => {
       /**
        * This is a good starting point to wire up your form submission logic
        * */
-      console.log('Data to send: ', data);
+ // Get data from the form.
+ 
+  
+ // Send the data to the server in JSON format.
+const JSONdata = JSON.stringify(data)
+
+// API endpoint where we send form data.
+const endpoint = 'https://sheetdb.io/api/v1/rdop7h1ysdxyx'
+
+// Form the request for sending data to the server.
+const options = {
+  // The method is POST because we are sending data.
+  method: 'POST',
+  // Tell the server we're sending JSON.
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  // Body of the request is the JSON data we created above.
+  body: JSONdata,
+}
+
+// Send the form data to our forms API on Vercel and get a response.
+const response = await fetch(endpoint, options)
+
+// Get the response data from server as JSON.
+// If server returns the name submitted, that means the form works.
+const result = await response.json()
+alert(`thank you for you contact ${result.data}`)
+   
+        console.log('data to sent ', data);
     },
     [data],
-  );
+    );
 
   const inputClasses =
     'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
