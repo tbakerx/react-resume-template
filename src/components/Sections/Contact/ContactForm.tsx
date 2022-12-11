@@ -37,8 +37,6 @@ const ContactForm: FC = memo(() => {
        * This is a good starting point to wire up your form submission logic
        * */
  // Get data from the form.
- 
-  
  // Send the data to the server in JSON format.
 const JSONdata = JSON.stringify(data)
 
