@@ -1,5 +1,5 @@
 import {StaticImageData} from 'next/image';
-import {FC, SVGProps} from 'react';
+import {FC, ForwardRefExoticComponent, SVGProps} from 'react';
 
 import {IconProps} from '../components/Icon/Icon';
 
@@ -31,7 +31,7 @@ interface HeroActionItem {
   href: string;
   text: string;
   primary?: boolean;
-  Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
 }
 
 /**
@@ -46,7 +46,7 @@ export interface About {
 export interface AboutItem {
   label: string;
   text: string;
-  Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
 }
 
 /**
@@ -55,7 +55,7 @@ export interface AboutItem {
 export interface Stat {
   title: string;
   value: number;
-  Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
 }
 
 /**
@@ -136,7 +136,7 @@ export interface ContactItem {
 }
 
 export interface ContactValue {
-  Icon: FC<IconProps> | ((props: SVGProps<SVGSVGElement>) => JSX.Element);
+  Icon: FC<IconProps> | ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
   srLabel: string;
 }
 
