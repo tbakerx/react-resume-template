@@ -1,4 +1,4 @@
-import {DeviceMobileIcon, LocationMarkerIcon, MailIcon} from '@heroicons/react/outline';
+import {DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import {FC, memo} from 'react';
 
@@ -13,9 +13,9 @@ import Section from '../../Layout/Section';
 import ContactForm from './ContactForm';
 
 const ContactValueMap: Record<ContactType, ContactValue> = {
-  [ContactType.Email]: {Icon: MailIcon, srLabel: 'Email'},
-  [ContactType.Phone]: {Icon: DeviceMobileIcon, srLabel: 'Phone'},
-  [ContactType.Location]: {Icon: LocationMarkerIcon, srLabel: 'Location'},
+  [ContactType.Email]: {Icon: EnvelopeIcon, srLabel: 'Email'},
+  [ContactType.Phone]: {Icon: DevicePhoneMobileIcon, srLabel: 'Phone'},
+  [ContactType.Location]: {Icon: MapPinIcon, srLabel: 'Location'},
   [ContactType.Github]: {Icon: GithubIcon, srLabel: 'Github'},
   [ContactType.LinkedIn]: {Icon: LinkedInIcon, srLabel: 'LinkedIn'},
   [ContactType.Facebook]: {Icon: FacebookIcon, srLabel: 'Facebook'},
@@ -29,7 +29,7 @@ const Contact: FC = memo(() => {
     <Section className="bg-neutral-800" sectionId={SectionId.Contact}>
       <div className="flex flex-col gap-y-6">
         <div className="flex flex-col gap-6 md:flex-row md:items-center">
-          <MailIcon className="hidden h-16 w-16 text-white md:block" />
+          <EnvelopeIcon className="hidden h-16 w-16 text-white md:block" />
           <h2 className="text-2xl font-bold text-white">{headerText}</h2>
         </div>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">

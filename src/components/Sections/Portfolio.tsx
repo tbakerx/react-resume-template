@@ -1,4 +1,4 @@
-import {ExternalLinkIcon} from '@heroicons/react/outline';
+import {ArrowTopRightOnSquareIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 'react';
@@ -23,7 +23,7 @@ const Portfolio: FC = memo(() => {
                   className={classNames(
                     'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
                   )}>
-                  <Image alt={title} layout="responsive" placeholder="blur" src={image} />
+                  <Image alt={title} className="h-full w-full" placeholder="blur" src={image} />
                   <ItemOverlay item={item} />
                 </div>
               </div>
@@ -47,6 +47,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
     // Avoid hydration styling errors by setting mobile in useEffect
     if (isMobile) {
       setMobile(true);
+      console.log('mobile');
     }
   }, []);
   useDetectOutsideClick(linkRef, () => setShowOverlay(false));
@@ -73,11 +74,11 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
       ref={linkRef}
       target="_blank">
       <div className="relative h-full w-full p-4">
-        <div className="flex h-full w-full flex-col gap-y-2 overflow-y-auto">
+        <div className="flex h-full w-full flex-col gap-y-2 overflow-y-auto overscroll-contain">
           <h2 className="text-center font-bold text-white opacity-100">{title}</h2>
           <p className="text-xs text-white opacity-100 sm:text-sm">{description}</p>
         </div>
-        <ExternalLinkIcon className="absolute bottom-1 right-1 h-4 w-4 shrink-0 text-white sm:bottom-2 sm:right-2" />
+        <ArrowTopRightOnSquareIcon className="absolute bottom-1 right-1 h-4 w-4 shrink-0 text-white sm:bottom-2 sm:right-2" />
       </div>
     </a>
   );
