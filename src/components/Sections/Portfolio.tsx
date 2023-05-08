@@ -47,7 +47,6 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
     // Avoid hydration styling errors by setting mobile in useEffect
     if (isMobile) {
       setMobile(true);
-      console.log('mobile');
     }
   }, []);
   useDetectOutsideClick(linkRef, () => setShowOverlay(false));
