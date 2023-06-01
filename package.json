@@ -1,8 +1,11 @@
 {
+  "homepage": "https://zjosephpollock.com/",
   "name": "z-joseph-pollock-interactive-resume",
   "version": "2.0.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "yarn compile && yarn next build",
     "clean": "rm -rf build-tsc .next",
     "compile": "yarn run -T tsc --build --verbose",
@@ -45,6 +48,7 @@
     "eslint-plugin-react-native": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.23",
     "postcss-preset-env": "^8.3.2",
     "prettier": "^2.8.8",
