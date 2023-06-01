@@ -9,9 +9,9 @@ interface FormData {
 const ContactForm: FC = memo(() => {
   const defaultData = useMemo(
     () => ({
-      name: '',
-      email: '',
-      message: '',
+      name: 'Z. Joseph Pollock',
+      email: 'z.joseph.pollock@gmail.com',
+      message: 'Greetings from my Interactive Resume!',
     }),
     [],
   );
