@@ -1,21 +1,19 @@
 {
-  "homepage": "https://jpoll962.github.io/zjosephpollock-resume-website",
   "name": "z-joseph-pollock-interactive-resume",
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
     "build": "yarn compile && yarn next build",
     "clean": "rm -rf build-tsc .next",
     "compile": "yarn run -T tsc --build --verbose",
     "dev": "yarn compile && yarn next dev",
     "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
     "start": "yarn next start",
-    "sitemap": "yarn next-sitemap",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "sitemap": "yarn next-sitemap"
   },
+  "homepage": "https://zjosephpollock.com/",
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
