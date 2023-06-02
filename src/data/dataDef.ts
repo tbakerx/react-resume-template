@@ -79,7 +79,7 @@ export interface SkillGroup {
 export interface PortfolioItem {
   title: string;
   description: string;
-  url: string;
+  url?: string;
   image: string | StaticImageData;
 }
 
@@ -87,8 +87,8 @@ export interface PortfolioItem {
  * Resume section
  */
 export interface TimelineItem {
-  date: string;
-  location: string;
+  date?: string;
+  location?: string;
   title: string;
   content: JSX.Element;
 }

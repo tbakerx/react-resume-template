@@ -19,7 +19,7 @@ const Testimonials: FC = memo(() => {
 
   const {width} = useWindow();
 
-  const {imageSrc, testimonials} = testimonial;
+  const {imageSrc, testimonials = []} = testimonial;
 
   const resolveSrc = useMemo(() => {
     if (!imageSrc) return undefined;
