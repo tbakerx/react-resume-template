@@ -50,6 +50,7 @@ export const homePageMeta: HomepageMeta = {
 
 /**
  * Section definition
+ * Remove items from this object to delete the respective nav links
  */
 export const SectionId = {
   Hero: 'hero',
@@ -62,7 +63,7 @@ export const SectionId = {
   Testimonials: 'testimonials',
 } as const;
 
-export type SectionId = typeof SectionId[keyof typeof SectionId];
+export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 
 /**
  * Hero section
