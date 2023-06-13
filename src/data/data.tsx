@@ -14,17 +14,17 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage1 from '../images/portfolio/G120-Angle.png';
+import porfolioImage2 from '../images/portfolio/pngwing.com.png';
+import porfolioImage3 from '../images/portfolio/IMG_20190730_174301.jpg';
+import porfolioImage4 from '../images/portfolio/P_20141224_104128.jpg';
+import porfolioImage5 from '../images/portfolio/refreshable-Braille-display.png';
+// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/IMG_17002.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -85,8 +85,10 @@ meet specific deadlines.
   actions: [
     {
       //href: 'https://drive.google.com/file/d/1WCUL-6yPTkavEckD3zrple1Fw7o4rVti/view?usp=share_link',
-      href: 'https://drive.google.com/u/0/uc?id=1WCUL-6yPTkavEckD3zrple1Fw7o4rVti&export=download',
-      text: 'Curriculum Vitae',
+      //href: 'https://drive.google.com/u/0/uc?id=1WCUL-6yPTkavEckD3zrple1Fw7o4rVti&export=download',
+      href: 'https://drive.google.com/u/0/uc?id=1hJx97IL3oKnUkbyWNy6KdbKkCDmezkXj&export=download',
+      //text: 'Curriculum Vitae',
+      text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
     },
@@ -103,16 +105,22 @@ meet specific deadlines.
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
+  description: /*`Use this bio section as your way of describing yourself and saying what you do, what technologies you like
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  in.`*/
+  `Highly skilled professional with over 6 years of experience (3 years - vocational) of being an embedded software engineer.
+  Proven expertise in delivering high-quality solutions and identifying critical issues. Adept at designing and
+  implementing efficient test frameworks to streamline processes. Proficient in collaborating with
+  cross-functional teams and providing technical guidance. Strong problem-solving abilities and a keen eye
+  for detail. Seeking high-end tech roles to leverage skills and contribute to cutting-edge projects.`,
   aboutItems: [
-    {label: 'Location', text: 'Kochi, Kerala', Icon: MapIcon},
+    //{label: 'Location', text: 'Kochi, Kerala', Icon: MapIcon},
+    {label: 'Location', text: 'Scarborough, ON', Icon: MapIcon},
     {label: 'Age', text: '31', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
     {label: 'Interests', text: 'Meliponiculture, Driving', Icon: SparklesIcon},
     {label: 'Study', text: 'Mahatma Gandhi University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Gadgeon Systems Inc.', Icon: OfficeBuildingIcon},
+    {label: 'Employment', text: 'Thinkpalm Technologies', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -249,71 +257,71 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Driver Behavior Monitoring System',
+    description: 'Designed and developed self-learning algorithms for harsh acceleration/braking and tilt/rash turn using IMU. and convert it to a ready to use portable device',
+    url: 'https://github.com/bibinalias/Driver-Behaviour-Sensing.git',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Brushless DC Motor Driver',
+    description: "Incorporated a feedback system in the driver, ensuring operational stability and maximising the efficiency of the 'patented' Brushless DC Motor.",
+    url: '',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Smart Welding Glass',
+    description: "Designed eyeglass with Auto-Shutter Technology to safeguard the eyes from arc eye while also measuring the welder's efficiency, working time, welding time, and the number of welds completed per day.",
+    url: '',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
+    title: 'Touchscreen Web KIOSK',
+    description: "An Android touchscreen web kiosk was introduced for the students at Govt. Polytechnic College in Kothamangalam. This kiosk enabled them to access the respective website, www.tekerala.org, allowing them to easily find their profiles and obtain information about their academic status.",
     url: 'https://timbaker.me',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
+    title: 'Refreshable Braille Display',
+    description: 'Introduced a solution to enable blind individuals to access Portable Document Format (PDF) files by using braille characters for reading.',
     url: 'https://timbaker.me',
     image: porfolioImage5,
   },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
-  },
+  // {
+  //   title: 'Project title 6',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage6,
+  // },
+  // {
+  //   title: 'Project title 7',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage7,
+  // },
+  // {
+  //   title: 'Project title 8',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage8,
+  // },
+  // {
+  //   title: 'Project title 9',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage9,
+  // },
+  // {
+  //   title: 'Project title 10',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage10,
+  // },
+  // {
+  //   title: 'Project title 11',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage11,
+  // },
 ];
 
 /**
@@ -339,25 +347,95 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'November 2022 - Present',
+    location: 'Thinkpalm Technologies',
+    title: 'Software Engineer',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul /*style={{ listStyleType: "no-bullet" }}*/>
+        <b>Responsibilities:</b>
+        <li> Develop and maintain Bluetooth and Wi-Fi device drivers, ensuring compatibility with various operating systems and hardware configurations.
+</li><li> Identify and resolve bugs in the firmware of the Wi-Fi device through Coverity bug fixing.
+</li><li> Add new features and functionality to the Wi-Fi and Bluetooth device drivers, based on project requirements.
+</li><li> Collaborate with cross-functional teams to ensure seamless integration of the drivers into the overall system architecture.
+</li><li> Conduct code reviews and perform debugging to optimize the performance and reliability of the drivers.
+</li><li> Utilize tools like Wireshark for network analysis and debugging purposes.
+</li><li> Follow software development best practices and coding standards to ensure high-quality and maintainable code.
+</li><li> Use version control systems, such as git, to manage code repositories and track changes.
+</li><li> Adhere to project schedules and deadlines, effectively managing priorities and multitasking.
+</li><li> Participate in team meetings and provide regular progress updates on assigned tasks.
+</li><li> Stay updated with the latest industry trends and technologies in Bluetooth and Wi-Fi device driver development.
+</li>
+        <b>Key Highlights:</b>  
+       <li> Developed Bluetooth and Wi-Fi device drivers, ensuring compatibility and optimal performance across various systems and hardware configurations.
+       </li><li>Resolved firmware bugs in Wi-Fi devices using Coverity, enhancing stability and reliability.
+       </li><li>Added new features to meet project requirements, improving functionality and user experience.
+       </li><li>Collaborated with cross-functional teams for seamless integration of drivers into system architecture.
+       </li><li>Conducted code reviews, debugging, and optimization to enhance driver performance.
+       </li></ul>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'April 2021 - November 2022',
+    location: 'GadgEon Smart Systems Inc.',
+    title: 'Software Engineer',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+     <ul>
+      <b>Responsibilities:</b>
+      <li> Developed, tested, and maintained software applications.
+</li><li> Collaborated with cross-functional teams to gather requirements and design software solutions.
+</li><li> Wrote efficient and clean code according to coding standards and best practices.
+</li><li> Debugged and resolved software defects and issues.
+</li><li> Conducted software testing and quality assurance activities.
+</li><li> Partook in code reviews to ensure code quality and maintainability.
+</li><li> Documented software designs, processes, and procedures.
+</li><li> Provided technical support and troubleshot assistance to end-users.
+</li>
+      <b>Key Highlights:</b>  
+    <li> Designed and developed Model View Controller (MVC) using Python for Test Fixture Application.
+</li><li> Created user interface designs (PyQt5) for Test Fixture Application.
+</li><li> Implemented test automation using Python.
+</li><li> Developed Embedded Linux Applications for MQTT with TLS, ZigBee, and Z-Wave.
+</li><li> Possess basic knowledge of mDNS and Bluez.
+</li><li> Designed and developed a device driver for ADS8668 (SPI).
+</li><li> Experienced in Linux platform and Embedded Linux (Yocto).
+</li><li> Conducted final board bring-up and testing using equipment like a logical analyzer.
+</li>
+</ul>
+      
+    ),
+  },
+  {
+    date: 'November 2019 - April 2021',
+    location: 'Transight Systems',
+    title: 'Firmware Engineer',
+    content: (
+      
+
+
+      <ul>
+        <b>Responsibilities:</b>
+<li> Developed and debugged firmware code for embedded systems.
+</li><li> Collaborated with hardware engineers to ensure seamless integration of firmware with hardware components.
+</li><li> Conducted testing and verification of firmware to ensure functionality, reliability, and performance.
+</li><li> Troubleshot and resolved issues related to firmware functionality and compatibility.
+</li><li> Maintained documentation and version control of firmware code.
+</li><li> Collaborated with cross-functional teams to define requirements and specifications for firmware development.
+</li><li> Provided technical support to internal teams and customers regarding firmware-related inquiries.
+</li>
+        <b>Key Highlights:</b>         
+          <li> Attained experience in FreeRTOS 10 and Open CPU, specializing in firmware development.
+</li><li> Designed and developed drivers for W25Q128JV (QSPI) and LIS2DE12 (I2C).
+</li><li> Completed numerous successful projects in the Internet of Things (IoT) field using ARM microcontrollers.
+</li><li> Proficient in communication protocols such as CAN, I2C, QUAD SPI, RS 485, and RS 232.
+</li><li> Developed self-learning algorithms for harsh acceleration/braking and tilt/rash turn using LSM6DS3 and LSM6DSL IMU for AIS 140 devices.
+</li><li> Conducted hardware and firmware testing of various IoT devices, leveraging Python programs for Automotive Research Association of India (ARAI) certification.
+</li><li> Knowledgeable about 4G, 2G modules (EC25, MC60) and GNSS modules (L89, L86).
+</li><li> Skilled in reverse engineering and proficient in equipment like an oscilloscope for final board bring-up and testing.
+</li><li> Proficient in Orcad 9.2 for the schematic design and PCB testing.
+</li>
+      </ul>
+     
+
     ),
   },
 ];
@@ -411,8 +489,10 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Kochi Kerala, India',
-      href: 'https://goo.gl/maps/X9pzUczgqcBDZxuw7',
+      //text: 'Kochi Kerala, India',
+      text: 'Scarborough ON, Canada',
+      //href: 'https://goo.gl/maps/X9pzUczgqcBDZxuw7',
+      href: 'https://goo.gl/maps/LPKjpPHVu3ErHyrc9',
     },
     {
       type: ContactType.LinkedIn,
