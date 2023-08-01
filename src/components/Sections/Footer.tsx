@@ -16,12 +16,6 @@ const Footer: FC = memo(() => {
           <ChevronUpIcon className="h-6 w-6 bg-transparent sm:h-8 sm:w-8" />
         </a>
       </div>
-      <div className="flex flex-col items-center gap-y-6">
-        <div className="flex gap-x-4 text-neutral-500">
-          <Socials />
-        </div>
-        <span className="text-sm text-neutral-700">© Copyright {currentYear} Tim Baker</span>
-      </div>
       <a
         className="-m-2 flex items-center gap-x-1 rounded-md p-2 ring-yellow focus:outline-none focus:ring-2"
         href="https://reactresume.com">
@@ -31,7 +25,7 @@ const Footer: FC = memo(() => {
           <span className="italic text-yellow">Resume</span>
         </span>
       </a>
-      <span className="text-sm text-neutral-700">© Copyright 2022 Tim Baker</span>
+      <span className="text-sm text-neutral-700">© Copyright {currentYear} Tim Baker</span>
     </div>
   );
 });
