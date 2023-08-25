@@ -11,21 +11,16 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import heroImage from '../images/bogota.jpg';
+import porfolioImage1 from '../images/portfolio/portfolio-1.png';
+import porfolioImage2 from '../images/portfolio/portfolio-2.png';
+import porfolioImage3 from '../images/portfolio/portfolio-3.png';
+import porfolioImage4 from '../images/portfolio/portfolio-4.png';
+import porfolioImage5 from '../images/portfolio/portfolio-5.png';
+import porfolioImage6 from '../images/portfolio/portfolio-6.png';
+import porfolioImage7 from '../images/portfolio/portfolio-7.png';
+import profilepic from '../images/profile.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -69,24 +64,23 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Henry Ventura.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Bogotá DC based <strong className="text-stone-100">Frontend Software Engineer</strong>, currently working
+        at <strong className="text-stone-100">Rappi </strong> helping to build and maintain a store management web app called MiTienda.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can see me on <strong className="text-stone-100">Twitch (henryven14)</strong>, streaming video games.
       </p>
     </>
   ),
+
   actions: [
     {
-      href: '/assets/resume.pdf',
+      target: '_blank',
+      href: 'https://drive.google.com/file/d/1QMFeU9jwgvF2XJ_rMC3OMKrSlXZhftrV/view',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -104,16 +98,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I am a peaceful person, I like to read and learn about general culture and keep up to date with everything that happens in the world of technology.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Bogota, DC', Icon: MapIcon},
+    {label: 'Age', text: '30', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Venezuelan / Colombian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Video games, Sports, Movies and series', Icon: SparklesIcon},
+    {label: 'Study', text: 'Alonso Gamero University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Rappi', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -125,16 +117,12 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Spanish',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        name: 'English',
+        level: 1,
       },
     ],
   },
@@ -146,49 +134,23 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
+        name: 'Angular',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Typescript',
+        level: 8,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'JavaScript',
+        level: 10,
+      },
+      {
+        name: 'Vtex',
+        level: 7,
       },
     ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
-    ],
-  },
+  }
 ];
 
 /**
@@ -196,71 +158,48 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Mykommu',
+    description: 'MyKommu was a project where I participated',
+    url: 'https://www.mykommu.com/',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Easy CL',
+    description: 'Easy Cl It was quite a difficult project, but we managed to move it forward and deliver it on time, the union of several teams (vtex and itgrlobers)',
+    url: 'https://www.easy.cl/',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Jumbo Co',
+    description: 'Jumbo Co was a project where I participated as a frontend developer',
+    url: 'https://www.tiendasjumbo.co/',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Mi Tienda',
+    description: 'Participate in this project contributing many hours of work where you develop complex modules such as the point of sale and onboarding section',
+    url: 'https://mitienda.rappi.com.co/',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Under Armour Co',
+    description: 'was a project where I participated as a frontend developer',
+    url: 'https://www.underarmour.com.co/',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Esika Co',
+    description: 'Esika Co was a project where I participated',
+    url: 'https://esika.tiendabelcorp.com.co/',
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Crisantemo Makeup',
+    description: 'Crisantemo makeup is a venture in which to invest time to create your own website',
+    url: 'https://crisantemo-makeup.netlify.app/',
     image: porfolioImage7,
   },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
+ 
 ];
 
 /**
@@ -268,39 +207,37 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'April 2018',
+    location: 'Alonso Gamero University',
+    title: 'Computer Engineer',
+    content: <p>I learned to perform system security tests, audit web systems and I developed a thesis based on the implementation of a complete system hosted on a web server.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'March 2015',
+    location: 'Alonso Gamero University',
+    title: 'Senior computer technician',
+    content: <p>I learned about network and server systems, and how to maintain computer equipment.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'May 2022 - Present',
+    location: 'Rappi - Awesome Development Company',
+    title: 'Frontend Developer Semi Senior ',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        My first experience in a large Latam company, I have learned a lot about how a great development team is formed and what role each team member plays, I have learned a lot about agile methodologies and how to multiply my productivity, it is a very demanding company that employ at least 100% of its employees
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'September 2021 - May 2022',
+    location: 'Itglobers - Very good technology agency (e-commerce)',
+    title: 'Front End Web Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Face good challenges and great projects, manage to carry out stagnant projects and offer my 100% support, work hand in hand with the VTEX team and provide technological solutions to major brands such as ESIKA, VELEZ and the CENCOSUD group
       </p>
     ),
   },
@@ -313,19 +250,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Anthony Medina',
+      text: 'Its good to have colleagues like Henry who are always available and willing to help.',
+      image: 'https://media.licdn.com/dms/image/D4E35AQEP1PcckTcuaw/profile-framedphoto-shrink_200_200/0/1689257734263?e=1693544400&v=beta&t=YldpjJbsj4V6JomOLneh7AqPubJwLSm2fynp6770v0E',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Shamaru Primera',
+      text: 'I have known Henry for many years and we have had the opportunity to work together, I feel that he has grown a lot and has gained very good experiences over time.',
+      image: 'https://media.licdn.com/dms/image/D4E35AQFMYdyyhE_cTA/profile-framedphoto-shrink_200_200/0/1658525643184?e=1693544400&v=beta&t=nkDF42f8in3a1zVZjM1Gy4li0Z8E0NstZWL-EGbubVc',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'David Ochoa',
+      text: 'Henry is a great professional who shows great skills, he is never afraid to contribute and share his knowledge.',
+      image: 'https://media.licdn.com/dms/image/C4E03AQHTuCpHTXzZoQ/profile-displayphoto-shrink_200_200/0/1664063202869?e=1698278400&v=beta&t=9OHNlWaLD4BQEXkACsUI6C0bDMFBLz7JRSZapxT1imk',
     },
   ],
 };
@@ -340,23 +277,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'henry.ventura14@gmail.com',
+      href: 'mailto:henry.ventura14@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Bogota DC, Colombia',
+      href: 'https://goo.gl/maps/bbEY2KFkXKn9WR2o9',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@henry_jahaz',
+      href: 'https://www.instagram.com/henry_jahaz/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'henryVentura14',
+      href: 'https://github.com/henryVentura14',
     },
   ],
 };
@@ -365,9 +302,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/henryVentura14'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/henry-j-ventura/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/henry_jahaz/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/henryHVG14'},
 ];
