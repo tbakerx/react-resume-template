@@ -20,6 +20,10 @@ import porfolioImage4 from '../images/portfolio/portfolio-4.png';
 import porfolioImage5 from '../images/portfolio/portfolio-5.png';
 import porfolioImage6 from '../images/portfolio/portfolio-6.png';
 import porfolioImage7 from '../images/portfolio/portfolio-7.png';
+import porfolioImage8 from '../images/portfolio/portfolio-8.png';
+import porfolioImage9 from '../images/portfolio/portfolio-9.png';
+import porfolioImage10 from '../images/portfolio/portfolio-10.png';
+
 import profilepic from '../images/profile.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -39,8 +43,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Henry Ventura Resume',
+  description: "Henry Ventura Resume",
 };
 
 /**
@@ -100,12 +104,12 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I am a peaceful person, I like to read and learn about general culture and keep up to date with everything that happens in the world of technology.`,
   aboutItems: [
-    {label: 'Location', text: 'Bogota, DC', Icon: MapIcon},
-    {label: 'Age', text: '30', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Venezuelan / Colombian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Video games, Sports, Movies and series', Icon: SparklesIcon},
-    {label: 'Study', text: 'Alonso Gamero University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Rappi', Icon: BuildingOffice2Icon},
+    { label: 'Location', text: 'Bogota, DC', Icon: MapIcon },
+    { label: 'Age', text: '30', Icon: CalendarIcon },
+    { label: 'Nationality', text: 'Venezuelan / Colombian', Icon: FlagIcon },
+    { label: 'Interests', text: 'Video games, Sports, Movies and series', Icon: SparklesIcon },
+    { label: 'Study', text: 'Alonso Gamero University', Icon: AcademicCapIcon },
+    { label: 'Employment', text: 'Rappi', Icon: BuildingOffice2Icon },
   ],
 };
 
@@ -199,7 +203,24 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://crisantemo-makeup.netlify.app/',
     image: porfolioImage7,
   },
- 
+  {
+    title: 'Cryptocurrencies',
+    description: 'Cryptocurrencies is an app created by me where you can consume an API that handles information about cryptocurrencies, using the ant Design library',
+    url: 'https://stoic-colden-f27935.netlify.app/',
+    image: porfolioImage8,
+  },
+  {
+    title: 'MoviesAndSeries',
+    description: 'Movies and series is a small app developed by me where I use the IMDB API to display data related to movies and series on the screen, I do it with React js',
+    url: 'https://xenodochial-newton-e42ffc.netlify.app/',
+    image: porfolioImage9,
+  },
+  {
+    title: 'Jansport Pe',
+    description: 'Jansport Pe was a project where I participated as a frontend developer',
+    url: 'https://www.jansport.pe/',
+    image: porfolioImage10,
+  }
 ];
 
 /**
@@ -302,8 +323,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/henryVentura14'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/henry-j-ventura/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/henry_jahaz/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/henryHVG14'},
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/henryVentura14' },
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/henry-j-ventura/' },
+  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/henry_jahaz/' },
+  { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/henryHVG14' },
 ];
