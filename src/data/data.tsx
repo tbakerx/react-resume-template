@@ -83,7 +83,7 @@ export const heroData: Hero = {
   actions: [
     {
       target: '_blank',
-      href: 'https://drive.google.com/file/d/1QMFeU9jwgvF2XJ_rMC3OMKrSlXZhftrV/view',
+      href: 'https://drive.google.com/file/d/10R_5Hib0H9qO3rjSNMLg8ZfFSngsXVhP/view?usp=drive_link',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
