@@ -23,7 +23,6 @@ import porfolioImage7 from '../images/portfolio/portfolio-7.png';
 import porfolioImage8 from '../images/portfolio/portfolio-8.png';
 import porfolioImage9 from '../images/portfolio/portfolio-9.png';
 import porfolioImage10 from '../images/portfolio/portfolio-10.png';
-
 import profilepic from '../images/profile.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -104,12 +103,12 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I am a peaceful person, I like to read and learn about general culture and keep up to date with everything that happens in the world of technology.`,
   aboutItems: [
-    { label: 'Location', text: 'Bogota, DC', Icon: MapIcon },
-    { label: 'Age', text: '30', Icon: CalendarIcon },
-    { label: 'Nationality', text: 'Venezuelan / Colombian', Icon: FlagIcon },
-    { label: 'Interests', text: 'Video games, Sports, Movies and series', Icon: SparklesIcon },
-    { label: 'Study', text: 'Alonso Gamero University', Icon: AcademicCapIcon },
-    { label: 'Employment', text: 'Rappi', Icon: BuildingOffice2Icon },
+    {label: 'Location', text: 'Bogota, DC', Icon: MapIcon},
+    {label: 'Age', text: '30', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Venezuelan / Colombian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Video games, Sports, Movies and series', Icon: SparklesIcon},
+    {label: 'Study', text: 'Alonso Gamero University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Rappi', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -323,8 +322,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/henryVentura14' },
-  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/henry-j-ventura/' },
-  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/henry_jahaz/' },
-  { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/henryHVG14' },
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/henryVentura14'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/henry-j-ventura/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/henry_jahaz/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/henryHVG14'},
 ];
