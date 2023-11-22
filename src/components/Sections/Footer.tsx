@@ -7,7 +7,6 @@ import Socials from '../Socials';
 const currentDate =new Date();
 const currentYear = currentDate.getFullYear();
 
-
 const Footer: FC = memo(() => (
   <div className="relative bg-neutral-900 px-4 pb-6 pt-12 sm:px-8 sm:pb-8 sm:pt-14">
     <div className="absolute inset-x-0 -top-4 flex justify-center sm:-top-6">
