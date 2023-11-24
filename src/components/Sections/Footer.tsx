@@ -4,6 +4,8 @@ import {FC, memo} from 'react';
 import {SectionId} from '../../data/data';
 import Socials from '../Socials';
 
+const currentYear = new Date().getFullYear();
+
 const Footer: FC = memo(() => (
   <div className="relative bg-neutral-900 px-4 pb-6 pt-12 sm:px-8 sm:pb-8 sm:pt-14">
     <div className="absolute inset-x-0 -top-4 flex justify-center sm:-top-6">
@@ -26,7 +28,7 @@ const Footer: FC = memo(() => (
           <span className="italic text-yellow">Resume</span>
         </span>
       </a>
-      <span className="text-sm text-neutral-700">© Copyright 2022 Tim Baker</span>
+      <span className="text-sm text-neutral-700">© Copyright {currentYear} Tim Baker</span>
     </div>
   </div>
 ));
