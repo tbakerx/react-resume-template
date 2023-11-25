@@ -16,7 +16,7 @@
     "@heroicons/react": "^2.0.18",
     "autoprefixer": "^10.4.14",
     "classnames": "^2.3.2",
-    "next": "^13.4.12",
+    "next": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "ts-pattern": "^5.0.4"
