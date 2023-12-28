@@ -50,6 +50,7 @@ export const homePageMeta: HomepageMeta = {
 
 /**
  * Section definition
+ * Remove items from this object to delete the respective nav links
  */
 export const SectionId = {
   Hero: 'hero',
