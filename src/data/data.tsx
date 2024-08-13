@@ -94,17 +94,19 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'AquaAid',
-    description: 'OpenCV hydration tracker app.',
+    description: `Python application that tracks a user's hydration levels using facial detection (OpenCV pre-trained HaarCascades)
+      from a live video capture (webcam). Originally started as a personal playground for learning about computer vision and basic machine
+      learning algorithms (ensemble).`,
     url: 'https://github.com/leozhang14/AquaAid',
     image: porfolioImage2,
   },
   {
     title: 'Notable',
     description: `Have you ever missed a class and never been able to catch up with the lesson? Have you ever forgotten to
-    write down a vital part of your notes and failed your test? Have you ever felt compelled to share your notes and support
-    other students? Notable is for you! Our tool helps students like yourself study harder and earn better marks. With thousands of note 
-    packages in our database, you can find notes for anything you need to succeed, all shared by real students! 
-    Filter by subject, unit, grade level, and format to fidn the perfect set of notes for you.`,
+      write down a vital part of your notes and failed your test? Have you ever felt compelled to share your notes and support
+      other students? Notable is for you! Our tool helps students like yourself study harder and earn better marks. With thousands of note 
+      packages in our database, you can find notes for anything you need to succeed, all shared by real students! 
+      Filter by subject, unit, grade level, and format to fidn the perfect set of notes for you.`,
     url: 'https://github.com/leozhang14/notable',
     image: porfolioImage3,
   },
