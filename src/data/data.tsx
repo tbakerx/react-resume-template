@@ -1,30 +1,19 @@
+// src/data/data.tsx
+
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
-  CalendarIcon,
   FlagIcon,
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -40,12 +29,15 @@ import {
   TimelineItem,
 } from './dataDef';
 
+// Używamy nazwy pliku z CV
+const RESUME_DOWNLOAD_URL = '/CV_IT_Delivery_Transformation_Lead.pdf';
+
 /**
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Przemyslaw Raczka | IT Delivery & Transformation Lead',
+  description: "Professional portfolio of Przemyslaw Raczka, IT Delivery & Transformation Lead and BizDevOps Strategist.",
 };
 
 /**
@@ -69,25 +61,21 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Przemyslaw Raczka`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        <strong className="text-stone-100">IT Delivery & Transformation Lead</strong> | Senior Program Manager.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        A <strong className="text-stone-100">Nordic-fluent leader</strong> who translates complex strategic roadmaps into actionable technical backlogs, combining transparent communication with a focus on psychological safety.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
+      href: RESUME_DOWNLOAD_URL,
+      text: 'Download CV',
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
@@ -100,20 +88,17 @@ export const heroData: Hero = {
 };
 
 /**
- * About section
- */
+  * About section
+  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Senior IT Delivery Lead & BizDevOps Strategist with 20+ years of experience. My leadership style, rooted in Scandinavian trust, empowers cross-border teams to deliver measurable value through collaboration rather than control. I excel at combining direct, transparent communication with a focus on psychological safety. My technical understanding bridges the gap with engineering teams by focusing on Developer Experience (DevEx) pain points.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Copenhagen, Denmark / Warsaw, Poland', Icon: MapIcon}, // Dodano lokalizację
+    {label: 'Languages', text: 'Polish (Native), English (Full), Danish (Full)', Icon: FlagIcon},
+    {label: 'Education', text: 'M.Eng., Warsaw University of Technology', Icon: AcademicCapIcon},
+    {label: 'Core Focus', text: 'BizDevOps Strategy & Value Stream Optimization', Icon: BuildingOffice2Icon},
+    {label: 'Personal Interests', text: 'Scuba Diving, Downhill Skiing, Go-Karting, Chess', Icon: SparklesIcon},
   ],
 };
 
@@ -122,71 +107,35 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Delivery & Program Mgmt',
     skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
+      {name: 'Program Management', level: 10, max: 10},
+      {name: 'Vendor & Risk Management', level: 9, max: 10},
+      {name: 'Operational Stability & Governance', level: 9, max: 10},
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'BizDevOps & Strategy',
     skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
+      {name: 'Value Stream Mapping & Flow Metrics', level: 10, max: 10},
+      {name: 'Legacy Modernization Strategy', level: 8, max: 10},
+      {name: 'Gap Analysis & Roadmap Execution', level: 9, max: 10},
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Technical Oversight & Data',
     skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
+      {name: 'Jira (Admin) & Confluence', level: 10, max: 10},
+      {name: 'Test Automation Strategy (CI/CD)', level: 8, max: 10},
+      {name: 'Power BI (Data Modeling)', level: 8, max: 10},
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Leadership & Organization',
     skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
+      {name: 'Stakeholder Mgmt (C-Level)', level: 9, max: 10},
+      {name: 'Cross-Border Team Mgmt (DK/PL)', level: 9, max: 10},
+      {name: 'Organizational Design & Change Mgmt', level: 8, max: 10},
     ],
   },
 ];
@@ -196,113 +145,80 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Value Stream Optimization (VSO)',
+    description: 'Mapped end-to-end Value Streams across IT and Business to identify systemic bottlenecks, directly contributing to faster time-to-market for banking products.',
+    url: '#',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Flow Metrics & Governance Dashboard',
+    description: 'Architected a flow-metrics dashboard (Power BI/Power Platform) to enable real-time delivery performance monitoring, replacing manual reporting for leadership.',
+    url: '#',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'IoT & Cost Optimization (R&D)',
+    description: 'Engineered a Home Assistant ecosystem to automate energy management, successfully reducing utility costs through data-driven automation.',
+    url: '#',
     image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
   },
 ];
 
 /**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
+ * Resume section
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '1996 – 2002',
+    location: 'Warsaw University of Technology',
+    title: 'M.Eng., Computer-Aided Design (CAD)',
+    content: <p>Completed Master of Engineering studies.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: '2018 – Present',
+    location: 'Nordea, Copenhagen',
+    title: 'BizDevOps Transformation Lead & Delivery Manager',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul className="list-disc pl-5">
+        <li>Leading the implementation of the Nordea Technology Strategy, aligning 10+ tech areas with modern BizDevOps practices.</li>
+        <li>Architected a flow-metrics dashboard (Power BI/Power Platform) for real-time delivery performance monitoring.</li>
+        <li>Successfully integrated ITIL-based Operations teams with SAFe-based Development trains (ARTs).</li>
+        <li>Designed and scaled the internal Agile Academy, training 1,600+ colleagues across Nordics and Poland.</li>
+      </ul>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: '2017 – 2018',
+    location: 'Nordea, Copenhagen',
+    title: 'Senior Project Methods Expert & Scrum Master',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul className="list-disc pl-5">
+        <li>Increased team velocity by 35% within 6 months through targeted process improvements.</li>
+        <li>Reduced critical bug-fix turnaround time by 40% by optimizing the defect management process.</li>
+        <li>Ensured technology compliance by aligning project and maintenance teams with Nordea Software Process standards.</li>
+      </ul>
     ),
+  },
+  {
+    date: '2008 – 2016',
+    location: 'Nordea, Copenhagen',
+    title: 'IT Senior Test Manager (Program Level)',
+    content: (
+      <ul className="list-disc pl-5">
+        <li>Managed QA and Testing for 2 large-scale transformation programs, coordinating distributed teams.</li>
+        <li>Successfully reduced critical post-release defects by 50% by implementing a risk-based testing strategy.</li>
+        <li>Accountable for QA budget, resource forecasting, and risk mitigation strategy.</li>
+      </ul>
+    ),
+  },
+  {
+    date: '2003 – 2007',
+    location: 'Agricultural Market Agency, Warsaw',
+    title: 'Head of Test & Release Department',
+    content: <p>Managed a team of 17 and ensured EU accreditation of IT systems.</p>,
   },
 ];
 
@@ -312,20 +228,23 @@ export const experience: TimelineItem[] = [
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
+    // REFERENCJA 1: BIZDEVOPS & STRATEGIA (NOWY PRIORYTET)
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Strategic Deployment Leader',
+      text: "Przemyslaw is a Nordic-fluent leader who is an expert in translating complex strategic roadmaps into actionable technical backlogs. His work on data-driven governance enabled real-time decision-making for leadership.",
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
+    // REFERENCJA 2: DELIVERY & METRYKI (TEST MANAGER/EKSPERT)
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Senior Program Stakeholder',
+      text: "Through optimizing our defect management process and enhancing collaboration between Development and Operations, Przemyslaw reduced our critical bug-fix turnaround time by 40%.",
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/73.jpg',
     },
+    // REFERENCJA 3: AGILE COACH & NAUCZANIE (SKALOWANIE)
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Capability Builder (L&D)',
+      text: "Przemyslaw's leadership in designing and scaling the internal Agile Academy resulted in the upskilling of over 1,600 colleagues across Nordics and Poland.",
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/55.jpg',
     },
   ],
 };
@@ -333,30 +252,14 @@ export const testimonial: TestimonialSection = {
 /**
  * Contact section
  */
-
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Feel free to reach out for collaboration opportunities, consulting, or questions regarding BizDevOps Strategy and Value Stream Optimization.',
   items: [
     {
-      type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
-    },
-    {
-      type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
-    {
-      type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      type: ContactType.LinkedIn,
+      text: 'linkedin.com/in/praczka',
+      href: 'https://linkedin.com/in/praczka',
     },
   ],
 };
@@ -365,9 +268,5 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://linkedin.com/in/praczka'},
 ];
