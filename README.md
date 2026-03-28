@@ -24,6 +24,16 @@
 
 #### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project
 
+### 📚 Documentation
+
+For a detailed guide on getting started, architecture overview, and component usage, please refer to our full documentation:
+- **[Documentation Home](docs/README.md)**
+- **[Getting Started](docs/GETTING_STARTED.md)**
+- **[Architecture Overview](docs/ARCHITECTURE.md)**
+- **[Components Guide](docs/COMPONENTS.md)**
+
+---
+
 ### 🎉 Version 2 is here! New features:
 1. Completely rebuilt with React and full typescript support
 2. Built on the [Next.js](https://nextjs.org/) framework for easy server side rendering/static generation, image optimization, api routes, and deployment
@@ -81,4 +91,3 @@ Deploying your new site to Vercel is simple, and can be done by following their 
 ## Forkers
 
 [![Forkers repo roster for @tbakerx/react-resume-template](https://reporoster.com/forks/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/network/members)
-

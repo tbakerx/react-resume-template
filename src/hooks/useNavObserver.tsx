@@ -1,6 +1,6 @@
 import {useEffect} from 'react';
 
-import {headerID} from '../components/Sections/Header';
+import {headerID} from '../config';
 import {SectionId} from '../data/data';
 
 export const useNavObserver = (selectors: string, handler: (section: SectionId | null) => void) => {
@@ -55,6 +55,5 @@ export const useNavObserver = (selectors: string, handler: (section: SectionId |
     return () => {
       observer.disconnect();
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []); // Dependency here is the post content.
+  }, [handler, selectors]);
 };

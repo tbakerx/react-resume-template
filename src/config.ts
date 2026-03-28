@@ -5,3 +5,5 @@ export const canUseDOM: boolean =
   typeof window.document !== 'undefined' &&
   typeof window.document.createElement !== 'undefined';
 export const isApple: boolean = canUseDOM && /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+
+export const headerID = 'headerNav';
