@@ -1,56 +1,29 @@
-import {FC, memo, useCallback, useMemo, useState} from 'react';
+// src/components/Sections/Contact/ContactForm.tsx
 
-interface FormData {
-  name: string;
-  email: string;
-  message: string;
-}
+import {FC, memo} from 'react';
 
 const ContactForm: FC = memo(() => {
-  const defaultData = useMemo(
-    () => ({
-      name: '',
-      email: '',
-      message: '',
-    }),
-    [],
-  );
-
-  const [data, setData] = useState<FormData>(defaultData);
-
-  const onChange = useCallback(
-    <T extends HTMLInputElement | HTMLTextAreaElement>(event: React.ChangeEvent<T>): void => {
-      const {name, value} = event.target;
-
-      const fieldData: Partial<FormData> = {[name]: value};
-
-      setData({...data, ...fieldData});
-    },
-    [data],
-  );
-
-  const handleSendMessage = useCallback(
-    async (event: React.FormEvent<HTMLFormElement>) => {
-      event.preventDefault();
-      /**
-       * This is a good starting point to wire up your form submission logic
-       * */
-      console.log('Data to send: ', data);
-    },
-    [data],
-  );
-
   const inputClasses =
     'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
 
   return (
-    <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
-      <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
+    // Add your Formspree action URL here. The method should be "POST".
+    <form
+      className="grid min-h-[320px] grid-cols-1 gap-y-4"
+      method="POST"
+      action="https://formspree.io/f/mnnojnro" // <-- IMPORTANT: PASTE YOUR URL HERE
+    >
+      <input
+        className={inputClasses}
+        name="name" // "name" attribute is required for Formspree
+        placeholder="Name"
+        required
+        type="text"
+      />
       <input
         autoComplete="email"
         className={inputClasses}
-        name="email"
-        onChange={onChange}
+        name="email" // "email" attribute is required for Formspree
         placeholder="Email"
         required
         type="email"
@@ -58,8 +31,7 @@ const ContactForm: FC = memo(() => {
       <textarea
         className={inputClasses}
         maxLength={250}
-        name="message"
-        onChange={onChange}
+        name="message" // "message" attribute is required for Formspree
         placeholder="Message"
         required
         rows={6}
