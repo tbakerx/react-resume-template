@@ -1,5 +1,6 @@
 import {FC, memo} from 'react';
 
+// This is the correct import path
 import {socialLinks} from '../data/data';
 
 const Socials: FC = memo(() => {
