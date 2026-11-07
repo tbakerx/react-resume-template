@@ -29,11 +29,6 @@ export const contact: ContactSection = {
       href: 'https://www.instagram.com/afro_jacko/',
     },
     {
-      type: ContactType.Phone,
-      text: '+65 9618 2276',
-      href: 'tel:+6596182276',
-    },
-    {
       type: ContactType.Location,
       text: 'Singapore',
       href: 'https://www.google.com/maps/place/Singapore',

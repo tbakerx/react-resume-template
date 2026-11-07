@@ -10,19 +10,20 @@ import portfolioImage15 from '../../images/portfolio/portfolio-15.jpg';
 import portfolioImage16 from '../../images/portfolio/portfolio-16.jpg';
 import portfolioImage23 from '../../images/portfolio/portfolio-23.jpg';
 import portfolioImage24 from '../../images/portfolio/portfolio-24.png';
+import portfolioImage26 from '../../images/portfolio/portfolio-26.png';
 import {Certificate, PortfolioItem} from '../dataDef';
 
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Kinetix Lab',
+    title: 'Kampung Pals',
     description:
-      'AI-powered biomechanics analysis for PE. Upload a single- or dual-angle video of a movement and get frame-by-frame feedback on technique, joint angles and movement phases, with key frames captured for review.',
-    url: 'https://kinetix-lab.vercel.app/',
+      'A field mapping app for Outdoor Education. Students walk a real site and draw an abstract map of it on any phone, tablet or computer, alone or in groups, with an automatic legend and a teacher-supplied reference map to compare against. Teachers set the task, watch every map build in a live gallery and mark submissions with comments and red-pen ink. Built with Akid.',
+    url: 'https://kampungpals.app/',
     linkLabel: 'Live app',
-    sourceUrl: 'https://github.com/amoskhan/Kinetix-Lab',
-    tags: ['React', 'TypeScript', 'Gemini AI', 'MediaPipe'],
+    sourceUrl: 'https://github.com/amoskhan/kampungpals',
+    tags: ['Outdoor Education', 'JavaScript', 'Supabase', 'Live Collaboration'],
     featured: true,
-    image: portfolioImage23,
+    image: portfolioImage26,
   },
   {
     title: 'SG PE Syllabus Bot',
@@ -44,6 +45,17 @@ export const portfolioItems: PortfolioItem[] = [
     tags: ['LLMs', 'Computer Vision', 'MediaPipe', 'Supabase'],
     featured: true,
     image: portfolioImage24,
+  },
+  {
+    title: 'Kinetix Lab',
+    description:
+      'AI-powered biomechanics analysis for PE. Upload a single- or dual-angle video of a movement and get frame-by-frame feedback on technique, joint angles and movement phases, with key frames captured for review.',
+    url: 'https://kinetix-lab.vercel.app/',
+    linkLabel: 'Live app',
+    sourceUrl: 'https://github.com/amoskhan/Kinetix-Lab',
+    tags: ['React', 'TypeScript', 'Gemini AI', 'MediaPipe'],
+    featured: true,
+    image: portfolioImage23,
   },
   {
     title: 'Cloth Masks & Exercise Performance (FYP)',

@@ -13,7 +13,7 @@ const Portfolio: FC = memo(() => {
     <Section className="bg-neutral-50 dark:bg-neutral-900" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-12">
         <SectionHeading
-          description="From AI tools that help PE teachers analyse movement, to exercise physiology research and life outside the lab."
+          description="From classroom apps for PE and Outdoor Education, to exercise physiology research and life outside the lab."
           eyebrow="Projects"
           title="Things I've built & researched"
         />
